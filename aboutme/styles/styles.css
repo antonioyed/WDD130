@@ -1,7 +1,7 @@
 
 
 nav {
-    background-color: steelblue;
+    
     padding: 10px;
     text-align: center;
 }
@@ -26,8 +26,7 @@ p {
 }
 
 footer {
-    background-color: steelblue;
-    color: white;
+   
     text-align: center;
     margin: 0 auto;
 }
@@ -59,3 +58,17 @@ a {
     font-size: 1.5em;
 }
 
+nav, footer {
+background-color: steelblue;
+color: white;
+}
+
+footer p {
+font-size: 20px;
+margin: 20px auto;
+}
+
+a :hover {
+    background-color:white ;
+    color: steelblue;
+}
