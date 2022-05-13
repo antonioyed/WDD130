@@ -58,14 +58,15 @@ nav a:hover {
 }
 
 .book {
-background-color:azure;
+background-color: antiquewhite;
 color: black;
 text-decoration: none;
 }
 
 .join {
-    background-color:#a3bcf9 ;
+    background-color:whitesmoke ;
     color: black;
+    text-decoration: none;
 }
 
 .book :hover, .join :hover {
