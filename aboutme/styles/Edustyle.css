@@ -1,0 +1,29 @@
+body {
+    background-color: pink;
+}
+
+.Title {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#left {
+    font-size: small;
+    text-align: calc();
+    color: black;
+}
+
+p {
+    font-size: larger;
+        text-align: center;
+}
+
+#small {
+    font-size: small;
+    color: black;
+}
