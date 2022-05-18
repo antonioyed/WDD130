@@ -1,8 +1,46 @@
-.bigimg {
+#bigimg-img {
 
     width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    
+    
 }
 
 #content {
     max-width: 1600px;
+}
+
+
+.desk{
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+    border: 10px solid rgb(45, 44, 44);
+    margin: 100px ;
+    
+
+}
+
+.gra {
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+    border: 10px solid rgb(45, 44, 44);
+    margin: 100px ;  
+}
+
+.person{
+    border-radius: 100%;
+    width: 260px;
+    height: 260px;
+    border: 10px solid rgb(45, 44, 44);
+    margin: 100px;  
+
+}
+main{
+    background-color: grey;
+    margin: 0 auto;
+    height: 100%;
 }
