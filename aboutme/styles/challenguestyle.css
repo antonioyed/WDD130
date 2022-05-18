@@ -18,7 +18,7 @@
     width: 260px;
     height: 260px;
     border: 10px solid rgb(45, 44, 44);
-    margin: 100px ;
+    margin: 100px  80px;
     
 
 }
@@ -28,7 +28,7 @@
     width: 260px;
     height: 260px;
     border: 10px solid rgb(45, 44, 44);
-    margin: 100px ;  
+    margin: 100px 50px ;  
 }
 
 .person{
@@ -36,11 +36,13 @@
     width: 260px;
     height: 260px;
     border: 10px solid rgb(45, 44, 44);
-    margin: 100px;  
+    margin: 100px 50px;  
 
 }
 figure{
     background-color: grey;
     margin: 0 auto;
     height: 100%;
+    width: 100%;
+    max-width: 1600px;
 }
