@@ -10,6 +10,12 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #7796cb;
+    color: rgb(20, 29, 51);
 }
 
 
@@ -19,11 +25,16 @@ nav a {
 
 .logo {
     width: 80px;
-    
+
+}
+
+#logo-link {
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-msg h4 {
@@ -44,35 +55,66 @@ main section {
 
 #background {
     height: 725px;
-    background-color:#7796cb;
+    background-color: #7796cb;
 }
 
 body {
     background-color: azure;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    background-color:#7796cb ;
+    background-color: #7796cb;
 }
 
-nav a:hover {
-    background-color:#7796cb;
-    color: rgb(20, 29, 51);
+main section img{
+    box-sizing: border-box;
 }
+
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card{
+   margin:200px 0 ; 
+}
+
+.rapids-cards {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #7796cb;
+}
+
+
 
 .book {
-background-color: antiquewhite;
-color:rgb(20, 29, 51) ;
-text-decoration: none;
+    background-color: #7796cb;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
-    background-color:whitesmoke ;
-    color: rgb(20, 29, 51);
+    background-color: #4d6da5;
+    color: rgb(253, 254, 255);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
-.book :hover, .join :hover {
+.book :hover,
+.join :hover {
     background-color: #d1d2f9;
     color: rgb(20, 29, 51);
     text-decoration: none;
@@ -80,14 +122,32 @@ text-decoration: none;
 
 .msg {
     background-color: #a3bcf9;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
-footer, footer h3, footer a, footer a:hover {
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer,
+footer h3,
+footer a,
+footer a:hover {
     background-color: #7796cb;
     color: rgb(20, 29, 51);
 }
 
-footer h3 a:hover{
+footer h3 a:hover {
     text-decoration: none;
 }
 
@@ -97,13 +157,21 @@ footer a {
 
 .home-title {
     color: rgb(20, 29, 52);
+    font-size: 2em;
+    margin-top: 10px;
+    
+    
 }
-
+h1{
+    font-family: indie flower;
+    color: #4d6da5;
+}
 h4 {
     color: rgb(20, 29, 51);
 }
 
-.msg h2, .msg p {
+.msg h2,
+.msg p {
     color: rgb(20, 29, 51);
 }
 
