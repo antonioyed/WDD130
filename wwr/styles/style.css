@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&display=swap');
 
 #content {
@@ -72,22 +71,23 @@ header {
     background-color: #7796cb;
 }
 
-main section img{
+main section img {
     box-sizing: border-box;
 }
 
 .rivers-card {
     margin: 200px 0;
 }
-.camping-card{
-   margin:200px 0 ; 
+
+.camping-card {
+    margin: 200px 0;
 }
 
 .rapids-cards {
     margin: 200px 0;
 }
 
-.card-img{
+.card-img {
     border: 10px solid #7796cb;
 }
 
@@ -125,12 +125,13 @@ main section img{
     line-height: 1.5em;
     padding: 35px;
 }
+
 .msg p {
     font-size: .8em;
     padding-bottom: 15px;
 }
 
-footer{
+footer {
     padding: 25px 50px;
     margin-top: 200px;
 }
@@ -156,16 +157,14 @@ footer a {
 }
 
 .home-title {
-    color: rgb(20, 29, 52);
-    font-size: 2em;
-    margin-top: 10px;
-    
-    
-}
-h1{
     font-family: indie flower;
     color: #4d6da5;
+    color: rgb(20, 29, 52);
+    font-size: 2em;
+    margin-top: 10px;  
 }
+
+
 h4 {
     color: rgb(20, 29, 51);
 }
@@ -174,4 +173,3 @@ h4 {
 .msg p {
     color: rgb(20, 29, 51);
 }
-
