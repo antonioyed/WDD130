@@ -171,6 +171,7 @@
   background-color: green;
   z-index: 1;
   grid-row: 2/4;
+  grid-column: 1/2;
   
  
 
@@ -182,6 +183,7 @@
   background-color: gold;
   grid-row: 2/5;
  float: left;
+ grid-column: 1/3;
 
  
 }
