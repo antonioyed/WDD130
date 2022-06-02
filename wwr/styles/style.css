@@ -102,20 +102,45 @@ main section img {
     box-sizing: border-box;
 }
 
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 6fr 1fr 1fr;
+}
+
 .rivers-card {
     margin: 200px 0;
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
 
 .camping-card {
     margin: 200px 0;
+    grid-column: 5/7;
+    grid-row: 2/3;
 }
 
 .rapids-cards {
     margin: 200px 0;
+    grid-column: 8/10;
+    grid-row: 2/3;
 }
 
+#background {
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+.mountains{
+    grid-column: 2/7 ;
+    grid-row: 5/8;
+}
 .card-img {
     border: 10px solid #7796cb;
+
+}
+
+.card-img, .mountains {
+    width: 100%;
 }
 
 
@@ -151,6 +176,8 @@ main section img {
     background-color: #a3bcf9;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 
 .msg p {
