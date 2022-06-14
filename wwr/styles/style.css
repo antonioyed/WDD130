@@ -253,7 +253,7 @@ h4 {
     grid-row: 1;
     display: grid;
     background-color: #8eb0ea;
-    margin-top: 2em;
+    margin-top: 5em;
     margin-bottom: 2em;
     padding: 2em;
     grid-gap: 2em;
@@ -277,6 +277,8 @@ h4 {
     padding: 1em;
     font-family: indie flower;
     border: solid #0b244e ;
+    font-size: large;
+    
 }
 
 .riversimg {
@@ -317,6 +319,7 @@ h4 {
     padding: 1em;
     font-family: indie flower;
     border: solid #0b244e ;
+    font-size: large;
     
     
 }
@@ -357,6 +360,7 @@ h4 {
     padding: 1em;
     font-family: indie flower;
     border: solid #0b244e ;
+    font-size: large;
     
 }
 
