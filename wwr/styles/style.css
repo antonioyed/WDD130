@@ -266,7 +266,7 @@ h4 {
     justify-self: center;
     z-index: 1;
     color: #0b244e;
-    ;
+    
     font-family: Dosis;
 
 }
@@ -284,7 +284,7 @@ h4 {
 .riversimg {
     grid-column: 1/4;
     grid-row: 2/5;
-
+    display: grid;
     width: 100%;
     border: 10px solid #9e9fa2;
     transition: transform .5s;
@@ -331,6 +331,7 @@ h4 {
     border: 10px solid #9e9fa2;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    display: grid;
    
 }
 
@@ -372,6 +373,7 @@ h4 {
     border: 10px solid #9e9fa2;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
+    display: grid;
     
 }
 
