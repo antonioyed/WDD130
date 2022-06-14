@@ -284,7 +284,7 @@ h4 {
 .riversimg {
     grid-column: 1/4;
     grid-row: 2/5;
-    height: 80%; 
+
     width: 100%;
     border: 10px solid #9e9fa2;
     transition: transform .5s;
@@ -331,7 +331,7 @@ h4 {
     border: 10px solid #9e9fa2;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    height: 80%;
+   
 }
 
 .rapidsyed{
