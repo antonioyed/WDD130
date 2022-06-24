@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -18,6 +23,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
+    font-family: Playball;
 }
 
 nav a:hover {
@@ -45,6 +51,7 @@ nav a:hover {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    
 }
 
 #hero-msg {
@@ -57,7 +64,7 @@ nav a:hover {
 #hero-msg h1 {
     text-align: center;
     color: #2f367a;
-    font-family: indie flower;
+    font-family: Playball;
     background-color: antiquewhite;
     
 }
@@ -68,17 +75,20 @@ nav a:hover {
     color:#2f367a;
     background-color: antiquewhite;
 
-    font-family: Dosis;
+    font-family: Parisienne;
     
 }
 
 #hero-img {
     width: 100%;
+    opacity: 0.9; ;
 
 }
 
 .button-box {
     text-align: center;
+    padding-top: 20px;
+   
 }
 
 .book {
@@ -89,10 +99,20 @@ nav a:hover {
     padding: 15px 30px;
     margin-top: 80px;
     border-radius: 5px;
+    font-family: Playball;
+   
 }
 
 main section {
     text-align: center;
+}
+
+h2{
+    font-family: Playball;
+    color: #2f367a
+}
+p{
+    font-family:Playball ;
 }
 
 main section img {
@@ -139,8 +159,8 @@ display: grid;
     box-shadow: 5px 5px 10px #6f7364;
     width: 100%;
     border-radius: 100%;
-    width: 300px;
-    height: 300px;
+    width: 260px;
+    height: 260px;
     
 
 }
@@ -204,6 +224,7 @@ footer a,
 footer a:hover {
     background-color: #2f367a;
     color: white;
+    font-family: Parisienne;
 }
 
 footer h3 a:hover {
