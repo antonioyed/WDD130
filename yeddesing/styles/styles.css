@@ -249,7 +249,7 @@ footer a {
 
 /* CCS For Photographers SubPage */
 .yang-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1f 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
@@ -308,7 +308,7 @@ footer a {
 
 
 .andy-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1f 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
@@ -367,7 +367,7 @@ footer a {
 
 
 .anna-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1f 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
