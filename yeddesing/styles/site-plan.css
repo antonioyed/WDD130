@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Playball&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #0d1b2a;
+  --primary-color: #0b244e;
   --secondary-color: #1b263b;
   --accent1-color: #778da9;
   --accent2-color: #e0e1dd;
@@ -20,9 +20,9 @@
   /* paragraph text on a white background */
   --paragraph-color-on-color: white;
   /* paragraph text on a colored background */
-  --paragraph-background-color: #396E94;
-  --nav-link-color: #396E94;
-  --nav-background-color: #778da9;
+  --paragraph-background-color: #0b244e;
+  --nav-link-color: white;
+  --nav-background-color: #0b244e;
   --nav-hover-link-color: white;
   --nav-hover-background-color: white;
 }
@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--heading-font);
+  font-family: Parisienne;
   color: var(--headline-color-on-white);
 }
 
@@ -69,7 +69,7 @@ header {
   text-align: center;
   color: var(--paragraph-color-on-color);
   background-color: var(--paragraph-background-color);
-  background-color: #0d1b2a;
+  background-color: #0b244e;
 }
 
 header>h1,
@@ -78,7 +78,7 @@ header>h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: Playball;
   color: var(--paragraph-color);
   padding: 1em;
   text-align: left;
