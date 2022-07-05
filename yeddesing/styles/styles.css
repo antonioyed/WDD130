@@ -24,6 +24,7 @@ nav a {
     text-decoration: none;
     padding: 35px;
     font-family: Playball;
+    font-size: 1.50em;
 }
 
 nav a:hover {
@@ -196,6 +197,7 @@ body {
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    font-size:  1.75em;;
 }
 
 .msg p {
@@ -230,7 +232,7 @@ footer a,
 footer a:hover {
     background-color: #2f367a;
     color: white;
-    font-family: Parisienne;
+    font-family: Playball;
 }
 
 footer h3 a:hover {
@@ -239,6 +241,7 @@ footer h3 a:hover {
 
 footer a {
     text-decoration: none;
+    font-size: 1.50em;
 }
 
 
@@ -275,7 +278,7 @@ footer a {
     padding: 1em;
     font-family: Playball;
     border: solid #0b244e;
-    font-size: large;
+    font-size: 1.75em;
     display: grid;
 
 }
@@ -334,7 +337,7 @@ footer a {
     padding: 1em;
     font-family: Playball;
     border: solid #0b244e;
-    font-size: large;
+    font-size: 1.75em;
     display: grid;
 
 }
@@ -393,7 +396,7 @@ footer a {
     padding: 1em;
     font-family: Playball;
     border: solid #0b244e;
-    font-size: large;
+    font-size: 1.75em;
     display: grid;
 
 }
@@ -419,38 +422,6 @@ footer a {
     box-shadow: 5px 5px 10px #6f7364;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
