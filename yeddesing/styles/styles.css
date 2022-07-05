@@ -249,7 +249,7 @@ footer a {
 
 /* CCS For Photographers SubPage */
 .yang-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
@@ -262,17 +262,19 @@ footer a {
 }
 
 .yangh1 {
-    grid-column: 4/7;
+    grid-column: 3/5;
     grid-row: 1/2;
     justify-self: center;
     z-index: 1;
     color: white;
     font-family: Parisienne;
+  
 
 }
 
 .yangp {
-    grid-column: 4/7;
+    grid-column: 5/8;
+    grid-row: 1/4;
 
     background-color: white;
     padding: 1em;
@@ -308,7 +310,7 @@ footer a {
 
 
 .andy-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
@@ -321,17 +323,19 @@ footer a {
 }
 
 .andyh1 {
-    grid-column: 4/7;
+    grid-column: 3/5;
     grid-row: 1/2;
     justify-self: center;
     z-index: 1;
     color: white;
     font-family: Parisienne;
+  
 
 }
 
 .andyp {
-    grid-column: 4/7;
+    grid-column: 5/8;
+    grid-row: 1/4;
 
     background-color: white;
     padding: 1em;
@@ -367,7 +371,7 @@ footer a {
 
 
 .anna-yed {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-column: 1/7;
     grid-row: 1;
     display: grid;
@@ -380,17 +384,18 @@ footer a {
 }
 
 .annah1 {
-    grid-column: 4/7;
+    grid-column: 3/5;
     grid-row: 1/2;
     justify-self: center;
     z-index: 1;
     color: white;
     font-family: Parisienne;
-
+  
 }
 
 .annap {
-    grid-column: 4/7;
+    grid-column: 5/8;
+    grid-row: 1/4;
 
     background-color: white;
     padding: 1em;
@@ -398,7 +403,6 @@ footer a {
     border: solid #0b244e;
     font-size: 1.75em;
     display: grid;
-
 }
 
 .anna-img {
