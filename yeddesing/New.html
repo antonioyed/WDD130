@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/webcomponent.css">
+</head>
+
+<body>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <div class="black" style="background-color:#2f367a;padding:30px">
+
+    <img class="logo" src="imeges/yeddeding - Copy.png" alt="">
+
+    <h1 class="def">Definig a Photographer</h1>
+  </div>
+
+  </div>
+  <div class="pad" style="background-color:#a9abc2;padding:30px 30px 300px">
+    <strong class="str">What is a Photographer?</strong>. <br> <br>
+
+    <p class="papa"> A photographer typically works in a freelance capacity, and is hired for specific jobs by a variety
+      of clients. A
+      part-time/freelance photographer hired by a client is responsible for following the client's wishes down to the
+      finest details, as well as for setting up a business model that makes pricing and options clearly visible and
+      accessible.
+      <br><br>
+      Photographers are responsible for the digital or physical development of their images, and may also be responsible
+      for some or all of the editing. The editing process may include simple cropping, adding/changing colors and
+      shading,
+      adjusting sharpness and lighting, or removing objects to clean the image up.
+      <br>
+      There are many genres of photography one can specialize in, such as:
+      <br> <br>
+      <strong> Wedding Photography</strong> <br>
+      Wedding photography is a very specialized type of photography. The wedding day is typically one of the most
+      important and memorable days in a person's lifetime, and one that will be remembered for years to come. Therefore,
+      for most couples, regular photographs just won’t do. Professional wedding photographers are hired to capture a
+      couple's irreplaceable moments by taking creative, candid, and beautiful photographs of the wedding ceremony and
+      reception.
+      <br><br>
+      Before even photographing a wedding, the photographer corresponds with the clients for months, or even a year or
+      two, before the actual wedding date. Getting to know the clients and understanding their likes, dislikes, and
+      their
+      ultimate vision is important, so that when the wedding day comes the couple feels comfortable enough to let their
+      true personalities come out and shine. Once details are agreed upon, a standard written agreement is signed
+      between
+      the bride- and groom-to-be and the photographer.
+      <br><br>
+      After the event is over, the images are processed as quickly as possible, the wedding photographer and couple will
+      meet to go over the images, and ordering details are finalized. A high level of customer service is just as
+      important after the event as before it — good customer relationships can lead to family portraits and portraits of
+      their children in years to come.
+    </p>
+
+    <img class="hero" src="imeges/Hero2.jpg" alt="">
+
+
+
+
+    <p class="alaba">
+
+      <strong> Fashion Photography</strong><br>
+      Fashion photographers are responsible for photographing apparel, accessories, and fashion models, as well as
+      collaborating with hair stylists, fashion stylists, makeup artists, and fashion designers. A fashion photographer
+      can either work freelance or be hired by a fashion designer, fashion publication, fashion house, advertising
+      agency, or a fashion/beauty magazine. <br> <br>
+
+      Through their photographs, fashion photographers are able to create a certain aura and define what beauty and
+      style is. Responsibilities typically involve setting up and running photo shoots, communicating with make-up
+      artists and fashion designers to best represent their vision, and editing the photographs. <br> <br>
+
+     <strong> Real Estate Photography</strong><br>
+      Real estate is a very competitive industry, filled with ambitious agents looking for their next sale. Selling real
+      estate is about setting yourself apart from the competition, and one of the ways that can be done is by capturing
+      beautiful and enticing photos of a home that is for sale. Real estate photographers specifically hone in on this
+      area of photography, creating photos for real estate agents and their property listings on the MLS (Multiple
+      Listing Service). <br> <br>
+
+      This type of photography is somewhat detached from most of the artistic freedom one can enjoy with other forms of
+      photography. Real estate photographers provide a much needed service for a very fast-paced industry. However,
+      because the photos are temporary and, for the most part, don't have much sentimental value, the photographer can
+      concentrate on producing a top notch product that can be duplicated from one photo shoot to the next. <br> <br>
+
+     <strong> Travel Photography</strong><br>
+      Travel photography involves taking images that express an area's people, culture, customs, landscape, and history.
+      However, travel photography, unlike other types of photography such as fashion, wedding, or real estate
+      photography, is harder to monetize. More and more photographers are using creative ways to earn a living such as
+      stock photography, blogging, commercial projects, and teaching.<br> <br>
+
+      Careers in travel photography can be as varied as the destinations they serve. A big part of making a career out
+      of this type of photography is by tapping into social media marketing, content development, negotiation, and
+      sales. However, the first step is to just get out there and take some pictures — having a good portfolio is key in
+      this genre of photography.
+      <br><br>
+
+      <strong> contact Us</strong>
+
+    </p> 
+
+ 
+
+    <form class="for" action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email">
+            </li>
+            <li>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+        </ul>
+        <li class="button">
+            <button type="submit">Send your message</button>
+          </li>
+    </form>
+  
+    <img class="imagess" src="imeges/andy2.jpg" alt="">
+  
+
+
+  </div>
+
+  
+
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+</body>
+
+</html>
