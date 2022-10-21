@@ -1,0 +1,441 @@
+@media only screen and (min-width: 35rem) {
+
+
+    body {
+        font-size: 16px;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin-left: 1vw;
+
+
+    }
+
+    nav ul li a {
+        border: none;
+        justify-content: flex-end;
+    }
+
+    #banner-header{
+        text-align: center;
+        background-color: goldenrod;
+        color: #112e42;
+    }
+    main {
+
+        padding: 5px 0;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 950px;
+        margin: 0 auto;
+        border-bottom: 1px solid #bbb;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 150px 150px 150px 150px;
+        gap: 10px;
+    }
+
+
+    .her {
+        grid-column: 1 / 8;
+        grid-row: 1;
+        background-color: antiquewhite;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+
+    }
+
+    .ne {
+        grid-column: 1 / 8;
+        grid-row: 2;
+        background-color:#112e42 ;
+        height: 100%;
+        width: 100%;
+        border: solid black;
+
+
+    }
+
+    .neh2{
+        grid-column: 1/2;
+        grid-row: 1;
+        text-align: center;
+        color: antiquewhite;
+        font-family:Cinzel ;
+       
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+    }
+
+    .nep{
+        color: antiquewhite;
+        font-family: Philosopher ;
+        font-size: large;
+        text-align: center;
+        grid-column: 1/2;
+        
+    }
+
+    .sp {
+        grid-column: 1 / 8;
+        grid-row: 3;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sp1 {
+        grid-column: 1;
+        grid-row: 1;
+        border: solid antiquewhite;
+        margin: 10px;
+        height: 90%;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 15px 15px 15px 15px ;
+
+
+
+    }
+
+    .s1h2{
+        text-align: center;
+        grid-column: 1/8;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+        font-size: small; 
+    }
+
+    .imgsp1{
+        grid-column: 2/4;
+      margin-left: 6em;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        margin-top: 2.5em;
+        width: 30px;
+        height: 30px;
+    }
+
+    .sp1h4{
+        grid-row: 2;
+        grid-column: 1/8;
+        color: antiquewhite;
+        margin-top: 4.5em;
+        font-family: Philosopher;
+        font-size: small;
+      
+    }
+
+    .sp1hr{
+        grid-row: 2;
+        grid-column: 1/7;
+        width: 96%;
+        margin-top: 5.5em;
+    }
+
+    .sp1p{
+        grid-row: 3;
+        grid-column: 1/8;
+        color: antiquewhite;
+       margin-top: 6em;
+        font-family: Philosopher;
+        text-align: center;
+        font-size: small;
+    }
+
+
+    .sp2 {
+        grid-column: 2;
+        grid-row: 1;
+        border: solid antiquewhite;
+        margin: 10px;
+        height: 90%;
+        width: 95%;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 15px 15px 15px 15px ;
+
+
+
+    }
+
+    .sp3 {
+        grid-column: 2;
+        grid-row: 1;
+        border: solid black;
+        margin: 10px;
+        height: 90%;
+        width: 95%;
+        color: transparent;
+
+
+    }
+
+    .joi {
+        grid-column: 1 / 8;
+        grid-row: 4;
+        background-color: rgb(245, 234, 173);
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+    .joibutton{
+        color: gold;
+        background-color: #112e42;
+        border-radius: 15%;
+        border: solid gold;
+        font-family: Philosopher;
+        margin: 20px;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        
+    }
+
+    .joip{
+        color: #112e42;
+        font-family:Philosopher;
+        font-size: large;
+        text-align: center;
+    }
+
+    .eve {
+        grid-column: 1 / 5;
+        grid-row: 5;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .eveh3{
+        width: 100%;
+        grid-column: 1/2;
+        text-align: center;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        font-family: cinzel;
+        font-size: medium;
+        
+
+    }
+    .evep{
+        color: antiquewhite;
+        text-align: center;
+        grid-column: 1/2;
+        margin-bottom: 2em;
+        font-family: Philosopher;
+        font-size:  small;
+    }
+
+    .beve{
+        color: gold;
+        
+        font-family: Philosopher; 
+        
+    }
+
+    .weath {
+        grid-column: 5 / 8;
+        grid-row: 5;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .weah2 {
+        text-align: center;
+        grid-column: 1/8;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+        font-size: medium;
+
+    }
+
+    .weah1 {
+        grid-column: 3;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 2;
+        font-size: medium;
+        width: 40px;
+        height: 40px;
+    }
+
+    .h1nuwea {
+        grid-column: 4;
+        color: antiquewhite;
+        grid-row: 2;
+        font-size: medium;
+    }
+
+    .weah4 {
+        color: antiquewhite;
+        grid-column: 4/8;
+        grid-row: 2;
+        margin-top: 2em;
+        font-size: medium;
+    }
+
+    .weahr {
+        grid-column: 1/8;
+        grid-row: 2;
+        width: 100%;
+        margin-top: 4em;
+      
+    }
+
+    .weap{
+        grid-column: 1/8;
+        grid-row: 4; 
+        color: antiquewhite;
+        margin-bottom: 2em;
+        font-size: medium;
+        text-align: center;
+        
+    }
+
+
+    footer {
+        background-color: #112e42;
+        padding: 5px 0;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-bottom: 1px solid #bbb;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 50px 50px 50px;
+    }
+
+    .flo {
+        height: 100px;
+        width: 100px;
+        margin-top: .7rem;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 1rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .hrf {
+        grid-column: 1/8;
+        grid-row: 3;
+        color: antiquewhite;
+        width: 100%;
+    }
+
+    .sjs {
+        color: antiquewhite;
+        font-family: Cinzel;
+        grid-row: 4;
+        grid-column: 1/8;
+        margin-left: 150px;
+
+    }
+
+    #lastModified {
+        color: antiquewhite;
+        font-family: Cinzel;
+        grid-row: 4;
+        grid-column: 6/8;
+        margin-left: 120px;
+    }
+
+
+    .pfo {
+        color: antiquewhite;
+        font-family: Cinzel;
+        text-align: left;
+        font-size: medium;
+        grid-column: 1/5;
+        grid-row: 1;
+        margin-left: 130px;
+        margin-top: 40px;
+    }
+
+    .pinf {
+        color: antiquewhite;
+        font-family: Cinzel;
+        text-align: left;
+        font-size: medium;
+        grid-column: 4/8;
+        grid-row: 1;
+        margin-left: 140px;
+        margin-top: 60px;
+    }
+
+    .date,
+    aside {
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0;
+        background-color: #112e42;
+        color: antiquewhite;
+        grid-row: 2;
+        grid-column: 1/5;
+        text-align: center;
+    }
+
+    .imgh {
+        grid-column: 1/2;
+       
+        grid-row: 1;
+
+    }
+
+    .heroh2 {
+        text-align: center;
+        color: #112e42;
+        grid-column: 1/2;
+        z-index: 1;
+        grid-row: 1;
+        font-family: Cinzel;
+        font-size: medium;
+
+    }
+
+    .herobut {
+        color: antiquewhite;
+        background-color: #112e42;
+        z-index: 1;
+        height: 40px;
+        width: 140px;
+        position: absolute;
+        bottom: 410px;
+        right: 100px;
+        border-radius: 20%;
+        border: solid antiquewhite;
+        font-family: Philosopher;
+      
+    }
+
+}

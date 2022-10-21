@@ -1,0 +1,184 @@
+
+
+body {
+	font-size: 16px;
+	
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* phone or baseline views **************************/
+
+
+
+header, footer{
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+main {
+	max-width: 1500px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: white;
+    font-family: Playfair Display;
+}
+
+main section {
+	margin: 0.5rem;
+	
+	padding: 0 1rem;
+	background-color: #eee;
+    border-radius: 1rem 1rem 0 0;
+    
+}
+
+main picture {
+	display: block;
+	margin: 0.5rem;
+   
+
+}
+
+.colimage {
+	box-shadow: 0 0 30px #333;
+    width: 100%;
+	
+}
+
+
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	main section:nth-child(2) {
+		display:block;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 2;
+	}
+
+	main section picture {
+		display: block;
+	}
+	main section picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+}
+
+
+header {
+    background-color: rgb(54, 68, 93);
+    text-align: center;
+    font-family: Playfair Display;
+    
+}
+
+
+.hh {
+    color: white;
+    font-size: 35px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+
+
+}
+
+.hn {
+    color: white;
+    font-size: 25px;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}   
+
+
+.js {
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(54, 68, 93);
+    padding-top: 3px;
+    font-family: Playfair Display;
+}
+
+h2{
+    background-color: rgb(54, 68, 93);
+    
+}
+
+p{
+    font-family: Playfair Display;
+    font-size: 1.5em;
+}
+
+
+h3{
+    font-family: Playfair Display;
+	
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

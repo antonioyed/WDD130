@@ -1,0 +1,475 @@
+@media only screen and (min-width: 64rem) {
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+#banner-header{
+    text-align: center;
+    background-color: goldenrod;
+    color: #112e42;
+}
+    main {
+
+        padding: 5px 0;
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1500px;
+        margin: 0 auto;
+        border-bottom: 1px solid #bbb;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px 200px;
+        gap: 10px;
+
+    }
+
+    .eve {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .eveh3 {
+        width: 100%;
+        grid-column: 1/2;
+        text-align: center;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        font-family: cinzel;
+        font-size: large;
+
+
+    }
+
+    .evep {
+        color: antiquewhite;
+        text-align: center;
+        grid-column: 1/2;
+        margin-bottom: 2em;
+        font-family: Philosopher;
+        font-size: large;
+    }
+
+    .beve {
+        color: gold;
+
+        font-family: Philosopher;
+
+    }
+
+    .weath {
+        grid-column: 1/3;
+        grid-row: 2;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+
+    }
+
+    .weah2 {
+        text-align: center;
+        grid-column: 1/5;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+    }
+
+    .weah1 {
+        grid-column: 2;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 2;
+       
+        width: 80px;
+        height: 80px;
+    }
+
+    .h1nuwea {
+        grid-column: 3;
+        color: antiquewhite;
+        grid-row: 2;
+        font-size: x-large;
+    }
+
+    .weah4 {
+        color: antiquewhite;
+        grid-column: 3/6;
+        grid-row: 2;
+        margin-top: 2em;
+        font-size: large;
+    }
+
+    .weahr {
+        grid-column: 1/5;
+        grid-row: 2;
+        width: 100%;
+        margin-top: 6em;
+    }
+
+    .weap{
+        grid-column: 1/5;
+        grid-row: 4; 
+        color: antiquewhite;
+        margin-bottom: 2em;
+        font-size: large;
+        text-align: center;
+    }
+
+    .joi {
+        grid-column: 1/3;
+        grid-row: 3;
+        background-color: rgb(245, 234, 173);
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-column: 1fr;
+    }
+
+    .joibutton {
+        color: gold;
+        background-color: #112e42;
+        border-radius: 15%;
+        border: solid gold;
+        font-family: Philosopher;
+        margin: 20px;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+    }
+
+    .joip {
+        color: #112e42;
+        font-family: Philosopher;
+        font-size: large;
+        text-align: center;
+    }
+
+    .her {
+        grid-column: 3/6;
+        grid-row: 1/3;
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .ne {
+        grid-column: 3/6;
+        grid-row: 3/4;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .neh2 {
+        grid-column: 1/2;
+        grid-row: 1;
+        text-align: center;
+        color: gold;
+        font-family: Cinzel;
+        font-size: large;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+    }
+
+    .nep {
+        color: antiquewhite;
+        font-family: Philosopher;
+        font-size: large;
+        text-align: center;
+        grid-column: 1/2;
+        grid-row: 1;
+        margin-top: 50px;
+    }
+
+    .sp {
+        grid-column: 6/8;
+        grid-row: 1/4;
+        background-color: #112e42;
+        height: 100%;
+        width: 100%;
+        border: solid antiquewhite;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 1fr 1fr 1fr;
+    }
+
+    .sp1 {
+    
+        grid-column: 1/4;
+        width: 95%;
+        height: 95%;
+        border: solid antiquewhite;
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 20px 20px 20px 20px ;
+        
+
+    }
+
+    .s1h2{
+        text-align: center;
+        grid-column: 1/8;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+        font-size: large; 
+    }
+
+    .imgsp1{
+        grid-column: 2/4;
+      margin-left: 7em;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        margin-top: 3.5em;
+        width: 40px;
+        height: 40px;
+    }
+
+    .sp1h4{
+        grid-row: 2;
+        grid-column: 1/8;
+        color: antiquewhite;
+        margin-top: 5em;
+        font-family: Philosopher;
+        font-size: large;
+    }
+
+    .sp1hr{
+        grid-row: 2;
+        grid-column: 1/7;
+        width: 96%;
+        margin-top: 8em;
+    }
+
+    .sp1p{
+        grid-row: 3;
+        grid-column: 1/8;
+        color: antiquewhite;
+       margin-top: 6em;
+        font-family: Philosopher;
+        text-align: center;
+        font-size: large;
+    }
+
+    .sp2 {
+        grid-column: 1/4;
+        width: 95%;
+        height: 95%;
+        border: solid antiquewhite;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 20px 20px 20px 20px ;
+        
+
+
+    }
+
+    .sp3 {
+        grid-column: 1/4;
+        width: 95%;
+        height: 93%;
+        border: solid antiquewhite;
+        grid-row: 3;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 20px 20px 20px 20px ;
+
+
+    }
+
+
+    footer {
+        background-color: #112e42;
+        padding: 5px 0;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        max-width: 100%;
+        margin: 0 auto;
+        border-bottom: 1px solid #bbb;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 50px 50px 50px 25px;
+    }
+
+    .flo {
+        height: 100px;
+        width: 100px;
+        margin-top: .7rem;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 16rem;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+
+
+    .hrf {
+        grid-column: 1/8;
+        grid-row: 3;
+        color: antiquewhite;
+        width: 100%;
+    }
+
+    .sjs {
+        color: antiquewhite;
+        font-family: Cinzel;
+        grid-row: 4;
+        grid-column: 2/8;
+        margin-left: 160px;
+    }
+
+    #lastModified {
+        color: antiquewhite;
+        font-family: Cinzel;
+        grid-row: 4;
+        grid-column: 6/8;
+        margin-left: 120px;
+    }
+
+
+    body {
+        padding: 0;
+        margin: 0;
+
+    }
+
+    header {
+        background-color: #112e42;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1000px;
+        margin: 0 auto;
+        border-bottom: 1px solid #bbb;
+        display: grid;
+        max-width: 100%;
+
+    }
+
+    .hh4 {
+        color: antiquewhite;
+        font-family: Cinzel;
+        text-align: left;
+        margin-left: 0;
+        flex-direction: column;
+
+
+
+
+
+    }
+
+    .hlo {
+        height: 130px;
+        width: 150px;
+
+        align-items: center;
+        margin-left: 10rem;
+    }
+
+    .social {
+        margin-right: 1.5rem;
+        margin-right: 100px;
+
+    }
+
+    .social svg {
+        width: 29px;
+        height: auto;
+
+    }
+
+    .date,
+    aside {
+        margin: 0.5rem;
+        border: 1px solid #bbb;
+        padding: 0;
+        background-color: #112e42;
+        color: antiquewhite;
+        grid-row: 2;
+        grid-column: 1/5;
+        text-align: center;
+    }
+
+    .pfo {
+        color: antiquewhite;
+        font-family: Cinzel;
+        text-align: left;
+        font-size: large;
+        grid-column: 1/5;
+        grid-row: 1;
+        margin-left: 380px;
+        margin-top: 40px;
+    }
+
+    .pinf {
+        color: antiquewhite;
+        font-family: Cinzel;
+        text-align: left;
+        font-size: large;
+        grid-column: 4/8;
+        grid-row: 1;
+        margin-left: 140px;
+        margin-top: 60px;
+    }
+
+
+    .imgh {
+        grid-column: 1/2;
+        width: 100%;
+        grid-row: 1/2;
+
+    }
+
+    .heroh2 {
+        text-align: center;
+        color: #112e42;
+        grid-column: 1/2;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        grid-row: 1;
+        font-family: Cinzel;
+        font-size: x-large;
+
+    }
+
+    .herobut {
+        color: antiquewhite;
+        background-color: #112e42;
+        z-index: 1;
+        height: 40px;
+        width: 230px;
+        position: relative;
+        bottom: -230px;
+        right: -30px;
+        border-radius: 20%;
+        border: solid antiquewhite;
+        font-family: Philosopher;
+
+    }
+
+
+}
