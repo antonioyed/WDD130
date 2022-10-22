@@ -210,7 +210,7 @@ main {
     border: solid antiquewhite;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 
 .weah2 {
@@ -258,15 +258,25 @@ main {
 
 .weap {
     grid-column: 1/8;
-    grid-row: 4;
+    grid-row: 3;
     color: antiquewhite;
     margin-bottom: 2em;
-    font-size: medium;
-    text-align: center;
+    font-size: small;
+    text-align: left;
+    margin-left:  5em;
 
 }
 
-
+#windChill{
+    grid-column: 1/8;
+    grid-row: 3;
+    color: antiquewhite;
+    margin-bottom: 2em;
+    font-size: small;
+    text-align: center;
+    margin-left:  12em;
+ 
+}
 
 .ne {
     grid-column: 1 / 8;

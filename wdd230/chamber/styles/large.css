@@ -120,11 +120,23 @@
 
     .weap{
         grid-column: 1/5;
-        grid-row: 4; 
+        grid-row: 3; 
         color: antiquewhite;
         margin-bottom: 2em;
-        font-size: large;
+        font-size: medium;
+        text-align: left;
+        margin-left: 1em;
+    }
+
+    #windChill {
+        grid-column: 1/8;
+        grid-row: 3;
+        color: antiquewhite;
+        margin-bottom: 2em;
+        font-size: medium;
         text-align: center;
+        margin-left: 13em;
+
     }
 
     .joi {
@@ -462,9 +474,8 @@
         z-index: 1;
         height: 40px;
         width: 230px;
-        position: relative;
-        bottom: -230px;
-        right: -30px;
+        margin-left: 13em;
+    margin-top: 20em;
         border-radius: 20%;
         border: solid antiquewhite;
         font-family: Philosopher;
