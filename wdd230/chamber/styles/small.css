@@ -48,6 +48,12 @@ nav ul li a {
     align-items: flex-end;
 
 }
+
+nav ul li.discover a{
+    background-color: antiquewhite;
+    color: #112e42;
+}
+
 nav ul li.ahome a{
     background-color: antiquewhite;
     color: #112e42;
@@ -56,6 +62,7 @@ nav ul li a:hover {
     background-color: rgb(62, 58, 36);
    
 }
+
 
 
 nav ul {
