@@ -839,7 +839,23 @@
 
 
 
-
+    .visits{
+        background-color: goldenrod;
+        border-radius: 8px;
+        box-shadow: 0 0 10px 3px #112e42;
+        padding: 8px;
+        position:fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 10;
+        color: black;
+        font-family: cinzel;
+    font-size: small;
+    }
+    
+    .visits p{
+        margin: 10px;
+    }
 
 
 
