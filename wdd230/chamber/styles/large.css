@@ -544,6 +544,11 @@
     picture img.in {
         animation: img-come-in 1s;
     }
+
+    div.trudis picture img:hover{
+        border-radius: 15px 150px;
+    }
+
     
     @keyframes img-come-in {
         from {
@@ -610,6 +615,11 @@
         margin: 10px;
       
     }
+
+    div.tutru picture img:hover{
+        border-radius: 15px 150px;
+    }
+
     picture img.in {
         animation: img-come-in 1s;
     }
@@ -672,6 +682,10 @@
         grid-row: 1/3;
         margin: 10px;
       
+    }
+
+    div.trupo picture img:hover{
+        border-radius: 15px 150px;
     }
 
     picture img.in {
@@ -740,6 +754,10 @@
       
     }
 
+    div.trcul picture img:hover{
+        border-radius: 15px 150px;
+    }
+
     picture img.in {
         animation: img-come-in 1s;
     }
@@ -806,6 +824,10 @@
 
     picture img.in {
         animation: img-come-in 1s;
+    }
+
+    div.trcli picture img:hover{
+        border-radius: 15px 150px;
     }
     
     @keyframes img-come-in {
