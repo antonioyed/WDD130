@@ -51,13 +51,14 @@ nav ul li a {
 
 
 
-nav ul li.ahome a{
+nav ul li.ahome a {
     background-color: antiquewhite;
     color: #112e42;
 }
+
 nav ul li a:hover {
     background-color: rgb(62, 58, 36);
-   
+
 }
 
 
@@ -72,7 +73,7 @@ nav ul.open {
 
 
 
-#banner-header{
+#banner-header {
     text-align: center;
     background-color: goldenrod;
     color: #112e42;
@@ -214,7 +215,7 @@ main {
     border: solid antiquewhite;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .weah2 {
@@ -267,19 +268,19 @@ main {
     margin-bottom: 2em;
     font-size: small;
     text-align: left;
-    margin-left:  5em;
+    margin-left: 5em;
 
 }
 
-#windChill{
+#windChill {
     grid-column: 1/8;
     grid-row: 3;
     color: antiquewhite;
     margin-bottom: 2em;
     font-size: small;
     text-align: center;
-    margin-left:  12em;
- 
+    margin-left: 12em;
+
 }
 
 .ne {
@@ -382,8 +383,8 @@ main {
 
 .sp3 {
 
-   display: none;
-    
+    display: none;
+
 }
 
 .joi {
@@ -474,6 +475,7 @@ aside {
     grid-column: 1/5;
     text-align: center;
 }
+
 .imgh {
     grid-column: 1/2;
     height: 9em;
@@ -483,7 +485,8 @@ aside {
 
 
 }
-.fimg{
+
+.fimg {
     width: 100%;
     height: 100%;
 }
@@ -491,7 +494,7 @@ aside {
 .heroh2 {
     text-align: center;
     color: #112e42;
-    
+
     grid-column: 1/2;
     z-index: 1;
     grid-row: 1;
@@ -539,7 +542,7 @@ aside {
 /*----------- DISCOVER PAGE --------------*/
 
 
-.discomain{
+.discomain {
     padding: 5px 0;
     display: block;
     align-items: center;
@@ -549,27 +552,27 @@ aside {
     border-bottom: 1px solid #bbb;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-rows: 260px 260px 260px 260px 260px 150px;
     gap: 10px;
 }
 
-.trudis{
+.trudis {
     grid-row: 1;
     grid-column: 1/8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 60px 150px 50px ;
-    margin-top: 1em;
+    grid-template-rows: 60px 150px 50px;
+   
     gap: 10px;
     background-color: #112e42;
-  
+
     border: solid gold;
 
 }
 
 
 
- div.trudis picture img {
+div.trudis picture img {
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -579,8 +582,9 @@ aside {
     grid-row: 2;
     margin-top: 4.5em;
     margin-left: 10px;
-  
+
 }
+
 picture img.in {
     animation: img-come-in 1s;
 }
@@ -590,6 +594,7 @@ picture img.in {
         transform: scale(0.9);
         opacity: 0;
     }
+
     to {
         transform: scale(1);
         opacity: 1;
@@ -597,36 +602,36 @@ picture img.in {
 }
 
 
-.ptru{
+.ptru {
     grid-row: 2;
     grid-column: 2/10;
-    font-family:Philosopher ;
+    font-family: Philosopher;
     color: antiquewhite;
     font-size: x-small;
-  
+
 
 }
 
-.truh3{
+.truh3 {
     grid-column: 2/8;
-        grid-row: 1;
-        text-align: center;
-        color: gold;
-        font-family: Cinzel;
-        font-size: smaller;
-        text-shadow: 0 0 30px rgb(248, 206, 151);
-        margin-top: 2em;
-        
+    grid-row: 1;
+    text-align: center;
+    color: gold;
+    font-family: Cinzel;
+    font-size: smaller;
+    text-shadow: 0 0 30px rgb(248, 206, 151);
+    margin-top: 2em;
+
 }
 
 
-.tutru{
+.tutru {
     grid-row: 2;
     grid-column: 1/8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 150px 50px;
-   margin-top: 12em;
+    margin-top: 4em;
     gap: 10px;
     background-color: #112e42;
 
@@ -647,8 +652,9 @@ div.tutru picture img {
     grid-row: 1/3;
     margin-top: 4.5em;
     margin-left: 10px;
-  
+
 }
+
 picture img.in {
     animation: img-come-in 1s;
 }
@@ -658,6 +664,7 @@ picture img.in {
         transform: scale(0.9);
         opacity: 0;
     }
+
     to {
         transform: scale(1);
         opacity: 1;
@@ -665,36 +672,36 @@ picture img.in {
 }
 
 
-.ptu{
+.ptu {
     grid-row: 2;
     grid-column: 2/10;
-    font-family:Philosopher ;
+    font-family: Philosopher;
     color: antiquewhite;
     font-size: x-small;
-  
-  
+
+
 
 }
 
-.tuh3{
+.tuh3 {
     grid-column: 2/8;
-        grid-row: 1;
-        text-align: center;
-        color: gold;
-        font-family: Cinzel;
-        font-size: smaller;
-        text-shadow: 0 0 30px rgb(248, 206, 151);
-        margin-top: 2em;
+    grid-row: 1;
+    text-align: center;
+    color: gold;
+    font-family: Cinzel;
+    font-size: smaller;
+    text-shadow: 0 0 30px rgb(248, 206, 151);
+    margin-top: 2em;
 }
 
 
-.trupo{
+.trupo {
     grid-row: 3;
     grid-column: 1/8;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 150px 50px;
-   margin-top: 23em;
+    margin-top: 8em;
     gap: 10px;
     background-color: #112e42;
 
@@ -713,8 +720,142 @@ div.trupo picture img {
     grid-row: 1/3;
     margin-top: 4.5em;
     margin-left: 10px;
-  
-  
+
+
+}
+
+picture img.in {
+    animation: img-come-in 1s;
+}
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.pop {
+    grid-row: 2;
+    grid-column: 2/10;
+    font-family: Philosopher;
+    color: antiquewhite;
+    font-size: x-small;
+
+}
+
+.poh3 {
+    grid-column: 2/8;
+    grid-row: 1;
+    text-align: center;
+    color: gold;
+    font-family: Cinzel;
+    font-size: smaller;
+    text-shadow: 0 0 30px rgb(248, 206, 151);
+    margin-top: 2em;
+
+
+
+
+}
+
+
+.trcul {
+    grid-row: 4;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 150px 50px;
+    margin-top: 12em;
+    gap: 10px;
+    background-color: #112e42;
+
+    border: solid gold;
+
+}
+
+
+div.trcul picture img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 4px gold;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-top: 4.5em;
+    margin-left: 10px;
+}
+
+picture img.in {
+    animation: img-come-in 1s;
+}
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.pcul {
+    grid-row: 2;
+    grid-column: 2/10;
+    font-family: Philosopher;
+    color: antiquewhite;
+    font-size: x-small;
+
+
+}
+
+.culh3 {
+    grid-column: 2/8;
+    grid-row: 1;
+    text-align: center;
+    color: gold;
+    font-family: Cinzel;
+    font-size: smaller;
+    text-shadow: 0 0 30px rgb(248, 206, 151);
+    margin-top: 2em;
+}
+
+
+.trcli{
+    grid-row: 5;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 150px 50px;
+    margin-top: 16em;
+    gap: 10px;
+    background-color: #112e42;
+
+    border: solid gold;
+}
+
+
+div.trcli picture img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 4px gold;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    margin-top: 4.5em;
+    margin-left: 10px;
 }
 
 picture img.in {
@@ -733,28 +874,23 @@ picture img.in {
 }
 
 
-.pop{
+.pcli{
     grid-row: 2;
     grid-column: 2/10;
-    font-family:Philosopher ;
+    font-family: Philosopher;
     color: antiquewhite;
     font-size: x-small;
+  
 
 }
 
-.poh3{
+.clih3{
     grid-column: 2/8;
-        grid-row: 1;
-        text-align: center;
-        color: gold;
-        font-family: Cinzel;
-        font-size: smaller;
-        text-shadow: 0 0 30px rgb(248, 206, 151);
-        margin-top: 2em;
-
-
-
-
-    }
-
-
+    grid-row: 1;
+    text-align: center;
+    color: gold;
+    font-family: Cinzel;
+    font-size: smaller;
+    text-shadow: 0 0 30px rgb(248, 206, 151);
+    margin-top: 2em;
+}
