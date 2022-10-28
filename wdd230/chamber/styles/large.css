@@ -499,3 +499,44 @@
 
 
 /*----------- DISCOVER PAGE --------------*/
+
+.h1disco{
+    color:#112e42 ;
+    text-align: center;
+    grid-column: 2/7;
+    grid-row: 1;
+    font-family: Cinzel;
+    
+}
+
+.trudis{
+    grid-row: 2;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+    background-color: #112e42;
+
+}
+
+.truimg{
+    height: 100px;
+    width: 100px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 10px;
+    
+}
+.ima{
+    height: 100px;
+    width: 100px;  
+}
+
+.ptru{
+    grid-row: 2;
+    grid-column: 3/7;
+    font-family:Philosopher ;
+    color: antiquewhite;
+    font-size: large;
+}
