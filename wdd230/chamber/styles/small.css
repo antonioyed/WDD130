@@ -49,10 +49,7 @@ nav ul li a {
 
 }
 
-nav ul li.discover a{
-    background-color: antiquewhite;
-    color: #112e42;
-}
+
 
 nav ul li.ahome a{
     background-color: antiquewhite;
@@ -540,3 +537,79 @@ aside {
 
 
 /*----------- DISCOVER PAGE --------------*/
+
+.trudis{
+    grid-row: 2;
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 150px 50px ;
+    
+    gap: 10px;
+    background-color: #112e42;
+   margin-top: -3em;
+    border: solid gold;
+
+}
+
+
+
+
+main div.trudis picture img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 2px 2px 4px gold;
+    grid-column: 1/2;
+    grid-row: 2;
+    margin-top: 4.5em;
+    margin-left: 10px;
+  
+}
+picture img.in {
+    animation: img-come-in 1s;
+}
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.ptru{
+    grid-row: 2;
+    grid-column: 2/10;
+    font-family:Philosopher ;
+    color: antiquewhite;
+    font-size: x-small;
+  
+
+}
+
+.truh3{
+    grid-column: 2/8;
+        grid-row: 1;
+        text-align: center;
+        color: gold;
+        font-family: Cinzel;
+        font-size: smaller;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        margin-top: 2em;
+        
+}
+
+
+
+
+
+
+
+
+
