@@ -467,7 +467,7 @@
         display: block;
         align-items: center;
         justify-content: space-between;
-        max-width: 1500px;
+       margin: auto;
         margin-top: 3em;
         border-bottom: 1px solid #bbb;
         display: grid;
