@@ -871,18 +871,18 @@
     font-size: large;
 }
 
+div.loaded form{
+    background-color: #112e42;
+    color: antiquewhite;
+    margin: 1em 10vw;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px 0px goldenrod;
+    font-family:Philosopher ;
 
+}
 
-    section{
-        background-color: #112e42;
-        color: antiquewhite;
-        margin: 1em 10vw;
-        padding: 2rem;
-        border-radius: 15px;
-        box-shadow: 0 3px 8px 0px goldenrod;
-        font-family:Philosopher ;
-
-    }
+   
     
     .loaded {
         animation: fade-in 0.7s;
