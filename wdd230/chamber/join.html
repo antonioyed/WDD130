@@ -18,9 +18,14 @@
 
 
 
-<body>
+<body class="joinbody">
 
-    <h2 id="banner-header">Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+
+
+    
+
+
+ 
 
 
     <!-- HEADER -->
@@ -98,6 +103,103 @@
 
     <!-- CONTENT -->
     
+<h1 class="joih1">Join us an make your bussines shine as an Star</h1>
+
+<!-- FORM -->
+<section class="loaded">
+    <h3 >Give us some information and becoma an star with us</h3>
+    <p class="required">* = required</p>
+    <form method="get" action="thankyou.html" class="loaded">
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label>First Name<span class="required">*</span> <br><input type="text" name="fname" required autofocus class="input-box"></label>
+            <label>Last Name<span class="required">*</span> <br><input type="text" name="lname" required class="input-box"></label>
+            <label>Email<span class="required">*</span> <br><input type="email" name="email" placeholder="antonio.yedra@gmail.com" class="input-box" required></label>
+            <label>Cell Phone<span class="required">*</span> <br><input type="tel" name="phone" class="input-box" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Business Info</legend>
+            <label>Position <br><input type="text" name="position"class="input-box" pattern="[a-zA-z \-]{7,}" title="must include at least 7 characters; only letters, spaces and hyphens"></label>
+            <label>Business Name<span class="required">*</span> <br><input type="text" name="business" title="Please include the name of your business here" class="input-box" required></label>
+            <label>Business Description<span class="required">*</span> <br><textarea type="textarea" name="businessDesc" class="input-box" placeholder="Briefly describe your business here." required></textarea></label>
+        </fieldset>
+        <fieldset id="membership">
+            <legend>Membership Levels</legend>
+            <label> <input type="radio" name="member" value="np" >
+                <div class="card">
+                  <div class="card-header">
+                    <p>NP Membership</p>
+                  </div>
+                  <div class="card-body">
+                    <p>Free</p>
+                    <ul>
+                        <li>No cost to you so you can do what you do</li>
+                        <li>Join Sister Garaele who heads up our non-profit committee</li>
+                        <li>Reach those that need your help</li>
+                    </ul>
+                  </div>
+               </div></label>
+               <label> <input type="radio" name="member" value="bronze">
+                <div class="card">
+                  <div class="card-header">
+                    <p>Bronze Membership</p>
+                  </div>
+                  <div class="card-body">
+                    <p>5 gp per month</p>
+                    <ul>
+                        <li>Receive Bronze Tier advertisements in events</li>
+                        <li>Committee hearing seat</li>
+                    </ul>
+                  </div>
+                </div>
+               </label>
+               <label> <input type="radio" name="member" value="silver">
+                <div class="card">
+                  <div class="card-header">
+                    <p>Silver Membership</p>
+                  </div>
+                  <div class="card-body">
+                    <p>15 gp per month</p>
+                    <ul>
+                        <li>Receive Silver Tier advertisements in events <i>and</i> public spaces</li>
+                        <li>Committee Voting seat</li>
+                        <li>Business Management Trainings</li>
+                    </ul>
+                  </div>
+                </div>
+               </label>
+               <label> <input type="radio" name="member" value="gold">
+                <div class="card">
+                  <div class="card-header">
+                    <p>Gold Membership</p>
+                  </div>
+                  <div class="card-body">
+                    <p>30 gp per month</p>
+                    <ul>
+                        <li>Receive Silver Tier advertisements in events <i>and</i> public spaces</li>
+                        <li>Committee Chair seat</li>
+                        <li>Eligibility for Chamber Presidency</li>
+                        <li>Business Management Trainings</li>
+                        <li>Market Study</li>
+                    </ul>
+                  </div>
+                </div>
+               </label>
+        </fieldset>
+        <input type="date" name="date" hidden id="date">
+        <input type="submit" class="submitBtn" name="submitBtn" value="Request Membership">
+    </form>
+</section>
+
+
+
+
+
+
+
+
+
+
 
     <!-- FOOTER -->
     <footer>
