@@ -1014,13 +1014,13 @@ div.loaded form{
     }
 
     .thankyou{
-        text-align: left;
-     padding: 10em;
+        text-align: center;
+        padding: 2em;
      font-family: philosopher;
      font-size: small;
      background-color: #112e42;
      border-radius: 5%;
- 
+     margin: 2em;
      color: antiquewhite;
      text-shadow: 0 0 30px goldenrod;
      border: 5px solid  goldenrod;
