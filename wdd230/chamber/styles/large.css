@@ -1005,6 +1005,22 @@ div.loaded form{
     
         
     }
+    
+    .bronze{
+        color: rgb(184, 134, 9);
+        text-shadow: 0 0 30px rgb(184, 134, 9);
+    }
+
+    .silver{
+        color: silver;
+        text-shadow: 0 0 30px silver;
+    }
+
+    .gold{
+        color: gold;
+        text-shadow: 0 0 30px gold;
+    }
+
 
 }
 
