@@ -948,15 +948,7 @@ div.formjoi form{
         box-shadow: 0 0 15px 1px goldenrod;
     
     }
-    @keyframes border-color {
-        from {
-            box-shadow: 0 0 1px 1px var(--blue);
-        }
-        to {
-            border: 1px solid var(--blue);
-            box-shadow: 0 0 15px 1px var(--blue);
-        }
-    }
+   
     
     .submitBtn{
         border: none;
