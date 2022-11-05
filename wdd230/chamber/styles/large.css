@@ -902,12 +902,12 @@
 div.loaded form{
     background-color: #112e42;
     color: antiquewhite;
-    margin: 1em ;
+    margin: 1em  5vw;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 3px 8px 0px goldenrod;
     font-family:Philosopher ;
-    width: 97.5%;
+    width: 90%;
 
 }
     
