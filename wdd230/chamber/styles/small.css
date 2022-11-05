@@ -924,6 +924,10 @@ picture img.in {
     font-size: small;
 }
 
+.red{
+    color: red;
+}
+
 div.formjoi form{
     background-color: #112e42;
     color: antiquewhite;
