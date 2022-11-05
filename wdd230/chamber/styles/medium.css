@@ -889,18 +889,7 @@ div.loaded form{
         animation: fade-in 0.7s;
         }
         
-        @keyframes fade-in {
-            from {
-                transform: scale(0.9);
-                border-radius: 100%;
-                opacity: 0.2;
-            }
-            to {
-                transform: scale(1);
-                border-radius: 15px;
-                opacity: 1;    
-            }
-        }
+        
     
     form fieldset label{
         display: block;
