@@ -14,7 +14,7 @@ const requestUrl = async(url) =>{
         
     }
     else{
-        console.log('Something went wrong, check the URL')
+        console.log('Something is malfungtioning with the URL sheck it out')
     }
 }
 
