@@ -8,8 +8,8 @@ const requestUrl = async(url) =>{
     if (response.status === 200){
         const data = await response.json();
         console.log(data);
-        let Companies = data.Companies;
-        Companies.forEach(displayProphets)
+        let Companies = data.companies;
+        Companies.forEach(displaycompanies)
 
         
     }
