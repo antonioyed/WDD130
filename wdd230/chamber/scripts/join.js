@@ -15,12 +15,6 @@ function holdName(){
     localStorage.setItem("submitName", formName);
 }
 
-const subBtn = document.querySelector(".submitBtn");
-
-subBtn.addEventListener("click", holdName);
-console.log("test");
-let currentName = window.localStorage.getItem("submitName");
-document.getElementById("submitee-name").textContent = currentName;
 
 
 
