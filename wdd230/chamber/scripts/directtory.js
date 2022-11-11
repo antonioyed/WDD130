@@ -8,8 +8,8 @@ const requestUrl = async(url) =>{
     if (response.status === 200){
         const data = await response.json();
         console.log(data);
-        let prophet = data.prophets;
-        prophet.forEach(displayProphets)
+        let Companies = data.Companies;
+        Companies.forEach(displayProphets)
 
         
     }
@@ -18,28 +18,31 @@ const requestUrl = async(url) =>{
     }
 }
 
-const displayProphets = (prophet)=>{
+const displayProphets = (company)=>{
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let birthDate = document.createElement('p');
-    let birthPlace = document.createElement('p');
-    let numofchildren = document.createElement('p');
+    let address = document.createElement('p');
+    let website = document.createElement('p');
+    let phone = document.createElement('p');
+    let membershipLevel = document.createElement('p');
 
-    h2.textContent = `${prophet.name} ${prophet.lastname}`;
-    birthDate.textContent = `Date of birth: ${prophet.birthdate}`;
-    birthPlace.textContent = `Place of birth: ${prophet.birthplace}`;
-    numofchildren.textContent = `Children: ${prophet.numofchildren}`;
+    h2.textContent = `${company.name} ${company.lastname}`;
+    address.textContent = `Address: ${company.address}`;
+    website.textContent = `Website: ${company.website}`;
+    phone.textContent = `Phone Number: ${company.numofchildren}`;
+    membershipLevel.textContent = `Membership Level: ${company.membershipLevel}`;
 
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt',`Portrait of ${prophet.name} - ${prophet.order}th Latter-day President`);
+    portrait.setAttribute('src', company.imageurl);
+    portrait.setAttribute('alt',`Portrait of ${company.name} - ${company.order}th Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
-    card.appendChild(birthDate);
-    card.appendChild(birthPlace);
-    card.appendChild(numofchildren)
     card.appendChild(portrait);
+    card.appendChild(address);
+    card.appendChild(website)
+    card.appendChild(phone);
+    card.appendChild(membershipLevel);
     
     
 

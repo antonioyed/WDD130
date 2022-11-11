@@ -1,104 +1,79 @@
 {
-    "prophets": [
+    "Companies": [
       {
-        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        
         "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
         
-        "birthdate": "23 December 1805",
-        "death": "27 June 1844",
-        "length": 14,
-        "order": 1,
-        "birthplace": "Vermont",
-        "numofchildren": 11
         
       },
       {
-        "name": "Brigham",
-        "lastname": "Young",
-        "birthdate": "01 June 1801",
-        "death": "29 August 1877",
-        "length": 30,
-        "order": 2,
-        "birthplace": "Vermont",
-        "numofchildren": 56,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "John",
-        "lastname": "Taylor",
-        "birthdate": "01 November 1808",
-        "death": "25 July 1887",
-        "length": 6,
-        "order": 3,
-        "birthplace": "England",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "Wilford",
-        "lastname": "Woodruff",
-        "birthdate": "01 March 1807",
-        "death": "02 September 1898",
-        "length": 9,
-        "order": 4,
-        "birthplace": "Connecticut",
-        "numofchildren": 34,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "Lorenzo",
-        "lastname": "Snow",
-        "birthdate": "03 April 1814",
-        "death": "19 October 1901",
-        "length": 3,
-        "order": 5,
-        "birthplace": "Ohio",
-        "numofchildren": 42,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "Joseph F.",
-        "lastname": "Smith",
-        "birthdate": "12 November 1838",
-        "death": "19 November 1918",
-        "length": 17,
-        "order": 6,
-        "birthplace": "Missouri",
-        "numofchildren": 48,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "Heber J.",
-        "lastname": "Grant",
-        "birthdate": "22 November 1856",
-        "death": "14 May 1945",
-        "length": 23,
-        "order": 7,
-        "birthplace": "Utah",
-        "numofchildren": 12,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "George A.",
-        "lastname": "Smith",
-        "birthdate": "4 April 1870",
-        "death": "4 April 1951",
-        "length": 6,
-        "order": 8,
-        "birthplace": "Utah",
-        "numofchildren": 3,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       },
       {
-        "name": "David O.",
-        "lastname": "McKay",
-        "birthdate": "8 September 1873",
-        "death": "18 January 1970",
-        "length": 19,
-        "order": 9,
-        "birthplace": "Utah",
-        "numofchildren": 7,
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+        "name": "Hardtech Solutions",
+        "address": "23 December 1805",
+        "website": "27 June 1844",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
+        "phone": 14,
+        "membershipLevel": 1
       }
     ]
 }
