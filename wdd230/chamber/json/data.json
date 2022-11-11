@@ -1,6 +1,7 @@
 {
     "prophets": [
       {
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png",
         "name": "Joseph",
         "lastname": "Smith",
         "birthdate": "23 December 1805",
@@ -8,8 +9,8 @@
         "length": 14,
         "order": 1,
         "birthplace": "Vermont",
-        "numofchildren": 11,
-        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cclogo.png"
+        "numofchildren": 11
+        
       },
       {
         "name": "Brigham",
