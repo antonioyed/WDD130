@@ -29,8 +29,8 @@ const displaycompanies = (company)=>{
 
     h2.textContent = `${company.name}`;
     address.textContent = `Address: ${company.address}`;
-    website.textContent = `Website: ${company.website}`;
-    phone.textContent = `Phone Number: ${company.numofchildren}`;
+    website.setAttribute ('href',`${company.website}`);
+    phone.textContent = `Phone Number: ${company.phone}`;
     membershipLevel.textContent = `Membership Level: ${company.membershipLevel}`;
 
     portrait.setAttribute('src', company.imageurl);
