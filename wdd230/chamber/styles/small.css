@@ -1081,12 +1081,27 @@ div.formjoi form{
  }
  
  .cards img{
-     border-radius: 5px;
-     box-shadow: 1px 3px 8px 2px #112e42;
-     width: 50%;
-     height: 50%;
- }
- 
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 2px antiquewhite;
+    width: 50%;
+    height: 50%;
+}
+
+
+.dirh1{
+color: goldenrod;
+text-shadow: 5px 5px 10px gold;
+text-align: center;
+font-size: medium;
+
+}
+
+.fildir{
+background-color: #112e42;
+
+margin: 10px;
+
+}
 
 
 
