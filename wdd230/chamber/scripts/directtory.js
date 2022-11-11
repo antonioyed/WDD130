@@ -18,7 +18,7 @@ const requestUrl = async(url) =>{
     }
 }
 
-const displayProphets = (company)=>{
+const displaycompanies = (company)=>{
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
