@@ -1005,7 +1005,7 @@ div.formjoi form{
 
 
 
-    
+
 
     /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -1034,26 +1034,18 @@ p{
     color: #112e42;
 }
 
-header{
-    width: 100%;
-    text-align: center;
-    color: whitesmoke;
 
-}
-main{
-    margin: 2rem;
 
-}
-
-section{
+ div.cards  section{
     background-color:goldenrod;
     padding: 1.2rem;
     text-align: center;
     border-radius: 5px;
     border: 2px solid #141a1b;
+    margin: 3px;
 }
 
-.cards{
+div.cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: .5rem;
@@ -1063,7 +1055,8 @@ section{
 .cards img{
     border-radius: 5px;
     box-shadow: 1px 3px 8px 2px #112e42;
-    width: 100%;
+    width: 50%;
+    height: 50%;
 }
 
 footer{
