@@ -23,7 +23,7 @@ const displayProphets = (company)=>{
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
     let address = document.createElement('p');
-    let website = document.createElement('p');
+    let website = document.createElement('a');
     let phone = document.createElement('p');
     let membershipLevel = document.createElement('p');
 
