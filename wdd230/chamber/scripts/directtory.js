@@ -29,7 +29,7 @@ const displaycompanies = (company)=>{
 
     h2.textContent = `${company.name}`;
     address.textContent = `Address: ${company.address}`;
-    website.setAttribute ('href',`${company.website}`);
+    website.setAttribute = `Website: ${company.website}`;
     phone.textContent = `Phone Number: ${company.phone}`;
     membershipLevel.textContent = `Membership Level: ${company.membershipLevel}`;
 
