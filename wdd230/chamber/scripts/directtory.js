@@ -1,76 +1,56 @@
-
 const url = "https://antonioyed.github.io//WDD130/wdd230/chamber/json/data.json"
 
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.getElementById("cards");
+const requestUrl = async(url) =>{
+    const response = await fetch(url);
+    console.log(response);
 
-function buildcompanyCards(info, type) {
-  let data = info.companies;
-  data.forEach((company) => {
-    let card = document.createElement("section");
-    let p = document.createElement("p");
-    let p2 = document.createElement("p");
-    let a = document.createElement("a");
+    if (response.status === 200){
+        const data = await response.json();
+        console.log(data);
+        let companies = data.companies;
+        companies.forEach(displaycompanies)
 
-    card.setAttribute("id", "section");
-    p.innerHTML = `${company.address}`;
-    p2.innerHTML = `${company.phone}`;
-    a.innerHTML = `${company.site}`;
-    a.setAttribute("href", `${company.website}`);
-
-    if (type == "grid") {
-      let img = document.createElement("img");
-      img.setAttribute("src", `${company.imageurl}`);
-      img.setAttribute("alt", `${company.name}`);
-      img.setAttribute("loading", "lazy");
-      card.append(img);
-    } else {
-      let h2 = document.createElement("h2");
-      h2.innerHTML = `${company.name}`;
-      card.append(h2);
+        
     }
-
-    card.appendChild(p);
-    card.appendChild(p2);
-    card.appendChild(a);
-
-    display.classList.add(type);
-    display.append(card);
-  });
+    else{
+        console.log('Something is malfungtioning with the URL sheck it out')
+    }
 }
 
-async function getcompanies(type) {
-  let response = await fetch(URL);
-  if (response.ok) {
-    let data = await response.json();
-    buildcompanyCards(data, type);
-  } else {
-    throw Error(response.statusText);
-  }
+const displaycompanies = (company)=>{
+    let card = document.createElement('section');
+    let h2 = document.createElement('h2');
+    let portrait = document.createElement('img');
+    let address = document.createElement('p');
+    let website = document.createElement('a');
+    let phone = document.createElement('p');
+    let membershipLevel = document.createElement('p');
+
+    h2.textContent = `${company.name}`;
+    address.textContent = `Address: ${company.address}`;
+    website.textContent = `Website: ${company.website}`;
+    phone.textContent = `Phone Number: ${company.phone}`;
+    membershipLevel.textContent = `Membership Level: ${company.membershipLevel}`;
+
+    portrait.setAttribute('src', company.imageurl);
+    portrait.setAttribute('alt',`Portrait of ${company.name} - ${company.order}th Latter-day President`);
+    portrait.setAttribute('loading', 'lazy');
+    website.setAttribute('href',`${company.website}`);
+
+
+    card.appendChild(h2);
+    card.appendChild(portrait);
+    card.appendChild(address);
+    card.appendChild(website)
+    card.appendChild(phone);
+    card.appendChild(membershipLevel);
+    
+    
+
+    document.querySelector('div.cards').appendChild(card);
+
+
 }
 
-function deleteItems() {
-  for (let i = 0; i < 9; i++) {
-    document.getElementById("section").remove();
-  }
-}
 
-getcompanies("grid");
-
-gridbutton.addEventListener("click", () => {
-  if (display.classList.value == "cards list") {
-    deleteItems();
-    display.classList.remove("list");
-    getcompanies("grid");
-  }
-});
-
-listbutton.addEventListener("click", () => {
-  if (display.classList.value == "cards grid") {
-    deleteItems();
-    display.classList.remove("grid");
-    getcompanies("list");
-  }
-});
-
+requestUrl(url);
