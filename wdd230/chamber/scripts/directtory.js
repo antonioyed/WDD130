@@ -27,7 +27,7 @@ const displaycompanies = (company)=>{
     let phone = document.createElement('p');
     let membershipLevel = document.createElement('p');
 
-    h2.textContent = `${company.name} ${company.lastname}`;
+    h2.textContent = `${company.name}`;
     address.textContent = `Address: ${company.address}`;
     website.textContent = `Website: ${company.website}`;
     phone.textContent = `Phone Number: ${company.numofchildren}`;
