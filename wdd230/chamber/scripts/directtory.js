@@ -1,5 +1,5 @@
 
-const url = "https://byui-cit230.github.io/canvas-referenced/latter-day-prophets.json"
+const url = "https://antonioyed.github.io//WDD130/wdd230/chamber/json/data.json"
 
 const requestUrl = async(url) =>{
     const response = await fetch(url);
