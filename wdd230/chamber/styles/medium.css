@@ -976,6 +976,67 @@ div.formjoi form{
         text-shadow: 0 0 30px gold;
     }
 
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+
+h1{
+    color: antiquewhite;
+    font-family: Cinzel ;
+    text-shadow: 5px 5px 10px goldenrod ; 
+}
+h2{
+    font-family: Cinzel ;
+    text-shadow: 5px 5px 10px #112e42 ;
+    color: #112e42;
+}
+
+p{
+    font-family: philosopher;
+    color: #112e42;
+}
+
+
+
+ div.cards  section{
+    background-color:goldenrod;
+    padding: 1.2rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #141a1b;
+    margin: 3px;
+}
+
+div.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: .5rem;
+    
+}
+
+.cards img{
+    border-radius: 5px;
+    box-shadow: 1px 3px 8px 2px #112e42;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
 
 }
+
+
+
+
+
+
+    
+
+
 
