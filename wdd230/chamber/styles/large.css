@@ -1041,7 +1041,7 @@ div.formjoi form{
         text-align: center;
         border-radius: 5px;
         border: 2px solid gold;
-        margin: 3px;
+        margin: 5px;
     }
     
     div.cards{
@@ -1054,7 +1054,7 @@ div.formjoi form{
     
     .cards img{
         border-radius: 5px;
-        box-shadow: 1px 3px 8px 2px antiquewhite;
+        box-shadow: 1px 2px 5px 2px antiquewhite;
         width: 50%;
         height: 50%;
     }
