@@ -29,13 +29,15 @@ const displaycompanies = (company)=>{
 
     h2.textContent = `${company.name}`;
     address.textContent = `Address: ${company.address}`;
-    website.setAttribute = `Website: ${company.website}`;
+    website.textContent = `Website: ${company.website}`;
     phone.textContent = `Phone Number: ${company.phone}`;
     membershipLevel.textContent = `Membership Level: ${company.membershipLevel}`;
 
     portrait.setAttribute('src', company.imageurl);
     portrait.setAttribute('alt',`Portrait of ${company.name} - ${company.order}th Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
+    website.setAttribute('href',`${company.website}`);
+
 
     card.appendChild(h2);
     card.appendChild(portrait);
