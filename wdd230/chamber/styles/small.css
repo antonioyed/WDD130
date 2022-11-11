@@ -1051,6 +1051,11 @@ div.formjoi form{
      color:antiquewhite;
  }
 
+ div.cards a{
+    font-family: philosopher;
+    color:gold;  
+}
+
  a{
      font-family: philosopher;
      color:antiquewhite;  
