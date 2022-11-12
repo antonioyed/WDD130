@@ -1078,8 +1078,9 @@ a{
     color: goldenrod;
 }
 
-h2{
+article.cards h2{
     color: goldenrod;
+    text-shadow: 5px 5px 10px goldenrod;
 }
 
 }
