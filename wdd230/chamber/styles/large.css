@@ -1072,16 +1072,25 @@ font-family: philosopher;
   }
 p{
     color: antiquewhite;
+    font-family: philosopher;
 }
 
 a{
     color: goldenrod;
+    font-family: philosopher;
 }
 
 article.cards h2{
     color: goldenrod;
     text-shadow: 5px 5px 10px goldenrod;
+    font-family: philosopher;
 }
+
+.dirh1{
+    color: goldenrod;
+   font-family: cinzel;
+    text-align: center;
+    font-size: xx-large;
 
 }
 
