@@ -1043,6 +1043,7 @@ color: antiquewhite;
 font-family: philosopher;
 height: 2em;
 width: 3em;
+margin: .5em;
 border-radius: 15px;
   }
   .directorymenu ,
@@ -1077,9 +1078,7 @@ border-radius: 15px;
   
   
   
-  .list section:nth-child(even) {
-    background-color: rgba(37, 150, 190, 0.5);
-  }
+
   
  
 p{
