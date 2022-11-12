@@ -19,7 +19,7 @@ function buildBusinessCards(info, type) {
     p.innerHTML = `Address: ${business.address}`;
     p2.innerHTML = `Phone Number: ${business.phone}`;
     a.innerHTML = ` Website:${business.website}`;
-    level.innerHTML = `${business.membershipLevel}`;
+    level.innerHTML = `Membership Level: ${business.membershipLevel}`;
     a.setAttribute("href", `${business.website}`);
 
     if (type == "grid") {
