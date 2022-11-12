@@ -1025,13 +1025,13 @@ font-family: philosopher;
     padding: 1.2rem;
     text-align: center;
     border-radius: 5px;
-    border: 2px solid gold;
+    border: 5px solid goldenrod;
     margin: 5px;
   }
 
   article.cards img{
     border-radius: 5px;
-        box-shadow: 1px 2px 5px 2px antiquewhite;
+        box-shadow: 1px 2px 5px 2px gold;
         width: 50%;
         height: 50%;
   }
@@ -1092,6 +1092,13 @@ article.cards h2{
     text-align: center;
     font-size: xx-large;
 
+}
+
+    article.cards h4{
+        color: goldenrod;
+       
+        font-family: philosopher;
+    }
 }
 
 

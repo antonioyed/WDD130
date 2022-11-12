@@ -12,12 +12,14 @@ function buildBusinessCards(info, type) {
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let a = document.createElement("a");
+    let level = document.createElement("h4");
 
     card.setAttribute("id", "section");
     name.innerHTML = `${business.name}`;
     p.innerHTML = `${business.address}`;
     p2.innerHTML = `${business.phone}`;
     a.innerHTML = `${business.website}`;
+    level.innerHTML = `${business.membershipLevel}`;
     a.setAttribute("href", `${business.website}`);
 
     if (type == "grid") {
@@ -37,6 +39,7 @@ function buildBusinessCards(info, type) {
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(a);
+    card.appendChild(level);
 
     display.classList.add(type);
     display.append(card);
