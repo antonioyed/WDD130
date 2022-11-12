@@ -991,7 +991,7 @@ background-color: goldenrod;
 color: antiquewhite;
 font-family: philosopher;
 height: 3em;
-width: 5em;
+width: 4em;
 border-radius: 15px;
   }
   .directorymenu ,
@@ -1051,7 +1051,7 @@ article.cards h2{
     color: goldenrod;
    font-family: cinzel;
     text-align: center;
-    font-size: xx-large;
+    font-size: medium;
 
 }
 
