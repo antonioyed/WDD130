@@ -8,17 +8,20 @@ function buildBusinessCards(info, type) {
   let data = info.businesses;
   data.forEach((business) => {
     let card = document.createElement("section");
+    let name = document.createElement("h2");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let a = document.createElement("a");
 
     card.setAttribute("id", "section");
+    name.innerHTML = `${business.name}`;
     p.innerHTML = `${business.address}`;
     p2.innerHTML = `${business.phone}`;
-    a.innerHTML = `${business.site}`;
+    a.innerHTML = `${business.website}`;
     a.setAttribute("href", `${business.website}`);
 
     if (type == "grid") {
+      
       let img = document.createElement("img");
       img.setAttribute("src", `${business.imageurl}`);
       img.setAttribute("alt", `${business.name}`);
@@ -30,6 +33,7 @@ function buildBusinessCards(info, type) {
       card.append(h2);
     }
 
+     card.appendChild(name);
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(a);

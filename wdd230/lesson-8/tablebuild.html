@@ -424,6 +424,79 @@ requestUrl(url);
 
 
 
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+    /*----------- apply a natural box layout model to all elements --------------*/
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+
+    
+    h1{
+        color: antiquewhite;
+        font-family: Cinzel ;
+        text-shadow: 5px 5px 10px goldenrod ; 
+    }
+    h2{
+        font-family: Cinzel ;
+        text-shadow: 5px 5px 10px goldenrod ;
+        color: antiquewhite;
+    }
+    
+      p{
+        font-family: philosopher;
+        color:antiquewhite;
+    }
+
+    div.cards a{
+        font-family: philosopher;
+        color:gold;  
+    }
+    
+    
+    
+     div.cards  section{
+        background-color:#112e42;
+        padding: 1.2rem;
+        text-align: center;
+        border-radius: 5px;
+        border: 2px solid gold;
+        margin: 5px;
+    }
+    
+    div.cards{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: .5rem;
+        background-color: antiquewhite;
+        
+    }
+    
+    .cards img{
+        border-radius: 5px;
+        box-shadow: 1px 2px 5px 2px antiquewhite;
+        width: 50%;
+        height: 50%;
+    }
+    
+   
+.dirh1{
+    color: goldenrod;
+    text-shadow: 5px 5px 10px gold;
+    text-align: center;
+    font-size: xx-large;
+ 
+}
+
+.fildir{
+    background-color: #112e42;
+
+    margin: 10px;
+
+}
+
+
+
 
 
 

@@ -1027,81 +1027,75 @@ div.formjoi form{
         text-shadow: 0 0 30px gold;
     }
 
- /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
- html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
- /*----------- apply a natural box layout model to all elements --------------*/
- * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
- 
-
- 
- h1{
-     color: antiquewhite;
-     font-family: Cinzel ;
-     text-shadow: 5px 5px 10px goldenrod ; 
- }
- h2{
-     font-family: Cinzel ;
-     text-shadow: 5px 5px 10px goldenrod ;
-     color: antiquewhite;
- }
- 
-   p{
-     font-family: philosopher;
-     color:antiquewhite;
- }
-
- div.cards a{
-    font-family: philosopher;
-    color:gold;  
-}
-
- a{
-     font-family: philosopher;
-     color:antiquewhite;  
- }
- 
- 
- 
-  div.cards  section{
-     background-color:#112e42;
-     padding: 1.2rem;
-     text-align: center;
-     border-radius: 5px;
-     border: 2px solid gold;
-     margin: 3px;
- }
- 
- div.cards{
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-     gap: .5rem;
-     background-color: antiquewhite;
-     
- }
- 
- .cards img{
+  /* Directory */
+.directorymenu {
+    margin-top: 15px;
+    background-color: #112e42;
+    text-align: center;
+  }
+  
+  
+  
+  .socialMedia svg:nth-child(1) {
+    padding: 10px 0;
+  }
+  
+  button{
+background-color: goldenrod;
+color: antiquewhite;
+font-family: philosopher;
+  }
+  .directorymenu ,
+  section {
+    background-color:#112e42;
+    padding: 1.2rem;
+    text-align: center;
     border-radius: 5px;
-    box-shadow: 1px 2px 5px 2px antiquewhite;
-    width: 50%;
-    height: 50%;
-}
+    border: 2px solid gold;
+    margin: 5px;
+  }
 
-
-.dirh1{
-color: goldenrod;
-text-shadow: 5px 5px 10px gold;
-text-align: center;
-font-size: medium;
-
-}
-
-.fildir{
-background-color: #112e42;
-
-margin: 10px;
-
-}
+  article.cards img{
+    border-radius: 5px;
+        box-shadow: 1px 2px 5px 2px antiquewhite;
+        width: 50%;
+        height: 50%;
+  }
+  
+  article.grid{
+    margin: 15px 0;
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: .5rem;
+        background-color: antiquewhite;
+  }
+  
+  section a,
+  .spots h3 {
+    word-wrap: break-word;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  
+  .grid section {
+    flex-direction: column;
+  }
+  
+  .grid section > * {
+    margin: 2px;
+  }
+  
+  .list section:nth-child(even) {
+    background-color: rgba(37, 150, 190, 0.5);
+  }
+  
+  section h3 {
+    font-size: 24px;
+  }
 
 
 
