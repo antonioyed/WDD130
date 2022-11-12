@@ -985,14 +985,14 @@ div.formjoi form{
   
   
   
-  .socialMedia svg:nth-child(1) {
-    padding: 10px 0;
-  }
   
-  button{
+  .directorymenu button{
 background-color: goldenrod;
 color: antiquewhite;
 font-family: philosopher;
+height: 3em;
+width: 5em;
+border-radius: 15px;
   }
   .directorymenu ,
   section {
@@ -1000,13 +1000,13 @@ font-family: philosopher;
     padding: 1.2rem;
     text-align: center;
     border-radius: 5px;
-    border: 2px solid gold;
+    border: 5px solid goldenrod;
     margin: 5px;
   }
 
   article.cards img{
     border-radius: 5px;
-        box-shadow: 1px 2px 5px 2px antiquewhite;
+        box-shadow: 1px 2px 5px 2px gold;
         width: 50%;
         height: 50%;
   }
@@ -1024,28 +1024,42 @@ font-family: philosopher;
     word-wrap: break-word;
   }
   
-  .grid {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    column-gap: 15px;
-    row-gap: 15px;
-  }
   
-  .grid section {
-    flex-direction: column;
-  }
-  
-  .grid section > * {
-    margin: 2px;
-  }
   
   .list section:nth-child(even) {
     background-color: rgba(37, 150, 190, 0.5);
   }
   
-  section h3 {
-    font-size: 24px;
-  }
+ 
+p{
+    color: antiquewhite;
+    font-family: philosopher;
+}
 
+a{
+    color: goldenrod;
+    font-family: philosopher;
+}
+
+article.cards h2{
+    color: goldenrod;
+    text-shadow: 5px 5px 10px goldenrod;
+    font-family: philosopher;
+}
+
+.dirh1{
+    color: goldenrod;
+   font-family: cinzel;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+    article.cards h4{
+        color: goldenrod;
+       
+        font-family: philosopher;
+    }
 
 }
 
