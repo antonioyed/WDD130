@@ -1058,7 +1058,7 @@ border-radius: 15px;
 
   article.cards img{
     border-radius: 5px;
-        box-shadow: 1px 2px 5px 2px gold;
+    text-shadow: 2px 2px 4px goldenrod;
         width: 50%;
         height: 50%;
   }
