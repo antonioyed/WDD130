@@ -467,7 +467,7 @@
         display: block;
         align-items: center;
         justify-content: space-between;
-       margin: auto;
+        margin: auto;
         margin-top: 3em;
         border-bottom: 1px solid #bbb;
         display: grid;
@@ -508,7 +508,7 @@
 
     }
 
-    div.trudis picture img:hover{
+    div.trudis picture img:hover {
         border-radius: 15px 150px;
     }
 
@@ -580,7 +580,7 @@
 
     }
 
-    div.tutru picture img:hover{
+    div.tutru picture img:hover {
         border-radius: 15px 150px;
     }
 
@@ -653,7 +653,7 @@
     }
 
 
-    div.trupo picture img:hover{
+    div.trupo picture img:hover {
         border-radius: 15px 150px;
     }
 
@@ -726,7 +726,7 @@
     }
 
 
-    div.trcul picture img:hover{
+    div.trcul picture img:hover {
         border-radius: 15px 150px;
     }
 
@@ -769,7 +769,7 @@
     }
 
 
-    .trcli{
+    .trcli {
         grid-row: 5;
         grid-column: 1/8;
         display: grid;
@@ -792,41 +792,42 @@
         grid-column: 1/2;
         grid-row: 1/3;
         margin: 10px;
-      
+
     }
 
 
-    div.trcli picture img:hover{
+    div.trcli picture img:hover {
         border-radius: 15px 150px;
     }
 
     picture img.in {
         animation: img-come-in 1s;
     }
-    
+
     @keyframes img-come-in {
         from {
             transform: scale(0.9);
             opacity: 0;
         }
+
         to {
             transform: scale(1);
             opacity: 1;
         }
     }
-    
-    
-    .pcli{
+
+
+    .pcli {
         grid-row: 2;
         grid-column: 2/8;
         font-family: Philosopher;
         color: antiquewhite;
         font-size: small;
-      
-    
+
+
     }
-    
-    .clih3{
+
+    .clih3 {
         grid-column: 4/6;
         grid-row: 1;
         text-align: center;
@@ -839,70 +840,70 @@
 
 
 
-    .visits{
+    .visits {
         background-color: goldenrod;
         border-radius: 8px;
         box-shadow: 0 0 10px 3px #112e42;
         padding: 8px;
-        position:fixed;
+        position: fixed;
         bottom: 10px;
         right: 10px;
         z-index: 10;
         color: black;
         font-family: cinzel;
-    font-size: small;
+        font-size: small;
     }
-    
-    .visits p{
+
+    .visits p {
         margin: 10px;
     }
 
 
-/*----------- JOIN PAGE --------------*/
+    /*----------- JOIN PAGE --------------*/
 
-.joinbody{
-    background-color: antiquewhite;
-}
+    .joinbody {
+        background-color: antiquewhite;
+    }
 
-.joih1{
-    color: #112e42;
-    text-align: center;
-    font-family: cinzel;
-    font-size: large;
-}
+    .joih1 {
+        color: #112e42;
+        text-align: center;
+        font-family: cinzel;
+        font-size: large;
+    }
 
-.red{
-    color: red;
-}
+    .red {
+        color: red;
+    }
 
-div.formjoi form{
-    background-color: #112e42;
-    color: antiquewhite;
-    margin: 1em ;
-    padding: 2rem;
- 
-    box-shadow: 0 3px 8px 0px goldenrod;
-    font-family:Philosopher ;
-    width: 96%;
+    div.formjoi form {
+        background-color: #112e42;
+        color: antiquewhite;
+        margin: 1em;
+        padding: 2rem;
 
-}
+        box-shadow: 0 3px 8px 0px goldenrod;
+        font-family: Philosopher;
+        width: 96%;
 
-   
-    
-    
-        
-        
-    
-    form fieldset label{
+    }
+
+
+
+
+
+
+
+    form fieldset label {
         display: block;
         margin: 1rem;
     }
-    
-    form .membership label{
+
+    form .membership label {
         display: inline;
     }
-    
-    .input-box{
+
+    .input-box {
         width: 100%;
         padding: 10px .75rem;
         font-size: 1rem;
@@ -914,18 +915,18 @@ div.formjoi form{
         max-width: 500px;
         line-height: 1.5rem;
     }
-    
-    .input-box:focus{
+
+    .input-box:focus {
         animation: border-color ease-in-out;
         border: 1px solid goldenrod;
         outline: none;
         transition: .15s;
         box-shadow: 0 0 15px 1px goldenrod;
-    
+
     }
-    
-    
-    .submitBtn{
+
+
+    .submitBtn {
         border: none;
         padding: 1rem;
         background-color: goldenrod;
@@ -934,147 +935,162 @@ div.formjoi form{
         font-size: 1rem;
         border-radius: 8px;
     }
-    
-    .submitBtn:hover{
+
+    .submitBtn:hover {
         transition: 0.2s;
         background-color: goldenrod;
     }
 
-    
-    .tankbody{
+
+    .tankbody {
         background-color: white;
     }
 
-    .thankyou{
+    .thankyou {
         text-align: center;
-     padding: 5em;
-     font-family: philosopher;
-     font-size: larger;
-     background-color: #112e42;
-     border-radius: 5%;
-     margin: 3em;
-     color: antiquewhite;
-     text-shadow: 0 0 30px goldenrod;
-     border: 5px solid  goldenrod;
-    
-        
+        padding: 5em;
+        font-family: philosopher;
+        font-size: larger;
+        background-color: #112e42;
+        border-radius: 5%;
+        margin: 3em;
+        color: antiquewhite;
+        text-shadow: 0 0 30px goldenrod;
+        border: 5px solid goldenrod;
+
+
     }
 
 
-    .bronze{
+    .bronze {
         color: rgb(184, 134, 9);
         text-shadow: 0 0 30px rgb(184, 134, 9);
     }
 
-    .silver{
+    .silver {
         color: silver;
         text-shadow: 0 0 30px silver;
     }
 
-    .gold{
+    .gold {
         color: gold;
         text-shadow: 0 0 30px gold;
     }
 
-  /* Directory */
-.directorymenu {
-    margin-top: 15px;
-    background-color: #112e42;
-    text-align: center;
-  }
-  
-  
-  
-  
-  .directorymenu button{
-background-color: goldenrod;
-color: antiquewhite;
-font-family: philosopher;
-height: 3em;
-width: 4em;
-margin: .5em;
-border-radius: 15px;
-  }
-  .directorymenu ,
-  section {
-    background-color:#112e42;
-    padding: 1.2rem;
-    text-align: center;
-    border-radius: 5px;
-    border: 5px solid goldenrod;
-    margin: 5px;
-  }
+    /* Directory */
+    .directorymenu {
+        margin-top: 15px;
+        background-color: #112e42;
+        text-align: center;
+    }
 
-  article.cards img{
-    border-radius: 5px;
+
+
+
+    .directorymenu button {
+        background-color: goldenrod;
+        color: antiquewhite;
+        font-family: philosopher;
+        height: 3em;
+        width: 4em;
+        margin: .5em;
+        border-radius: 15px;
+    }
+
+    .directorymenu,
+    section {
+        background-color: #112e42;
+        padding: 1.2rem;
+        text-align: center;
+        border-radius: 5px;
+        border: 5px solid goldenrod;
+        margin: 5px;
+    }
+
+    article.cards img {
+        border-radius: 5px;
         box-shadow: 1px 2px 5px 2px gold;
         width: 50%;
         height: 50%;
-  }
-  
-  article.grid{
-    margin: 15px 0;
-    display: grid;
+    }
+
+    article.grid {
+        margin: 15px 0;
+        display: grid;
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         gap: .5rem;
         background-color: antiquewhite;
-  }
-  
-  section a,
-  .spots h3 {
-    word-wrap: break-word;
-  }
-  
-  .list section{
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-    text-justify: distribute;
- 
-  
-  }
-  
- 
-  
- 
-p{
-    color: antiquewhite;
-    font-family: philosopher;
-}
+    }
 
-a{
-    color: goldenrod;
-    font-family: philosopher;
-}
+    section a,
+    .spots h3 {
+        word-wrap: break-word;
+    }
 
-article.cards h2{
-    color: goldenrod;
-   
-    font-family: philosopher;
-}
+    .list section {
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        text-justify: distribute;
 
-.dirh1{
-    color: goldenrod;
-   font-family: cinzel;
-    text-align: center;
-    font-size: medium;
 
-}
+    }
 
-    article.cards h4{
-        color: goldenrod;
-       
+
+
+
+    p {
+        color: antiquewhite;
         font-family: philosopher;
     }
 
+    a {
+        color: goldenrod;
+        font-family: philosopher;
+    }
+
+    article.cards h2 {
+        color: goldenrod;
+
+        font-family: philosopher;
+    }
+
+    .dirh1 {
+        color: goldenrod;
+        font-family: cinzel;
+        text-align: center;
+        font-size: medium;
+
+    }
+
+    article.cards h4 {
+        color: goldenrod;
+
+        font-family: philosopher;
+    }
+
+
+    .wireframes {
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    .wireh1 {
+        color: goldenrod;
+        font-family: cinzel;
+        text-align: center;
+        font-size: large;
+    }
+
+    .largeca {
+        width: 60%;
+        height: 60%
+    }
+
+    .mediumca {
+        width: 60%;
+        height: 60%
+    }
+
 }
-
-
-
-
-
-
-    
-
-
-

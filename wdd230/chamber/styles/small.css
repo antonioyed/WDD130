@@ -1111,3 +1111,26 @@ article.cards h2{
         font-family: philosopher;
     }
  
+    .wireframes{
+        justify-content: center;
+       text-align: center;
+       align-content: center;
+    }
+
+    .wireh1
+    {
+        color: goldenrod;
+        font-family: cinzel;
+         text-align: center;
+         font-size: medium; 
+    }
+
+    .largeca {
+        width: 60%;
+        height: 60%
+    }
+
+    .mediumca {
+        width: 60%;
+        height: 60%
+    }

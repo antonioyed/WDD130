@@ -1089,6 +1089,24 @@ article.cards h2{
        
         font-family: philosopher;
     }
+
+
+    .wireframes{
+        justify-content: center;
+       text-align: center;
+       align-content: center;
+    }
+
+    .wireh1
+    {
+        color: goldenrod;
+        font-family: cinzel;
+         text-align: center;
+         font-size: xx-large; 
+    }
+
+
+
 }
 
 
