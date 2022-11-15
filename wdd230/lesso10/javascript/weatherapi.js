@@ -15,7 +15,7 @@ const requestData = async(url)=>{
         displayResults(data);
     }
     else{
-        console.log("The requested url is invalid please check your URL and API key to make sure they are correct.");
+        console.log("Someting went wrong, please recheck your URL or API.");
     }
 };
 
