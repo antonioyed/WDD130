@@ -1,0 +1,32 @@
+body{
+background-color: rgb(162, 212, 255);
+}
+
+.weatheri{
+    text-align: center;
+    border:2px solid rgb(104, 23, 151);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.h21{
+    color: rgb(8, 25, 121);
+    text-shadow: 0 0 30px rgb(104, 23, 151);
+}
+
+.pw{
+    color: rgb(52, 78, 221);  
+}
+
+#current-temp{
+    color: brown;
+}
+
+.sw{
+    color: brown;
+}
+
+.ccw{
+    color: rgb(8, 25, 121);
+    text-shadow: 0 0 30px rgb(104, 23, 151);
+}
