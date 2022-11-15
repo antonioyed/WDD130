@@ -19,7 +19,7 @@ const requestData = async(url)=>{
     }
 };
 
-function capFirstLetter(string){
+function weather(string){
     return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
@@ -33,7 +33,7 @@ const displayResults = (weatherData)=>{
     weatherIcon.setAttribute('src', iconImg);
     weatherIcon.setAttribute('alt','weather-icon');
 
-    captionDesc.innerText = capFirstLetter(descript);
+    captionDesc.innerText = weather(descript);
 
 }
 
