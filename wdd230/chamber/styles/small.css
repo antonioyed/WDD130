@@ -229,41 +229,43 @@ main {
 
 
 
-.sw, #current-temp{
+.sw,
+#current-temp {
     color: red;
-     }
-    
-     .pw{
-        grid-column: 1/8;
-        color: antiquewhite;
-        margin-left: 5em;
-        grid-row: 1;
-        margin-top: 2em;
-        font-family: philosopher;
-        font-size: medium;
-     }
-    
-     .ccw{
-        color: antiquewhite;
-        grid-column: 1/6;
-        font-family: philosopher;
-        grid-row: 1;
-        margin-top: 3.5em;
-        margin-left: 5em;
-     }
-    
-    .iconw{
-        grid-column: 2/5;
-        grid-row: 1;
-        margin-top: 3em;
-        margin-left: 13em;
-        color: antiquewhite;
-        font-family: philosopher;
-    }
-    
+}
+
+.pw {
+    grid-column: 1/8;
+    color: antiquewhite;
+    margin-left: 5em;
+    grid-row: 1;
+    margin-top: 2em;
+    font-family: philosopher;
+    font-size: medium;
+}
+
+.ccw {
+    color: antiquewhite;
+    grid-column: 1/6;
+    font-family: philosopher;
+    grid-row: 1;
+    margin-top: 3.5em;
+    margin-left: 5em;
+}
+
+.iconw {
+    grid-column: 2/5;
+    grid-row: 1;
+    margin-top: 3em;
+    margin-left: 13em;
+    color: silver;
+    text-shadow: 0 0 30px silver;
+    font-family: philosopher;
+}
 
 
- /*-----------  -------------
+
+/*-----------  -------------
 .weah1 {
     grid-column: 3;
     text-shadow: 0 0 30px rgb(248, 206, 151);
@@ -598,7 +600,7 @@ aside {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 150px 50px;
-   
+
     gap: 10px;
     background-color: #112e42;
 
@@ -868,7 +870,7 @@ picture img.in {
 }
 
 
-.trcli{
+.trcli {
     grid-row: 5;
     grid-column: 1/8;
     display: grid;
@@ -903,6 +905,7 @@ picture img.in {
         transform: scale(0.9);
         opacity: 0;
     }
+
     to {
         transform: scale(1);
         opacity: 1;
@@ -910,17 +913,17 @@ picture img.in {
 }
 
 
-.pcli{
+.pcli {
     grid-row: 2;
     grid-column: 2/10;
     font-family: Philosopher;
     color: antiquewhite;
     font-size: x-small;
-  
+
 
 }
 
-.clih3{
+.clih3 {
     grid-column: 2/8;
     grid-row: 1;
     text-align: center;
@@ -931,12 +934,12 @@ picture img.in {
     margin-top: 2em;
 }
 
-.visits{
+.visits {
     background-color: goldenrod;
     border-radius: 8px;
     box-shadow: 0 0 10px 3px #112e42;
     padding: 8px;
-    position:fixed;
+    position: fixed;
     bottom: 10px;
     right: 10px;
     z-index: 10;
@@ -945,230 +948,230 @@ picture img.in {
     font-size: small;
 }
 
-.visits p{
+.visits p {
     margin: 10px;
 }
 
 /*----------- JOIN PAGE --------------*/
 
-.joinbody{
+.joinbody {
     background-color: antiquewhite;
 }
 
-.joih1{
+.joih1 {
     color: #112e42;
     text-align: center;
     font-family: cinzel;
     font-size: small;
 }
 
-.red{
+.red {
     color: red;
 }
 
-div.formjoi form{
+div.formjoi form {
     background-color: #112e42;
     color: antiquewhite;
     margin: 0.5em;
     padding: 1rem;
-   
+
     box-shadow: 0 3px 8px 0px goldenrod;
-    font-family:Philosopher ;
+    font-family: Philosopher;
     width: 96%;
 
 }
 
-    
-    
-    
-    
-    form fieldset label{
-        display: block;
-        margin: 1rem;
-    }
-    
-    form .membership label{
-        display: inline;
-    }
-    
-    .input-box{
-        width: 100%;
-        padding: 10px .75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        color: #495057;
-        background-color: antiquewhite;
-        border: 1px solid goldenrod;
-        border-radius: 0.25rem;
-        max-width: 500px;
-        line-height: 1.5rem;
-    }
-    
-    .input-box:focus{
-        animation: border-color ease-in-out;
-        border: 1px solid goldenrod;
-        outline: none;
-        transition: .15s;
-        box-shadow: 0 0 15px 1px goldenrod;
-    
-    }
-   
-    
-    .submitBtn{
-        border: none;
-        padding: 1rem;
-        background-color: goldenrod;
-        cursor: pointer;
-        margin: 1rem;
-        font-size: 1rem;
-        border-radius: 8px;
-        color: #112e42;
-    }
-    
-    .submitBtn:hover{
-        transition: 0.2s;
-        background-color: goldenrod;
-    }
-
-    .tankbody{
-        background-color: white;
-    }
-
-    .thankyou{
-        text-align: center;
-        padding: 2em;
-     font-family: philosopher;
-     font-size: small;
-     background-color: #112e42;
-     border-radius: 5%;
-     margin: 2em;
-     color: antiquewhite;
-     text-shadow: 0 0 30px goldenrod;
-     border: 5px solid  goldenrod;
-    
-        
-    }
 
 
-    .bronze{
-        color: rgb(184, 134, 9);
-        text-shadow: 0 0 30px rgb(184, 134, 9);
-    }
 
-    .silver{
-        color: silver;
-        text-shadow: 0 0 30px silver;
-    }
 
-    .gold{
-        color: gold;
-        text-shadow: 0 0 30px gold;
-    }
+form fieldset label {
+    display: block;
+    margin: 1rem;
+}
 
-   /* Directory */
+form .membership label {
+    display: inline;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: antiquewhite;
+    border: 1px solid goldenrod;
+    border-radius: 0.25rem;
+    max-width: 500px;
+    line-height: 1.5rem;
+}
+
+.input-box:focus {
+    animation: border-color ease-in-out;
+    border: 1px solid goldenrod;
+    outline: none;
+    transition: .15s;
+    box-shadow: 0 0 15px 1px goldenrod;
+
+}
+
+
+.submitBtn {
+    border: none;
+    padding: 1rem;
+    background-color: goldenrod;
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #112e42;
+}
+
+.submitBtn:hover {
+    transition: 0.2s;
+    background-color: goldenrod;
+}
+
+.tankbody {
+    background-color: white;
+}
+
+.thankyou {
+    text-align: center;
+    padding: 2em;
+    font-family: philosopher;
+    font-size: small;
+    background-color: #112e42;
+    border-radius: 5%;
+    margin: 2em;
+    color: antiquewhite;
+    text-shadow: 0 0 30px goldenrod;
+    border: 5px solid goldenrod;
+
+
+}
+
+
+.bronze {
+    color: rgb(184, 134, 9);
+    text-shadow: 0 0 30px rgb(184, 134, 9);
+}
+
+.silver {
+    color: silver;
+    text-shadow: 0 0 30px silver;
+}
+
+.gold {
+    color: gold;
+    text-shadow: 0 0 30px gold;
+}
+
+/* Directory */
 .directorymenu {
     margin-top: 15px;
     background-color: #112e42;
     text-align: center;
-  }
-  
-  
-  
-  
-  .directorymenu button{
-background-color: goldenrod;
-color: antiquewhite;
-font-family: philosopher;
-height: 2em;
-width: 5em;
-margin: .5em;
-border-radius: 15px;
-  }
-  .directorymenu ,
-  section {
-    background-color:#112e42;
+}
+
+
+
+
+.directorymenu button {
+    background-color: goldenrod;
+    color: antiquewhite;
+    font-family: philosopher;
+    height: 2em;
+    width: 5em;
+    margin: .5em;
+    border-radius: 15px;
+}
+
+.directorymenu,
+section {
+    background-color: #112e42;
     padding: 1.2rem;
     text-align: center;
     border-radius: 5px;
     border: 5px solid goldenrod;
     margin: 5px;
-  }
+}
 
-  article.cards img{
+article.cards img {
     border-radius: 5px;
     text-shadow: 2px 2px 4px goldenrod;
-        width: 50%;
-        height: 50%;
-  }
-  
-  article.grid{
+    width: 50%;
+    height: 50%;
+}
+
+article.grid {
     margin: 15px 0;
     display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        gap: .5rem;
-        background-color: antiquewhite;
-  }
-  
-  section a,
-  .spots h3 {
-    word-wrap: break-word;
-  }
-  
-  
-  
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: .5rem;
+    background-color: antiquewhite;
+}
 
-  
- 
-p{
+section a,
+.spots h3 {
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+p {
     color: antiquewhite;
     font-family: philosopher;
 }
 
-a{
+a {
     color: goldenrod;
     font-family: philosopher;
 }
 
-article.cards h2{
+article.cards h2 {
     color: goldenrod;
-   
+
     font-family: philosopher;
 }
 
-.dirh1{
+.dirh1 {
     color: goldenrod;
-   font-family: cinzel;
+    font-family: cinzel;
     text-align: center;
     font-size: medium;
 
 }
 
-    article.cards h4{
-        color: goldenrod;
-       
-        font-family: philosopher;
-    }
- 
-    .wireframes{
-        justify-content: center;
-       text-align: center;
-       align-content: center;
-    }
+article.cards h4 {
+    color: goldenrod;
 
-    .wireh1
-    {
-        color: goldenrod;
-        font-family: cinzel;
-         text-align: center;
-         font-size: medium; 
-    }
+    font-family: philosopher;
+}
 
-    .largeca {
-        width: 60%;
-        height: 60%
-    }
+.wireframes {
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
 
-    .mediumca {
-        width: 60%;
-        height: 60%
-    }
+.wireh1 {
+    color: goldenrod;
+    font-family: cinzel;
+    text-align: center;
+    font-size: medium;
+}
+
+.largeca {
+    width: 60%;
+    height: 60%
+}
+
+.mediumca {
+    width: 60%;
+    height: 60%
+}

@@ -117,7 +117,8 @@ color: red;
     grid-row: 1;
     margin-top: 3.5em;
     margin-left: 8em;
-    color: antiquewhite;
+    color: silver;
+    text-shadow: 0 0 30px silver;
     font-family: philosopher;
 }
 
