@@ -121,6 +121,18 @@ color: red;
     font-family: philosopher;
 }
 
+.spee{
+    color: antiquewhite; 
+    font-family: philosopher;
+    grid-column: 1/8;
+    grid-row: 1;
+    margin-top: 9em;
+    margin-left: 3em;
+}
+
+.sspee{
+    color: aqua;
+}
 
     /*-----------  -------------
     .weah1 {
