@@ -40,7 +40,20 @@ const displayResults = (weatherData)=>{
 
     captionDesc.innerText = weather(descript);
 
-   
+
+
+    const whChill = (35.74 + (0.6212 * temperature))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275 * temperature * Math.pow(wSpeed,0.16));
+
+    const windChill = Math.round(whChill);
+    const windChillNan = 'N/A';
+    if (temperature <= 50 && wSpeed > 3){
+        document.querySelector('#windChill').innerHTML = windChill;
+    }   else{
+        document.querySelector('#windChill').innerHTML = windChillNan;
+    }
+
+
+
 
 }
 
@@ -51,10 +64,3 @@ requestData(url);
 
 
 
-const temperatureF = Math.round((document.getElementById("temperature").textContent * (9/5)) + 32);
-const speedmph = Math.round(document.getElementById("windSpeed").textContent / 1.609);
-
-if (temperatureF <= 50 && speedmph > 3.0) {
-    const chill = Math.round(35.74 + 0.6215 * temperatureF - 35.75 * speedmph ** 0.16 + 0.4275 * temperatureF * speedmph ** 0.16);
-    document.getElementById("windChill").textContent = `${Math.round(chill * 1.609)} \u00B0C`;
-}
