@@ -89,6 +89,40 @@
         font-family: cinzel;
     }
 
+ .sw, #current-temp{
+color: red;
+ }
+
+ .pw{
+    grid-column: 1/5;
+    color: antiquewhite;
+    margin-left: 4em;
+    grid-row: 1;
+    margin-top: 2em;
+    font-family: philosopher;
+    font-size: large;
+ }
+
+ .ccw{
+    color: antiquewhite;
+    grid-column: 1/6;
+    font-family: philosopher;
+    grid-row: 1;
+    margin-top: 4.5em;
+    margin-left: 4em;
+ }
+
+.iconw{
+    grid-column: 2/5;
+    grid-row: 1;
+    margin-top: 3.5em;
+    margin-left: 8em;
+    color: antiquewhite;
+    font-family: philosopher;
+}
+
+
+    /*-----------  -------------
     .weah1 {
         grid-column: 2;
         text-shadow: 0 0 30px rgb(248, 206, 151);
@@ -101,8 +135,9 @@
     .h1nuwea {
         grid-column: 3;
         color: antiquewhite;
-        grid-row: 2;
-        font-size: x-large;
+        grid-row: 1;
+        font-size: large;
+        margin-top: 2em;
     }
 
     .weah4 {
@@ -140,6 +175,17 @@
         margin-left: 13em;
 
     }
+
+
+-*/
+
+
+
+
+
+
+
+
 
     .joi {
         grid-column: 1/3;

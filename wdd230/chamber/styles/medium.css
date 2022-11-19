@@ -282,6 +282,41 @@
 
     }
 
+
+    .sw, #current-temp{
+        color: red;
+         }
+        
+         .pw{
+            grid-column: 1/8;
+            color: antiquewhite;
+            margin-left: 5em;
+            grid-row: 1;
+            margin-top: 2em;
+            font-family: philosopher;
+            font-size: medium;
+         }
+        
+         .ccw{
+            color: antiquewhite;
+            grid-column: 1/6;
+            font-family: philosopher;
+            grid-row: 1;
+            margin-top: 3.5em;
+            margin-left: 3em;
+         }
+        
+        .iconw{
+            grid-column: 2/5;
+            grid-row: 1;
+            margin-top: 3em;
+            margin-left: 13em;
+            color: antiquewhite;
+            font-family: philosopher;
+        }
+        
+
+    /*-----------  -------------
     .weah1 {
         grid-column: 3;
         text-shadow: 0 0 30px rgb(248, 206, 151);
@@ -337,7 +372,7 @@
         margin-left: 13em;
 
     }
-
+-*/
 
     footer {
         background-color: #112e42;
