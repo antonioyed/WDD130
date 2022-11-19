@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const anWind =document.querySelector('#aswind');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Trujillo&appid=27653fb63d536c2f8ab27205805b2786&units=imperial"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Trujillo,PE&appid=27653fb63d536c2f8ab27205805b2786&units=imperial"
 
 
 const requestData = async(url)=>{
