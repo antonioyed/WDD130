@@ -250,7 +250,7 @@ main {
     font-family: philosopher;
     grid-row: 1;
     margin-top: 3.5em;
-    margin-left: 5em;
+    margin-left: 2em;
 }
 
 .iconw {
@@ -262,6 +262,34 @@ main {
     text-shadow: 0 0 30px silver;
     font-family: philosopher;
 }
+
+.spee {
+    color: antiquewhite;
+    font-family: philosopher;
+    grid-column: 1/8;
+    grid-row: 1;
+    margin-top: 5.5em;
+    margin-left: 2em;
+}
+
+.sspee {
+    color: aqua;
+}
+
+.sspee2 {
+    color: gold;
+}
+
+
+.will {
+    color: antiquewhite;
+    font-family: philosopher;
+    grid-column: 1/8;
+    grid-row: 1;
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
 
 
 
