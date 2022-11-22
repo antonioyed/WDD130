@@ -1012,17 +1012,17 @@
 
     .thankyou {
         text-align: center;
-        padding: 5em;
+        padding: auto;
         font-family: philosopher;
-        font-size: larger;
+        font-size: large;
         background-color: #112e42;
         border-radius: 5%;
-        margin: 3em;
+        margin: 2em;
         color: antiquewhite;
         text-shadow: 0 0 30px goldenrod;
         border: 5px solid goldenrod;
-
-
+    
+    
     }
 
 
@@ -1258,24 +1258,8 @@
         background-color: goldenrod;
     }
 
-    .tankbody {
-        background-color: white;
-    }
-
-    .thankyou {
-        text-align: center;
-        padding: 10em;
-        font-family: philosopher;
-        font-size: x-large;
-        background-color: #112e42;
-        border-radius: 5%;
-        margin: 3em;
-        color: antiquewhite;
-        text-shadow: 0 0 30px goldenrod;
-        border: 5px solid goldenrod;
-
-
-    }
+   
+    
 
 
     .contaimg {
