@@ -986,10 +986,11 @@ picture img.in {
     background-color: antiquewhite;
 }
 
-.joih12 {
+.joih1 {
     color: #112e42;
     text-align: center;
     font-family: cinzel;
+    font-size: large;
    
 }
 
@@ -1209,7 +1210,13 @@ article.cards h4 {
 /* Contact */
 
 
-
+.joih12{
+    color: #112e42;
+    text-align: center;
+    font-family: cinzel;
+    font-size: large;
+    text-shadow: 0 0 30px antiquewhite;
+}
 
 
 .red{
