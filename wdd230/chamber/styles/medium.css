@@ -1157,4 +1157,120 @@
         height: 60%
     }
 
+
+
+
+    /* Contact */
+
+    .joinbody {
+        background-color: rgb(241, 217, 187);
+    }
+
+    .joih1 {
+        color: #112e42;
+        text-align: center;
+        font-family: cinzel;
+        font-size: xx-large;
+        text-shadow: 0 0 30px #112e42;
+    }
+
+    .red {
+        color: red;
+    }
+
+
+
+    div.formjoi2 form {
+        background-color: #112e42;
+        color: antiquewhite;
+        margin: 1em 5vw;
+        padding: 2rem;
+
+        box-shadow: 0 3px 8px 0px goldenrod;
+        font-family: Philosopher;
+        width: 90%;
+
+    }
+
+
+
+
+    form fieldset label {
+        display: block;
+        margin: 1rem;
+    }
+
+    form .membership label {
+        display: inline;
+    }
+
+    .input-box {
+        width: 100%;
+        padding: 10px .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #495057;
+        background-color: antiquewhite;
+        border: 1px solid goldenrod;
+        border-radius: 0.25rem;
+        max-width: 500px;
+        line-height: 1.5rem;
+    }
+
+    .input-box:focus {
+        animation: border-color ease-in-out;
+        border: 1px solid goldenrod;
+        outline: none;
+        transition: .15s;
+        box-shadow: 0 0 15px 1px goldenrod;
+
+    }
+
+
+    .submitBtn {
+        border: none;
+        padding: 1rem;
+        background-color: goldenrod;
+        cursor: pointer;
+        margin: 1rem;
+        font-size: 1rem;
+        border-radius: 8px;
+        align-items: center;
+
+    }
+
+    .submitBtn:hover {
+        transition: 0.2s;
+        background-color: goldenrod;
+    }
+
+    .tankbody {
+        background-color: white;
+    }
+
+    .thankyou {
+        text-align: center;
+        padding: 10em;
+        font-family: philosopher;
+        font-size: x-large;
+        background-color: #112e42;
+        border-radius: 5%;
+        margin: 3em;
+        color: antiquewhite;
+        text-shadow: 0 0 30px goldenrod;
+        border: 5px solid goldenrod;
+
+
+    }
+
+
+
+
+
+
+
+
+    
+
+
 }
