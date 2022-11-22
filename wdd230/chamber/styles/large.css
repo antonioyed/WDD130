@@ -966,7 +966,7 @@ color: red;
     text-align: center;
     font-family: cinzel;
     font-size: xx-large;
-    text-shadow: 0 0 30px #112e42;
+    text-shadow: 0 0 30px antiquewhite;
 }
 
 .red{
@@ -1181,13 +1181,21 @@ article.cards h2{
 
      /* Contact */
 
-     
+     .joinbody2{
+        background-color: antiquewhite;
+     }
     
  
     .red{
         color: red;
     }
     
+    .joih12{
+        color: #112e42;
+    text-align: center;
+    font-family: cinzel;
+    
+    }
     
     
     div.formjoi2 form{

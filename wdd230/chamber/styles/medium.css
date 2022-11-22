@@ -1162,11 +1162,14 @@
 
     /* Contact */
 
-    .joinbody {
-        background-color: rgb(241, 217, 187);
-    }
 
-    .joih1 {
+
+    .joinbody2{
+        background-color: antiquewhite;
+     }
+    
+
+    .joih12 {
         color: #112e42;
         text-align: center;
         font-family: cinzel;
@@ -1192,7 +1195,18 @@
 
     }
 
+    .infocont {
 
+        height: 80%;
+        width: 90%;
+        grid-row: 1;
+        margin-top: 1em;
+        margin-left: 2.3em;
+        grid-column: 1/4;
+        background-color: rgb(241, 217, 187);
+
+
+    }
 
 
     form fieldset label {
@@ -1264,7 +1278,16 @@
     }
 
 
+    .contaimg {
 
+        margin-top: 10em;
+        width: 280px;
+        height: 170px;
+        float: right;
+        margin-right: 2em;
+        box-shadow: 0 0 10px 1px goldenrod;
+
+    }
 
 
 
