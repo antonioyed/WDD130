@@ -1179,6 +1179,193 @@ article.cards h2{
 
 
 
+     /* Contact */
+
+     
+    
+ 
+    .red{
+        color: red;
+    }
+    
+    
+    
+    div.formjoi2 form{
+        background-color: #112e42;
+        color: antiquewhite;
+        margin: 1em  5vw;
+        padding: 2rem;
+       grid-column: 1/2;
+        box-shadow: 0 3px 8px 0px goldenrod;
+        font-family:Philosopher ;
+        width: 90%;
+       
+    
+    }
+        
+    
+      
+       
+        form fieldset label{
+            display: block;
+            margin: 1rem;
+        }
+        
+        form .membership label{
+            display: inline;
+        }
+        
+        .input-box{
+            width: 100%;
+            padding: 10px .75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: antiquewhite;
+            border: 1px solid goldenrod;
+            border-radius: 0.25rem;
+            max-width: 500px;
+            line-height: 1.5rem;
+        }
+        
+        .input-box:focus{
+            animation: border-color ease-in-out;
+            border: 1px solid goldenrod;
+            outline: none;
+            transition: .15s;
+            box-shadow: 0 0 15px 1px goldenrod;
+        
+        }
+       
+        
+        .submitBtn{
+            border: none;
+            padding: 1rem;
+            background-color: goldenrod;
+            cursor: pointer;
+            margin: 1rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            align-items: center;
+            
+        }
+        
+        .submitBtn:hover{
+            transition: 0.2s;
+            background-color: goldenrod;
+        }
+    
+        .tankbody{
+            background-color: white;
+        }
+    
+        .thankyou{
+            text-align: center;
+         padding: 10em;
+         font-family: philosopher;
+         font-size: x-large;
+         background-color: #112e42;
+         border-radius: 5%;
+         margin: 3em;
+         color: antiquewhite;
+         text-shadow: 0 0 30px goldenrod;
+         border: 5px solid  goldenrod;
+        
+            
+        }
+        
+        .contacti{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+.infocont{
+    background-color: #112e42;
+    height: 80%;
+    width: 80%;
+    grid-row: 1;
+    margin-top: 4em;
+    margin-left: 3em;
+    grid-column: 2;
+    border: 3px solid gold;
+    border-radius: 15px;
+    
+   
+}
+.formjoi2{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.infocont2{
+    margin-top: 2em;
+    background-color: #112e42;
+    
+    width: 100%;
+   
+    
+   
+}
+
+
+.h1cont{
+    color: antiquewhite;
+    text-shadow: 0 0 10px gold;
+    text-align: center;
+    font-family: cinzel;
+   
+    
+}
+
+.contadd{
+    color: antiquewhite;
+    text-shadow: 0 0 10px goldenrod;
+    margin-left: 2em;
+    font-family: cinzel;
+    
+}
+
+
+   
+.contapho{
+    color: antiquewhite;
+    text-shadow: 0 0 10px goldenrod;
+    margin-left: 2em;
+    font-family: cinzel;
+}
+
+.contaema{
+    color: antiquewhite;
+    text-shadow: 0 0 10px goldenrod;
+    margin-left: 2em;
+    font-family: cinzel;
+
+}
+
+.contaimg{
+
+   margin-top: 10em;
+    width: 150px;
+    height: 150px;
+    float: right;
+    margin-right: 3em;
+    
+}
+
+
+.social2 {
+    margin-top: 3em;
+    margin-left: 2em;
+    
+}
+
+.social2 svg {
+    width: 40px;
+    height: auto;
+}
+
+
+
 }
 
 
