@@ -7,8 +7,8 @@ const requestUrl = async(url) =>{
     if (response.status === 200){
         const data2 = await response.json();
         console.log(data2);
-        let splot = data2.splots;
-        splot.forEach(displaysplots)
+        let splots = data2.splots;
+        splots.forEach(displaysplots)
 
         
     }
