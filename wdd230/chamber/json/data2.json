@@ -1,0 +1,27 @@
+{
+    "splots": [
+      {
+        
+        "name": "Expand Your Network",
+        "email": "pathstars@network.com",
+        "description": "Make the best connection ",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/sploting1.png",
+        "phone": "+51 949 402 153"
+        
+        
+        
+      },
+      {
+        "name": "Universidad C. Vallejo",
+        "address": "Av. Larco 1770, Trujillo",
+        "website": "https://www.ucv.edu.pe/",
+        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cesar.png",
+        "phone":  "(01) 202-4342",
+        "membershipLevel": "Gold"
+      }
+      
+      
+    ]
+}
+
+
