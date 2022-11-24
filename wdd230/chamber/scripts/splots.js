@@ -29,7 +29,7 @@ const displaysplots = (splot)=>{
     h2.textContent = `${splot.name}`;
     email.textContent = `Email: ${splot.email}`;
     phone.textContent = `Phone Number: ${splot.phone}`;
-    description.textContent = `description:  ${splot.description}`;
+    description.textContent =  `${splot.description}`;
 
     portrait.setAttribute('src', splot.imageurl);
     portrait.setAttribute('alt',`Portrait of ${splot.name} - ${splot.order}th Latter-day President`);
