@@ -27,8 +27,7 @@ const displaysplots = (splot)=>{
     
 
     h2.textContent = `${splot.name}`;
-    address.textContent = `Address: ${splot.email}`;
-    website.textContent = `Website: ${splot.website}`;
+    address.textContent = `Email: ${splot.email}`;
     phone.textContent = `Phone Number: ${splot.phone}`;
     description.textContent = `description:  ${splot.description}`;
 
