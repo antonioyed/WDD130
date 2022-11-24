@@ -52,4 +52,4 @@ const displaysplots = (splot)=>{
 }
 
 
-requestUrl(url);
+
