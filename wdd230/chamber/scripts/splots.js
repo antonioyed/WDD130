@@ -7,8 +7,8 @@ const requestUrl = async(url) =>{
     if (response.status === 200){
         const data = await response.json();
         console.log(data);
-        let splots = data.splots;
-        splots.forEach(displaysplots)
+        let splot = data.splots;
+        splot.forEach(displaysplots)
 
         
     }
@@ -22,7 +22,7 @@ const displaysplots = (splot)=>{
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
     let email = document.createElement('p');
-    let description =document.createElement('p');
+    let description = document.createElement('p');
     let phone = document.createElement('p');
     
 
