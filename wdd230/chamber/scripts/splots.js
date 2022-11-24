@@ -47,7 +47,7 @@ const displaysplots = (splot)=>{
     
     
 
-    document.querySelector('section.cards').appendChild(card);
+    document.querySelector('div.cards').appendChild(card);
 
 
 }
