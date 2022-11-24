@@ -99,6 +99,14 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .cards{
+        grid-column: 1/4;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: .5rem;
+      
+    }
+    /*----------
     .sp1 {
         grid-column: 1;
         grid-row: 1;
@@ -189,6 +197,7 @@
 
 
     }
+    -*/
 
     .joi {
         grid-column: 1 / 8;
