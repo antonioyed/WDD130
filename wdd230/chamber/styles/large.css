@@ -549,6 +549,8 @@ color: red;
         grid-row: 1;
         font-family: Cinzel;
         font-size: x-large;
+        text-shadow: 0 0 30px gold;
+        margin-top: 2em;
 
     }
 
