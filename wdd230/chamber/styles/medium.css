@@ -144,7 +144,7 @@
     margin-top: 5.5em;
     font-family: Philosopher;
     font-size: small;
-    margin-left: 3em;
+   text-align: center;
     color: goldenrod;
         
 }
@@ -189,7 +189,7 @@
     margin-top: 5.5em;
     font-family: Philosopher;
     font-size: small;
-    margin-left: 5em;
+    text-align: center;
     color: goldenrod;
     
 }
