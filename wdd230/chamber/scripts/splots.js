@@ -1,8 +1,8 @@
 const awSource = "/chamber/json/data.json";
 
 
-const requestSpotlights = async(Source) =>{
-    const aresponse = await fetch(Source);
+const requestSpotlights = async(awSource) =>{
+    const aresponse = await fetch(awSource);
     console.log(aresponse);
 
     if (aresponse.ok === true){
