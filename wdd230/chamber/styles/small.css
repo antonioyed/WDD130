@@ -398,7 +398,7 @@ main {
     text-shadow: 0 0 30px rgb(248, 206, 151);
     grid-row: 1;
     margin-top: 2em;
-    width: 50px;
+    width: 80px;
     height: 50px;
     }
 
@@ -420,7 +420,7 @@ color: antiquewhite;
 margin-top: 5.5em;
 font-family: Philosopher;
 font-size: small;
-margin-left: 3em;
+text-align: center;
 color: goldenrod;
     
 }
@@ -443,7 +443,7 @@ font-size: small;
     text-shadow: 0 0 30px rgb(248, 206, 151);
     grid-row: 1;
     margin-top: 2em;
-    width: 50px;
+    width: 80px;
     height: 50px;
     }
 
@@ -465,7 +465,7 @@ color: antiquewhite;
 margin-top: 5.5em;
 font-family: Philosopher;
 font-size: small;
-margin-left: 5em;
+text-align: center;
 color: goldenrod;
     
 }
@@ -479,26 +479,6 @@ font-family: Philosopher;
 text-align: center;
 font-size: small;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
