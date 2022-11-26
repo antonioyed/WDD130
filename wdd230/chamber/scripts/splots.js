@@ -1,11 +1,11 @@
-const awSource = "/chamber/json/data.json";
+const URL = "https://antonioyed.github.io//WDD130/wdd230/chamber/json/data.json";
 
 
-const requestSpotlights = async(awSource) =>{
-    const aresponse = await fetch(awSource);
+const requestSpotlights = async(URL) =>{
+    const aresponse = await fetch(URL);
     console.log(aresponse);
 
-    if (aresponse.ok === true){
+    if (aresponse.status === 200){
         const data = await aresponse.json();
         console.log(data);
         let spotlights = data.businesses;
@@ -59,7 +59,7 @@ const displaySpotlight = (spotlights,sectionCLass)=>{
 }
 
 
-requestSpotlights(awSource);
+requestSpotlights(URL);
 
 
 
