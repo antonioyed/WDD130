@@ -312,6 +312,50 @@ color: red;
 
     }
 
+    .sp1 img{
+        grid-column: 2/4;
+        margin-left: 7em;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        margin-top: 2.5em;
+        width: 80px;
+        height: 80px;
+        }
+
+.sp1 h2{
+    text-align: center;
+        grid-column: 1/8;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+        font-size: large;
+}
+
+
+.sp1 a{
+    grid-row: 2;
+        grid-column: 1/8;
+        color: antiquewhite;
+        margin-top: 8em;
+        font-family: Philosopher;
+        color: goldenrod;
+        margin-left: 6em;
+        font-size: small;
+        
+}
+
+.sp1 p{
+    grid-row: 3;
+    grid-column: 1/8;
+    color: antiquewhite;
+    margin-top: 6em;
+    font-family: Philosopher;
+    text-align: center;
+    font-size: large; 
+}
+
+  
     .s1h2 {
         text-align: center;
         grid-column: 1/8;
@@ -358,6 +402,8 @@ color: red;
         font-size: large;
     }
 
+    
+
     .sp2 {
         grid-column: 1/4;
         width: 95%;
@@ -371,6 +417,56 @@ color: red;
 
 
     }
+
+    .sp2 img{
+        grid-column: 2/4;
+        margin-left: 7em;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        margin-top: 2.5em;
+        width: 80px;
+        height: 80px;
+        }
+
+.sp2 h2{
+    text-align: center;
+        grid-column: 1/8;
+        color: antiquewhite;
+        text-shadow: 0 0 30px rgb(248, 206, 151);
+        grid-row: 1;
+        font-family: cinzel;
+        font-size: large;
+}
+
+
+.sp2 a{
+    grid-row: 2;
+        grid-column: 1/8;
+        color: antiquewhite;
+        margin-top: 8em;
+        font-family: Philosopher;
+        color: goldenrod;
+        margin-left: 6em;
+        font-size: small;
+        
+}
+
+.sp2 p{
+    grid-row: 3;
+    grid-column: 1/8;
+    color: antiquewhite;
+    margin-top: 6em;
+    font-family: Philosopher;
+    text-align: center;
+    font-size: large; 
+}
+
+
+
+
+
+
+
 
     .sp3 {
         grid-column: 1/4;
@@ -1357,6 +1453,16 @@ article.cards h2{
     width: 40px;
     height: auto;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

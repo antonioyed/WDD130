@@ -1,55 +1,65 @@
-const url = "https://antonioyed.github.io//WDD130/wdd230/chamber/json/data2.json"
+const sSource = "/chamber/json/data.json";
 
-const requestUrl = async(url) =>{
-    const response = await fetch(url);
+
+const requestSpotlights = async(sSource) =>{
+    const response = await fetch(sSource);
     console.log(response);
 
-    if (response.status === 200){
-        const data2 = await response.json();
-        console.log(data2);
-        let splots = data2.splots;
-        splots.forEach(displaysplots)
+    if (response.ok === true){
+        const data = await response.json();
+        console.log(data);
+        let spotlights = data.businesses;
+
+
+
+        
+        displaySpotlight(spotlights[2],'.sp1');
+        displaySpotlight(spotlights[5],'.sp2')
 
         
     }
     else{
         console.log('Something is malfungtioning with the URL sheck it out')
     }
-}
+};
 
-const displaysplots = (splot)=>{
-    let card = document.createElement('section');
+const displaySpotlight = (spotlights,sectionCLass)=>{
+    
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let email = document.createElement('p');
-    let description = document.createElement('p');
+    let address = document.createElement('p');
+    let website = document.createElement('a');
     let phone = document.createElement('p');
-    
+    let membershipLevel = document.createElement('p');
 
-    h2.textContent = `${splot.name}`;
-    email.textContent = `Email: ${splot.email}`;
-    phone.textContent = `Phone Number: ${splot.phone}`;
-    description.textContent =  `${splot.description}`;
+    h2.textContent = `${spotlights.name}`;
+    address.textContent = `Address: ${spotlights.address}`;
+    website.textContent = `Website: ${spotlights.website}`;
+    phone.textContent = `Phone Number: ${spotlights.phone}`;
+    membershipLevel.textContent = `Membership Level: ${spotlights.membershipLevel}`;
 
-    portrait.setAttribute('src', splot.imageurl);
-    portrait.setAttribute('alt',`Portrait of ${splot.name} - ${splot.order}th Latter-day President`);
+    portrait.setAttribute('src', spotlights.imageurl);
+    portrait.setAttribute('alt',`Portrait of ${spotlights.name} - ${spotlights.order}th Latter-day President`);
     portrait.setAttribute('loading', 'lazy');
+    website.setAttribute('href',`${spotlights.website}`);
+
+
+    document.querySelector(sectionCLass).appendChild(h2);
+    document.querySelector(sectionCLass).appendChild(portrait);
+    
+    document.querySelector(sectionCLass).appendChild(website)
+
+    document.querySelector(sectionCLass).appendChild(membershipLevel);
+    
     
 
 
-    card.appendChild(h2);
-    card.appendChild(portrait);
-    card.appendChild(email);
-    card.appendChild(description);
-    card.appendChild(phone);
-    
-    
-    
-
-    document.querySelector('div.cards').appendChild(card);
 
 
 }
+
+
+requestSpotlights(sSource);
 
 
 

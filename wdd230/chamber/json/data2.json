@@ -1,26 +1,94 @@
 {
-    "splots": [
-      {
-        
-        "name": "Expand Your Network",
-        "email": "pathstars@network.com",
-        "description": "Make the best connection ",
-        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/sploting1.png",
-        "phone": "+51 949 402 153"
-        
-        
-        
-      },
-      {
-        "name": "Expand Your Network",
-        "email": "pathstars@network.com",
-        "description": "Make the best connection ",
-        "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/sploting1.png",
-        "phone": "+51 949 402 153"
-      }
+  "Spotlights": [
+    {
+      
+      "name": "Hardtech Solutions",
+      "address": "Jirón San Martín 426, Trujillo",
+      "website": "https://hardtech.pe/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/hardtech.jpg",
+      "phone": "+51 949 402 153",
+      "membershipLevel": "Silvert"
       
       
-    ]
+    },
+    {
+      "name": "Universidad C. Vallejo",
+      "address": "Av. Larco 1770, Trujillo",
+      "website": "https://www.ucv.edu.pe/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/cesar.png",
+      "phone":  "(01) 202-4342",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Pedregal",
+      "address": "Jr. Monte Rey 355 Of. 1101",
+      "website": "https://www.elpedregalsa.com/en/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/pedregal.png",
+      "phone":  "(511) 626 7300",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Notaria Pajares",
+      "address": "Av Chan Chan 353 ",
+      "website": "https://pajaresalva.wordpress.com/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/pajares.jpg",
+      "phone": "(044) 318618",
+      "membershipLevel": "Bronze"
+    },
+    {
+      "name": "Hexagon Mining",
+      "address": "Av. la Encalada Nro. 1388 Int. 501",
+      "website": "https://hexagon.com/company/divisions/mining",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/mining.png",
+      "phone": "6264400",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "iShop",
+      "address": "Av. América Oeste 750, Trujillo ",
+      "website": "https://tiendasishop.com/pe/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/ishop.png",
+      "phone": "(01) 7302222",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Saga Falabella",
+      "address": "Av. América Oeste, Trujillo 13011",
+      "website": "https://www.falabella.com.pe/falabella-pe",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/falabella.png",
+      "phone": "(01) 5123362",
+      "membershipLevel": "Silvert"
+    },
+    {
+      "name": "Sodimac",
+      "address": "Mall Aventura Plaza, Av. Mansiche",
+      "website": "https://www.sodimac.com.pe/sodimac-pe",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/sodimac.jpg",
+      "phone": "(01) 2030420",
+      "membershipLevel": "Gold"
+    },
+    {
+      "name": "Tottus",
+      "address": "Av. Mansiche Caserío, Av El Cortijo",
+      "website": "https://www.tottus.com.pe/",
+      "imageurl": "https://antonioyed.github.io//WDD130/wdd230/chamber/images/tottus.png",
+      "phone": "(01) 5133355",
+      "membershipLevel": "Bronze"
+    }
+  ]
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
