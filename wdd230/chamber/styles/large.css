@@ -315,11 +315,11 @@ color: red;
     .sp1 img{
         grid-column: 2/4;
         margin-left: 7em;
-        text-shadow: 0 0 30px rgb(248, 206, 151);
+        box-shadow: 0 0 20px rgb(248, 206, 151);
         grid-row: 1;
-        margin-top: 2.5em;
-        width: 80px;
-        height: 80px;
+        margin-top: 3.5em;
+        width: 50px;
+        height: 50px;
         }
 
 .sp1 h2{
@@ -340,7 +340,7 @@ color: red;
         margin-top: 8em;
         font-family: Philosopher;
         color: goldenrod;
-        margin-left: 6em;
+        text-align: center;
         font-size: small;
         
 }
@@ -421,11 +421,11 @@ color: red;
     .sp2 img{
         grid-column: 2/4;
         margin-left: 7em;
-        text-shadow: 0 0 30px rgb(248, 206, 151);
+        box-shadow: 0 0 20px rgb(248, 206, 151);
         grid-row: 1;
-        margin-top: 2.5em;
-        width: 80px;
-        height: 80px;
+        margin-top: 3.5em;
+        width: 50px;
+        height: 50px;
         }
 
 .sp2 h2{
@@ -446,7 +446,7 @@ color: red;
         margin-top: 8em;
         font-family: Philosopher;
         color: goldenrod;
-        margin-left: 6em;
+     text-align: center;
         font-size: small;
         
 }

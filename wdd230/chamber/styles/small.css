@@ -395,7 +395,7 @@ main {
 .sp1 img{
     grid-column: 2/4;
     margin-left: 6em;
-    text-shadow: 0 0 30px rgb(248, 206, 151);
+    box-shadow: 0 0 10px rgb(248, 206, 151);
     grid-row: 1;
     margin-top: 2em;
     width: 80px;
@@ -440,7 +440,7 @@ font-size: small;
 .sp2 img{
     grid-column: 2/4;
     margin-left: 6em;
-    text-shadow: 0 0 30px rgb(248, 206, 151);
+    box-shadow: 0 0 10px rgb(248, 206, 151);
     grid-row: 1;
     margin-top: 2em;
     width: 80px;
