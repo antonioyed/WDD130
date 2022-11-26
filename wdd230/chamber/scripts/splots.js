@@ -1,12 +1,12 @@
-const Source = "/chamber/json/data.json";
+const awSource = "/chamber/json/data.json";
 
 
 const requestSpotlights = async(Source) =>{
-    const response = await fetch(Source);
-    console.log(response);
+    const aresponse = await fetch(Source);
+    console.log(aresponse);
 
-    if (response.ok === true){
-        const data = await response.json();
+    if (aresponse.ok === true){
+        const data = await aresponse.json();
         console.log(data);
         let spotlights = data.businesses;
 
@@ -59,7 +59,7 @@ const displaySpotlight = (spotlights,sectionCLass)=>{
 }
 
 
-requestSpotlights(Source);
+requestSpotlights(awSource);
 
 
 
