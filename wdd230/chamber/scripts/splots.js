@@ -1,8 +1,8 @@
-const sSource = "/chamber/json/data.json";
+const Source = "/chamber/json/data.json";
 
 
-const requestSpotlights = async(sSource) =>{
-    const response = await fetch(sSource);
+const requestSpotlights = async(Source) =>{
+    const response = await fetch(Source);
     console.log(response);
 
     if (response.ok === true){
@@ -59,7 +59,7 @@ const displaySpotlight = (spotlights,sectionCLass)=>{
 }
 
 
-requestSpotlights(sSource);
+requestSpotlights(Source);
 
 
 
