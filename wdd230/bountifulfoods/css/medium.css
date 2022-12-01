@@ -1,79 +1,80 @@
 @media only screen and (min-width: 35rem) {
 
 
-nav button{display: none;}
-nav ul#bountiNav{
-    display: flex;;
-    margin-left: 2vw;
-    justify-content: center;
-   
-}
-
-nav ul li a{
-    border:none ;
+    nav button{display: none;}
+    nav ul#bountiNav{
+        display: flex;;
+        margin-left: 2vw;
+        justify-content: center;
+       
+    }
     
-    padding: .3rem .4rem;
-    justify-content: flex-end;
-}
-
-
-/*----------- Header --------------*/
-nav{
-    -ms-flex-align: center;
-   
-}
-
-header {
-    background-color: #ff4500;
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-   justify-content: space-evenly ;
-    max-width: 1500px;
-    margin: 0 auto;
+    nav ul li a{
+        border:none ;
+        
+        padding: .3rem .4rem;
+        justify-content: flex-end;
+    }
     
-   
-
-}
-
-.hbh4 {
-    color: white;
-    font-family: philosopher;
-    text-align: left;
-    font-size: x-large;
-    flex-direction: column;
-
-
-
-
-
-}
-
-.boutlo {
-    height: 150px;
-    width: 150px;
-    border-radius: 100%;
-    align-items: center;
-    margin-left: 1em;
-}
-
-
-
-.social {
-    margin-right: 1rem;
-    margin-right: 100px;
-
-}
-
-.social svg {
-    width: 29px;
-    height: auto;
-
-}
-
-}
-
-
-
-
-
+    
+    /*----------- Header --------------*/
+    nav{
+        -ms-flex-align: center;
+       
+    }
+    
+    header {
+        background-color: #ff4500;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+       justify-content: space-evenly ;
+        
+        margin: 0 auto;
+        
+       
+    
+    }
+    
+    .hbh4 {
+        color: white;
+        font-family: philosopher;
+        text-align: left;
+        font-size: x-large;
+        flex-direction: column;
+    
+    
+    
+    
+    
+    }
+    
+    .boutlo {
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        align-items: center;
+        margin-left: 1em;
+    }
+    
+    
+    
+    .social {
+        margin-right: 1rem;
+        margin-right: 100px;
+    
+    }
+    
+    .social svg {
+        width: 29px;
+        height: auto;
+    
+    }
+    
+    }
+    
+    
+    
+    
+    
+    

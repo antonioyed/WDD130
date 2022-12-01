@@ -58,7 +58,8 @@ h1 {
  */
 
 figcaption,
-figure { /* 1 */
+figure,
+main { /* 1 */
   display: block;
 }
 

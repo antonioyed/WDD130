@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
    justify-content: space-evenly ;
-    max-width: 1500px;
+    
     margin: 0 auto;
     
    
@@ -35,8 +35,8 @@ header {
 }
 
 .boutlo {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
     border-radius: 100%;
     align-items: center;
     margin-left: 4em;

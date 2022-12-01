@@ -1,12 +1,10 @@
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
 
 h1,
 p {
@@ -62,7 +60,7 @@ header {
     display: flex;
     align-items: center;
    justify-content: space-around ;
-    max-width: 1500px;
+   
     margin: 0 auto;
     
    
@@ -73,7 +71,7 @@ header {
     color: white;
     font-family: philosopher;
     text-align: left;
-    font-size: x-large;
+    font-size: small;
     flex-direction: column;
     margin-left: 1em;
 
@@ -84,8 +82,8 @@ header {
 }
 
 .boutlo {
-    height: 110px;
-    width: 110px;
+    height: 100px;
+    width: 100px;
     border-radius: 100%;
     align-items: center;
     margin-left: 4em;
@@ -105,6 +103,18 @@ header {
     height: auto;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
