@@ -4,53 +4,7 @@
         padding: .5rem 1rem;
     }
 
-   
-
-    .bonlo {
-        height: 130px;
-        width: 150px;
-        border-radius: 100%;
-        align-items: center;
-        margin-left: 10rem;
-    }
-
-
-header{
-    background-color:#f76a37 ;
-    
-    padding: 5px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 0 auto;
-    border-bottom: 1px solid #bbb;
-    display: grid;
 }
-
-.social svg {
-    width: 29px;
-    height: auto;
-
-}
-
-
-.ahome{
-    color: black;
-}
-
-}
-
-
-
-
-
-
-    
-
-
-
-
 
 
 

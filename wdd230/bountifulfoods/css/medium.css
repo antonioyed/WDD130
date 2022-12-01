@@ -1,28 +1,19 @@
 @media only screen and (min-width: 35rem) {
 
 
-    body {
-        font-size: 16px;
-    }
-
-    nav button {
-        display: none;
-    }
-
-    nav ul {
-        display: flex;
-        justify-content: center;
-        margin-left: 1vw;
-
-
-    }
-
-    nav ul li a {
-        border: none;
-        justify-content: flex-end;
-    }
-
+nav button{display: none;}
+nav ul#bountiNav{
+    display: flex;;
+    margin-left: 2vw;
     
+    border-left: 1px solid black;
+}
+
+nav ul li a{
+    border:none ;
+    border-right: 1px solid black;
+    padding: .3rem .4rem;
+}
 
 
 }
