@@ -18,13 +18,11 @@ nav button{
     background: transparent;
     border: none;
     font-size: 2rem;
-    color-scheme: red ;
+     ;
 }
 
 
-nav {
-    background-color: #ff4500;
-}
+
 
 nav ul{
     list-style-type: none;
@@ -34,14 +32,15 @@ nav ul{
 
 nav ul li a{
     display: block;
-    pad: .8rem 2vw;
+    padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
-    border-top: 1px solid white;
+    color: white;
+    font-size: larger;
+    align-items: flex-end;
 }
 
 nav ul li a:hover{
-    background-color: white;
+    background-color: rgb(96, 158, 197);
 }
 
 nav ul li.fresh a{
@@ -55,3 +54,58 @@ nav ul.open {display: block;}
 
 #bountiBtn.open span:nth-child(1) {display: none}
 #bountiBtn.open span:nth-child(2) {display: block}
+
+
+header {
+    background-color: #ff4500;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+   justify-content: space-around ;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+   
+
+}
+
+.hbh4 {
+    color: white;
+    font-family: philosopher;
+    text-align: left;
+    font-size: x-large;
+    flex-direction: column;
+    margin-left: 1em;
+
+
+
+
+
+}
+
+.boutlo {
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    align-items: center;
+    margin-left: 4em;
+}
+
+
+
+.social {
+    margin-right: 1rem;
+    margin-right: 100px;
+    margin-left: 1em;
+
+}
+
+.social svg {
+    width: 29px;
+    height: auto;
+
+}
+
+
+
+
