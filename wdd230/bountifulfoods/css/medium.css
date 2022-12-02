@@ -154,7 +154,77 @@
         text-shadow: 0 0 15px #f77140; 
     }
 
-
+    .costbo{
+    
+        grid-column: 1/8;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 100px 100px 50px;
+      
+        gap: 10px;
+        background-color: #f1cfc2;
+    
+        border: solid #f76834;
+    
+    }
+    
+    
+    
+    
+    div.costbo picture img {
+        height: 180px;
+        width: 180px;
+        object-fit: cover;
+        object-position: center;
+        box-shadow: 2px 4px 7px #f76834;
+        grid-column: 1/2;
+        grid-row: 1/3;
+        margin: 10px;
+        margin-top: 2em;
+    }
+    
+    div.costbo picture img:hover{
+        border-radius: 15px 150px;
+    }
+    
+    picture img.in {
+        animation: img-come-in 1s;
+    }
+    
+    @keyframes img-come-in {
+        from {
+            transform: scale(0.9);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1);
+            opacity: 1;
+        }
+    }
+    
+    
+    .ptu{
+        grid-row: 1;
+        grid-column: 2/8;
+        font-family:Philosopher ;
+        color: #f55216;
+        font-size: medium;
+margin-top: 4em;
+      
+    
+    }
+    
+    .tuh3{
+        grid-column: 2/6;
+            grid-row: 1;
+            text-align: center;
+            color:#f55216 ;
+            font-family: 'Cormorant Garamond', serif;;
+            font-size: x-large ;
+            text-shadow: 0 0 30px rgb(248, 206, 151);
+            
+    }
+    
 
 
     }
