@@ -202,8 +202,69 @@ picture img.in {
         
 }
 
+/*----------- Footer --------------*/
+
+footer {
+    background-color: #f77140;
+    padding: 5px 0;
+    display: grid;
+    align-items: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    margin: 0 auto;
 
 }
+
+
+.lofo{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    align-items: center;
+    margin-left: 4em;
+    grid-column: 3/5;
+    margin-left: 5em;
+}
+
+.h3foo{
+    color: white;
+    grid-row: 2;
+    grid-column: 1/6;
+    text-align: center;
+}
+
+.pfoo{
+    color: white;
+    grid-row: 3;
+    grid-column: 1/6;
+    text-align: center; 
+}
+
+
+.h2foo{
+    color: white;
+    grid-row: 4;
+    grid-column: 1/6;
+    text-align: center;  
+}
+
+.p2f{
+    color: white;
+    grid-row: 5;
+    grid-column: 1/6;
+    text-align: center;     
+}
+
+#lastModified{
+    color: white;
+    grid-row: 6;
+    grid-column: 1/6;
+    text-align: center;   
+}
+
+}
+
+
 
 
 
