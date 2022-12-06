@@ -4,8 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const anWind =document.querySelector('#ashumi');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Carlsbad&appid=27653fb63d536c2f8ab27205805b2786&units=imperial"
-
+const url = "https://api.openweathermap.org/data/2.5/weather?lat=32.4207&lon=-104.2288&appid=27653fb63d536c2f8ab27205805b2786&units=imperial"
 
 const requestData = async(url)=>{
     const response = await fetch(url);

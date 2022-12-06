@@ -319,5 +319,45 @@ footer {
 
 
 
+/*----------- Weather --------------*/
 
+.weath{
+    grid-column: 1/6;
+    background-color:#f1e5e1 ;
+    text-align: center;
+    
+}
+
+.weah2{
+    color: #f55216;
+    font-family:'Cormorant Garamond', serif;;
+}
+
+.pw{
+    color: #f55216;
+    font-family:philosopher; 
+}
+
+
+#current-temp{
+    color: rgb(96, 158, 197);
+}
+
+.sw{
+    color: rgb(96, 158, 197);  
+}
+
+.hu{
+    color: #f55216;
+    font-family:philosopher;  
+}
+
+.hus{
+    color: brown;
+}
+
+.ccw{
+    color: #f55216;
+    font-family:philosopher; 
+}
 
