@@ -14,7 +14,8 @@ form.addEventListener('submit',(e) => {
 
     let instrction = document.getElementById('instrction').value
 
-    if(firstname == "" || email == "" || phone == "" || instrction == ""){
+    if(firstname == "" || email == "" || phone == "" 
+    || instrction == ""){
         alert("Please enter all the fields")
     }
     else{
