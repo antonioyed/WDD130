@@ -248,7 +248,7 @@ picture img.in {
 
 
 
-
+/*------ Form .....*/
 
 
 
@@ -281,7 +281,7 @@ div.formjoi2 form{
         margin: 1rem;
     }
     
-    form .membership label{
+    form #form label{
         display: inline;
     }
     
@@ -323,12 +323,15 @@ div.formjoi2 form{
     
     .submitBtn:hover{
         transition: 0.2s;
-        background-color: goldenrod;
+        background-color:rgb(243, 243, 128) ;
     }
 
     
     
-  
+  .jsshow{
+    text-align: center;
+    background-color:rgb(96, 158, 197) ;
+  }
 
 
 
