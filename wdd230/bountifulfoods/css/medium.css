@@ -352,6 +352,9 @@ div.formjoi2 form{
   .jsshow{
     text-align: center;
     background-color:rgb(96, 158, 197) ;
+    width: 100%;
+    align-content: center;
+
   }
 
 
