@@ -103,8 +103,9 @@
 
 
     </header>
+   
     <div class="date"></div>
-
+   
 
     <!-- CONTENT -->
 
@@ -112,33 +113,49 @@
     <div class="contacti">
 
         <div class="formjoi2">
-
-
-            <form method="get" action="thankyou.html" class="formjoi">
-                <h3>Build a specialty drink</h3>
+         
+              <form id="form">
 
                 <fieldset>
-                    <legend>Personal Info</legend>
-                    <label> First Name<strong class="red">*</strong> <br><input type="text" name="fname" required
-                            autofocus class="input-box"></label>
-
-                    <label>Email Address<strong class="red">*</strong> <br><input type="email" name="email"
-                            placeholder="anye.yea@gmail.com" class="input-box" required></label>
-                    <label>Phone Number<strong class="red">*</strong><br><input type="tel" name="phone"
-                            class="input-box" required></label>
+              
 
 
+                <label for="firstname">Name*</label>
+                <input type="text" name="" id="firstname" placeholder="First Name" required><br>
 
-                    <label>Special instructions as you need <strong class="red">*</strong> <br><textarea type="textarea"
-                            name="businessDesc" class="input-box" placeholder="Briefly describe what more you want to add."
-                            required></textarea></label>
+                <label for="email">Email*</label>
+              <input type="email" name="" id="email" placeholder="Email" required><br>
+              
+              <label for="phone">phone*</label>
+              <input type="text" name="" id="phone" placeholder="Pone Number" required><br><br>
 
+             
+                <legend>Furuit types</legend>
+                <label> <input type="radio" name="" id="fr1" value=".fr1">
+                    <div>
+                        <div>
+                            <div class="fr1"></div>
+                        </div>
 
+           
+
+              <label for="phone">Special instrucction for mix</label>
+             <textarea name="" id="instrction" placeholder="Briefly describe What you want to add"></textarea><br><br>
+
+              <input type="submit" value="Register">
+              
+              
                 </fieldset>
-
-                <input type="date" name="date" hidden id="date">
-                <input type="submit" class="submitBtn" name="submitBtn" value="Make your dirnk real">
+              <div>
+                <h3>Your order details</h3>
+                
+                <aside></aside><br>
+                <div class="date2"></div>
+              <div id="result">
+            </div>
+              </div>
             </form>
+        
         </div>
 
 
@@ -169,6 +186,10 @@
 <script src="js/scripts.js"></script>
 
 <script src="js/njs.js"></script>
+
+<script src="js/form.js"></script>
+<script src="js/fruits.js"></script>
+
 
 
 </body>
