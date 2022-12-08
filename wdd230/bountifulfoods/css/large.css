@@ -330,11 +330,11 @@ div.formjoi2 form{
     
   .jsshow{
     text-align: center;
-    background-color:rgb(96, 158, 197) ;
+    background-color:rgb(173, 124, 196) ;
     width: 50%;
     align-content: center;
     margin-left: 20em;
-    
+    border-radius: 15px;
     color: rgb(245, 245, 94);
 
   }
@@ -343,16 +343,50 @@ div.formjoi2 form{
   #select{
     
     background-color:#f55216 ;
-    width: 30%;
+  
    
    font-family: philosopher;
     
     color: rgb(245, 245, 94);
   }
 
+  #select2{
+    
+    background-color:#f55216 ;
+  
+   
+   font-family: philosopher;
+    
+    color: rgb(245, 245, 94);
+  }
 
+  #select3{
+    
+    background-color:#f55216 ;
+  
+   
+   font-family: philosopher;
+    
+    color: rgb(245, 245, 94);
+  }
 
+#datea{
+  
+    padding: 10px .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(96, 158, 197);
+    border-radius: 0.25rem;
+    max-width: 500px;
+    line-height: 1.5rem;  
+    text-align: center;
+}
 
+strong{
+    color: #441403;
+}
 
 
 
