@@ -475,13 +475,22 @@ strong{
 }
 
 #select{
-    
-    background-color:#f55216 ;
+    background-color:#966250 ;
   
    
-   font-family: philosopher;
+    font-family: philosopher;
+     
+     color: rgb(245, 245, 94);
+     width: 100%;
+     padding: 10px .75rem;
+     font-size: 1rem;
+     line-height: 1.5;
+     
     
-    color: rgb(245, 245, 94);
+     border: 1px solid rgb(96, 158, 197);
+     border-radius: 0.25rem;
+     max-width: 500px;
+     line-height: 1.5rem
   }
 
   /*------ Score Element.....*/
