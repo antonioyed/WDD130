@@ -208,6 +208,7 @@ picture img.in {
     grid-column: 1/3;
     background-color:#f1e5e1 ;
     text-align: center;
+    margin: 7px;
     
 }
 
@@ -372,7 +373,18 @@ strong{
 
 
 
+/*------ Score Element.....*/
 
+#score_element{
+     color: #f55216;  
+}
+
+.score{
+    grid-column: 3/6;
+    background-color: rgb(200, 180, 209);
+    text-align: center;
+    margin: 7px;
+}
 
 
 

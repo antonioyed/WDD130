@@ -13,7 +13,7 @@ if(localStorage.getItem("score")){
     localStorage.setItem("score", "0")
 }
 
-input.submit = ()=>{
+input.onclick = ()=>{
     const currentScore = localStorage.getItem("score")
     localStorage.setItem("score" , parseInt(currentScore) + 1)
     scoreElement.innerText = localStorage.getItem("score")
