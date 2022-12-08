@@ -422,7 +422,7 @@ div.formjoi2 form{
     }
    
     
-    .submitBtn{
+    #submitBtn{
         color: white;
         border: none;
         padding: 1rem;
@@ -435,7 +435,7 @@ div.formjoi2 form{
         
     }
     
-    .submitBtn:hover{
+    #submitBtn:hover{
         transition: 0.2s;
         background-color:rgb(243, 243, 128) ;
     }
