@@ -391,7 +391,11 @@ strong{
     color: #441403;
 }
 
-
+.imgscorer{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+}
 
 
 

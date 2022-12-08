@@ -325,6 +325,7 @@ footer {
     grid-column: 1/6;
     background-color:#f1e5e1 ;
     text-align: center;
+    margin: 7px;
     
 }
 
@@ -482,3 +483,27 @@ strong{
     
     color: rgb(245, 245, 94);
   }
+
+  /*------ Score Element.....*/
+
+#score_element{
+    color: #f55216;  
+}
+
+.score{
+   grid-column: 1/6;
+   background-color: rgb(200, 180, 209);
+   text-align: center;
+   margin: 7px;
+}
+
+.h2sc{
+   font-family:'Cormorant Garamond', serif; ;
+   color: #441403;
+}
+
+.imgscorer{
+   width: 100px;
+   height: 100px;
+   margin: 3px;
+}
