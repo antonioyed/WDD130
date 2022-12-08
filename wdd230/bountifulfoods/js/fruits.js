@@ -1,67 +1,32 @@
-const URL = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+ let url = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+
+fetch(url)
+.then(response => response.json())
+.then(data => displayData(data))
+.catch(error => console.log(error))
 
 
-const requestfruit = async(URL) =>{
-    const aresponse = await fetch(URL);
-    console.log(aresponse);
+const displayData = (data) => {
+   console.log(data)
 
-    if (aresponse.status === 200){
-        const data = await aresponse.json();
-        console.log(data);
-        let fruit= data.fruit;
-
-
-
-        
-        displayfruit(fruit[2],'.fr1');
-        
-
-        
+    let fr1 = ""
+    for (let i = 4; i<data.length; i++){
+        fr1 = `<tr><td>${data[0].name}</td></tr>`
     }
-    else{
-        console.log('Something is malfungtioning with the URL sheck it out')
+
+    document.getElementById("fr1").innerHTML = fr1
+
+    let fr2 = ""
+    for (let i = 4; i<data.length; i++){
+        fr2 = `<tr><td>${data[3].name}</td></tr>`
     }
-};
 
-const displayfruit = (fruits,sectionCLass)=>{
-    
-    let name = document.createElement('p');
-   
-    let carbohydrates = document.createElement('p');
-    
-    let protein = document.createElement('p');
-    let fat = document.createElement('p');
-    let calories = document.createElement('p');
+    document.getElementById("fr2").innerHTML = fr2
 
-    name.textContent = `${fruits.name}`;
-    carbohydrates.textContent = `carbohydrates: ${fruits.carbohydrates}`;
-    protein.textContent = `protein: ${fruits.protein}`;
-    fat.textContent = `Fat: ${fruits.fat}`;
-    calories.textContent = `Calories: ${fruits.calories}`;
+    let fr3 = ""
+    for (let i = 4; i<data.length; i++){
+        fr3 = `<tr><td>${data[7].name}</td></tr>`
+    }
 
-    portrait.setAttribute('src', spotlights.imageurl);
-    portrait.setAttribute('alt',`Portrait of ${spotlights.name} - ${spotlights.order}th Latter-day President`);
-    portrait.setAttribute('loading', 'lazy');
-    website.setAttribute('href',`${spotlights.website}`);
-
-
-    document.querySelector(sectionCLass).appendChild(name);
-    document.querySelector(sectionCLass).appendChild(carbohydrates);
-    
-    document.querySelector(sectionCLass).appendChild(protein)
-
-    document.querySelector(sectionCLass).appendChild(fat);
-    document.querySelector(sectionCLass).appendChild(calories);
-    
-    
-
-
-
-
+    document.getElementById("fr3").innerHTML = fr3
 }
-
-
-requestfruit(URL);
-
-
-
