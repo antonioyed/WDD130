@@ -9,23 +9,24 @@ fetch(url)
 const displayData = (data) => {
    console.log(data)
 
-    let fr1 = ""
+    let fr1 =parseFloat
     for (let i = 4; i<data.length; i++){
-        fr1 = `<tr><td>${data[0].name}</td></tr>`
+        fr1 = `${data[0].name} `
+        
     }
 
     document.getElementById("fr1").innerHTML = fr1
 
     let fr2 = ""
     for (let i = 4; i<data.length; i++){
-        fr2 = `<tr><td>${data[3].name}</td></tr>`
+        fr2 = `${data[3].name}`
     }
 
     document.getElementById("fr2").innerHTML = fr2
 
     let fr3 = ""
     for (let i = 4; i<data.length; i++){
-        fr3 = `<tr><td>${data[7].name}</td></tr>`
+        fr3 = `${data[7].name}`
     }
 
     document.getElementById("fr3").innerHTML = fr3
