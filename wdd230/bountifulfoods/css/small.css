@@ -514,9 +514,7 @@ strong{
   
 }
 
-.score picture img:hover{
-    border-radius: 15px 150px;
-}
+
 
 picture img.in {
     animation: img-come-in 1s;
