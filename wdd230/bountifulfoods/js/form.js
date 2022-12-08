@@ -16,14 +16,12 @@ form.addEventListener('submit',(e) => {
 
     let select = document.getElementById('select').value
 
-    let select2 =document.getElementById('select2').value
-
-    let select3 = document.getElementById('select3').value
+   
 
     let datea  =document.getElementById('datea').value
 
     if(firstname == "" || email == "" || phone == "" 
-    || instrction == "" || select == "" || select2 == "" || select3 == ""){
+    || instrction == "" || select == ""){
         alert("Please enter all the fields")
     }
     else{
@@ -34,8 +32,7 @@ form.addEventListener('submit',(e) => {
         <h3> <strong>Date</strong>: ${datea}</h3>
         
         <h3> <strong>Fruit mix</strong>: ${select}</h3>
-        <h3> <strong>+ </strong>: ${select2}</h3>
-        <h3><strong> +</strong> : ${select3}</h3>
+       
         <h3> <strong>instrctions</strong>: ${instrction}</h3>
         `
     }
