@@ -336,10 +336,19 @@ div.formjoi2 form{
     margin-left: 20em;
     
     color: rgb(245, 245, 94);
+
   }
 
 
-
+  #select{
+    
+    background-color:rgb(96, 158, 197) ;
+    width: 30%;
+   
+   
+    
+    color: rgb(245, 245, 94);
+  }
 
 
 
