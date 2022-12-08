@@ -3,7 +3,7 @@ const scoreElement = document.getElementById("score_element")
 
 if(typeof(localStorage) === undefined){
 
-    console.log("Your browser not soport localstorage : C")
+    console.log("Your browser do not supports localstorage : C")
 }
 
 if(localStorage.getItem("score")){
