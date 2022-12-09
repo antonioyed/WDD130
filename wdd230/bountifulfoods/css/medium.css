@@ -184,7 +184,7 @@
     }
     
     div.costbo picture img:hover{
-        border-radius: 15px 150px;
+        border-radius: 100px 100px;
     }
     
     picture img.in {
@@ -432,7 +432,7 @@ strong{
 }
 
 .score picture img:hover{
-    border-radius: 15px 150px;
+    border-radius: 100px 100px;
 }
 
 picture img.in {
