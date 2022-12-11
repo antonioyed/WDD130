@@ -225,7 +225,7 @@ picture img.in {
 .day1{
     grid-column: 1/1;
     text-align: center;
-    margin-left: 2em;
+    margin-left: 0em;
     color: #441403;
     font-family: philosopher;
     font-size: larger;
