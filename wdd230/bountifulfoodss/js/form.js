@@ -30,9 +30,7 @@ form.addEventListener('submit',(e) => {
         <h3><strong> Email </strong>: ${email}</h3>
         <h3><strong> phone</strong>: ${phone}</he>
         <h3> <strong>Date</strong>: ${datea}</h3>
-        
         <h3> <strong>Fruit mix</strong>: ${select}</h3>
-       
         <h3> <strong>instrctions</strong>: ${instrction}</h3>
         `
     }
