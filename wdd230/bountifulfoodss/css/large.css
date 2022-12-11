@@ -226,19 +226,61 @@ picture img.in {
     grid-column: 1/1;
     text-align: center;
     margin-left: 2em;
+    color: #441403;
+    font-family: philosopher;
+    font-size: larger;
+}
+
+#day1{
+    font-family: philosopher;
+    color:#8a3212 ;
 }
 
 .day2{
     grid-column: 2/4; 
     text-align: center;
     margin-left: 2em;
+    color: #441403;
+    font-family: philosopher;
+    font-size: larger;
+}
+
+#day2{
+    font-family: philosopher;
+    color:#8a3212; 
 }
 
 .day3{
     grid-column: 4/6; 
     text-align: center;
     margin-left: 0em;
+    color: #441403;
+    font-family: philosopher;
+    font-size: larger;
 }
+
+#day3{
+    font-family: philosopher;
+    color:#8a3212 ; 
+}
+
+.h33{
+    color:#441403; 
+    font-family: 'Cormorant Garamond', serif;;
+
+}
+
+.d1{
+    color: #441403;
+    font-family: philosopher;
+}
+
+
+
+
+
+
+
 
 
 .weah2{
@@ -416,6 +458,7 @@ strong{
 
 #score_element{
      color: #f55216;  
+     margin-top: 2em;
 }
 
 .score{
@@ -435,14 +478,15 @@ strong{
 
 
 .score  picture img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
     object-position: center;
     box-shadow: 2px 4px 7px #f76834;
     grid-column: 1/2;
     grid-row: 1/3;
     margin: 10px;
+    margin-top: 2em;
   
 }
 
