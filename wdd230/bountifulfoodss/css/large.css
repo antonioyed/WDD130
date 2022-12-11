@@ -204,13 +204,42 @@ picture img.in {
 
 /*----------- Weather --------------*/
 
+
+
 .weath{
     grid-column: 1/3;
     background-color:#f1e5e1 ;
     text-align: center;
     margin: 7px;
+
     
 }
+
+.days{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid #441403 ;
+}
+
+
+.day1{
+    grid-column: 1/1;
+    text-align: center;
+    margin-left: 2em;
+}
+
+.day2{
+    grid-column: 2/4; 
+    text-align: center;
+    margin-left: 2em;
+}
+
+.day3{
+    grid-column: 4/6; 
+    text-align: center;
+    margin-left: 0em;
+}
+
 
 .weah2{
     color: #f55216;

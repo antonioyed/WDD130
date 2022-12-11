@@ -41,6 +41,40 @@ const displayResults = (weatherData)=>{
 
 
 
+    const api_key = '27653fb63d536c2f8ab27205805b2786'
+    const cityId =5460459
+    const imgURL = 'https://openweathermap.org/img/w/'
+    const fore = (n,d) => {
+        return (Math.round(n*10**d)/10**d)
+    }
+    fetch('https://api.openweathermap.org/data/2.5/weather?id='+cityId+'&units=imperial&appid=27653fb63d536c2f8ab27205805b2786')
+        .then(res => {
+            return res.json()
+        })
+        .then(jsonData => {
+            document.querySelector('.summary .currently').innerHTML = jsonData.weather[0].main+' <span>'+rnd(jsonData.main.temp,1)+'</span>&deg;F'
+          
+           
+          
+        })
+
+
+    fetch('https://api.openweathermap.org/data/2.5/forecast?id='+cityId+'&units=imperial&appid='+api_key)
+    .then(res => {
+        return res.json()
+    })
+    .then(jsonData => {
+        jsonData.list.filter(item => item['dt_txt'].includes('18:00:00'))
+            .forEach((elem,index) => {
+
+                document.querySelector('#day'+(index+1)+' + .weather-icon')
+                    .innerHTML = '<img src=\''+imgURL+elem.weather[0].icon+'.png\'>'
+                document.querySelector('#day'+(index+1)+' ~ span')
+                    .innerHTML = fore(elem.main.temp,1)+'&deg;F'
+            })
+    })
+
+
 
 }
 
