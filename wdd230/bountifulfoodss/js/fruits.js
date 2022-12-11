@@ -9,7 +9,7 @@ fetch(url)
 const displayData = (data) => {
    console.log(data)
 
-    let fr1 =parseFloat
+    let fr1 =String
     for (let i = 4; i<data.length; i++){
         fr1 = `<h3>${data[5].name}</h3> `
         
