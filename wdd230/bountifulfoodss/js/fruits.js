@@ -11,7 +11,7 @@ const displayData = (data) => {
 
     let fr1 =parseFloat
     for (let i = 4; i<data.length; i++){
-        fr1 = `${data[0].name} `
+        fr1 = `${data[5].name} `
         
     }
 
@@ -19,14 +19,14 @@ const displayData = (data) => {
 
     let fr2 = ""
     for (let i = 4; i<data.length; i++){
-        fr2 = `${data[3].name}`
+        fr2 = `${data[8].name}`
     }
 
     document.getElementById("fr2").innerHTML = fr2
 
     let fr3 = ""
     for (let i = 4; i<data.length; i++){
-        fr3 = `${data[7].name}`
+        fr3 = `${data[4].name}`
     }
 
     document.getElementById("fr3").innerHTML = fr3
