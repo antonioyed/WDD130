@@ -49,17 +49,8 @@ const displayResults = (weatherData)=>{
     const fore = (n,d) => {
         return (Math.round(n*10**d)/10**d)
     }
-    fetch('https://api.openweathermap.org/data/2.5/weather?id='+cityId+'&units=imperial&appid=27653fb63d536c2f8ab27205805b2786')
-        .then(res => {
-            return res.json()
-        })
-        .then(jsonData => {
-            document.querySelector('.summary .currently').innerHTML = jsonData.weather[0].main+' <span>'+fore(jsonData.main.temp,1)+'</span>&deg;F'
-          
-           
-          
-        })
-
+   
+    
 
     fetch('https://api.openweathermap.org/data/2.5/forecast?id='+cityId+'&units=imperial&appid='+api_key)
     .then(res => {
