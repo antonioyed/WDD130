@@ -41,7 +41,7 @@ const displayResults = (weatherData)=>{
 
 
 
-               //-----Forecast--------//
+               //----- 3 Days Forecast--------//
 
     const api_key = '27653fb63d536c2f8ab27205805b2786'
     const cityId =5460459
