@@ -326,6 +326,7 @@ footer {
     background-color:#f1e5e1 ;
     text-align: center;
     margin: 7px;
+    border: solid #f76834;
     
 }
 
@@ -595,6 +596,7 @@ strong{
    background-color: rgb(200, 180, 209);
    text-align: center;
    margin: 7px;
+   border: solid #f76834;
 }
 
 .h2sc{
