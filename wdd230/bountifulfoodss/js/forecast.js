@@ -41,6 +41,8 @@ const displayResults = (weatherData)=>{
 
 
 
+               //-----Forecast--------//
+
     const api_key = '27653fb63d536c2f8ab27205805b2786'
     const cityId =5460459
     const imgURL = 'https://openweathermap.org/img/w/'
@@ -52,7 +54,7 @@ const displayResults = (weatherData)=>{
             return res.json()
         })
         .then(jsonData => {
-            document.querySelector('.summary .currently').innerHTML = jsonData.weather[0].main+' <span>'+rnd(jsonData.main.temp,1)+'</span>&deg;F'
+            document.querySelector('.summary .currently').innerHTML = jsonData.weather[0].main+' <span>'+fore(jsonData.main.temp,1)+'</span>&deg;F'
           
            
           
