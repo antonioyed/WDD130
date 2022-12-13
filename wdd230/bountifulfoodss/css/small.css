@@ -854,6 +854,7 @@ picture img.in {
         height: 100px;
         width: 100px;
         border-radius: 50%;
+        box-shadow: 2px 4px 7px #f76834;
         
     }
 

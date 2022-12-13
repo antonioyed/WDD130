@@ -748,6 +748,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     height: 160px;
     width: 160px;
     border-radius: 50%;
+    box-shadow: 2px 4px 7px #f76834;
     
 }
 
