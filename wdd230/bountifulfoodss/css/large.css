@@ -462,6 +462,7 @@ strong{
 #score_element{
      color: #f55216;  
      margin-top: 2em;
+     text-shadow: 0 0 15px goldenrod;
 }
 
 .score{
