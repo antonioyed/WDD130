@@ -367,8 +367,8 @@ footer {
 .days{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 2px solid #441403 ;
-    background-color:rgb(96, 158, 197) ;
+   
+    background-color:rgba(96, 158, 197, 0.468);
 }
 
 

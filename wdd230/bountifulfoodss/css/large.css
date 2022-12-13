@@ -221,7 +221,7 @@ picture img.in {
 .days{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border: 2px solid #441403 ;
+    
 }
 
 
