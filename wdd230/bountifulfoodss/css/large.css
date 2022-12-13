@@ -525,9 +525,10 @@ picture img.in {
 .imabout{
     grid-column: 1/7;
     width: 100%;
-    height: 80%;
+    height: 100%;
     z-index: -1;
-    grid-row: 1;
+    grid-row: 1/2;
+ 
     
 }
 
@@ -559,7 +560,7 @@ picture img.in {
     grid-row: 1;
     background-color: rgba(255, 251, 251, 0.753) ;
     text-align: center;
-    margin-top: 10em;
+    margin-top: 20em;
     height: 45%;
     width: 97%;
     border-radius: 20px;
@@ -568,11 +569,122 @@ picture img.in {
   }
 
 
+/*------MAPS-------*/
+
+.map{
+background-color:rgba(216, 209, 219, 0.452) ;
+grid-row: 2;
+height: 100%;
+grid-column: 1/7;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
 
+}
 
 
+.h3map2{
+      
+    border: 2px solid rgb(60, 126, 126) ;
+   grid-column: 1/2;
+    background-color: #96615015;
+    margin: 20px;
+    height: 60%;
+    width: 58%;
+    text-align: center;
+   
+   
+}
 
+.gmap_canvas{
+    margin-bottom: 2em;
+}
+
+.form2{
+    grid-column: 1/4;
+    margin: 1em;
+    background-color: #96615015;
+    font-family: philosopher;
+    border-radius: 20px;
+    width: 85%;
+    grid-row: 1;
+    margin-top: 5em;
+    margin-left: 2em;
+    
+}
+
+.form2 fieldset{
+    border-radius: 20px;
+}
+
+.conab{
+   grid-column: 1/6;
+   text-align: center;
+   font-family:'Cormorant Garamond', serif; ;
+   margin-top: 1em;
+   grid-row: 1;
+}
+
+
+.submitBtn{
+    color: white;
+    border: none;
+    padding: 1rem;
+    background-color: rgb(93, 111, 121);
+    cursor: pointer;
+    margin: 1rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    align-items: center;
+    
+}
+
+.submitBtn:hover{
+    transition: 0.2s;
+    background-color:rgb(243, 243, 128) ;
+}
+
+
+.cont2{
+    grid-column: 2/5;
+    grid-row: 1;
+    height: 200px;
+    width: 200px;
+    margin-top: 14em;
+    margin-left: 2.5em;
+   
+
+}
+
+.info{
+    grid-column: 3/6;
+    grid-row: 1;
+    background-color: #96615015;
+    height: 60%;
+    width: 60%;
+    margin-top: 10em;
+    margin-left: 15em;
+    border: 2px solid #441403;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.inf{
+    grid-column: 1/5;
+    grid-row: 1;
+    text-align: center;
+    margin-top: 1em;
+    font-family:'Cormorant Garamond', serif; ;
+}
+
+.inlis{
+    grid-column: 1/5; 
+    grid-row: 1;
+    margin-top: 5em;
+    font-size: larger;
+    font-family: philosopher;
+}
 
 
 
