@@ -743,6 +743,20 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 
+.cont23{
+    
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    
+}
+
+
+
+
+
+
+
 /*----------- Footer --------------*/
 
 footer {

@@ -753,7 +753,13 @@ picture img.in {
         border-radius: 20px;
     }
 
-
+    .cont23{
+    
+        height: 160px;
+        width: 160px;
+        border-radius: 50%;
+        
+    }
 
 
 
