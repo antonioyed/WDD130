@@ -533,7 +533,7 @@ picture img.in {
     font-family:'Cormorant Garamond', serif; ;
     grid-column: 3/5;
     grid-row: 1;
-    margin-top: 1em;
+  
     text-align: center;
    color: rgb(7, 90, 90);
 
@@ -544,10 +544,11 @@ picture img.in {
     font-family:philosopher ;
     grid-column: 3/5;
     grid-row: 1;
-    margin-top: 1em;
+    
     text-align: left;
    color: rgb(5, 66, 66); 
    margin: 10px;
+   font-size: large;
 }
 
 .diab{
@@ -557,7 +558,8 @@ picture img.in {
     background-color: rgba(255, 251, 251, 0.753) ;
     text-align: center;
     margin-top: 10em;
-    height: 32%;
+    height: 45%;
+    width: 97%;
     border-radius: 20px;
    
 
