@@ -474,6 +474,7 @@ strong{
 
 #score_element{
     color: #f55216;  
+    text-shadow: 0 0 15px gold;
 }
 
 .score{
