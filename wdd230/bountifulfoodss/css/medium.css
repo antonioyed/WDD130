@@ -663,6 +663,7 @@ picture img.in {
         width: 150px;
         margin-top: 12em;
         margin-left: 5em;
+        box-shadow: 2px 4px 7px #f76834;
        
     
     }

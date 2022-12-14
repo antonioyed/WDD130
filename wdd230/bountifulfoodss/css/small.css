@@ -754,6 +754,7 @@ picture img.in {
         margin-top: 13em;
         margin-left: .4em;
         border-radius: 100%;
+        box-shadow: 2px 4px 7px #f76834;
        
     
     }
