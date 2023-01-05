@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+@media only screen and (min-width: 2rem) {
+
+/* -------------------------Small ------------------------------------- */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+nav ul{
+    border-top: 1px solid #666;
+    border-bottom:1px solid #666 ;
+}
+nav a{
+    color: #666 ;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style:none;
+    text-align: center;
+    font-size: larger;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+li :active{
+   color: #DEB887  ;
+}
+li :hover{
+    color: #00ddff;
+}
+
+h1, h2{
+    font-family: lora;
+    text-align: center;
+
+ }
+
+ .post-date{
+    text-align: center;
+    font-size: x-large;
+ }
+
+}
+
+/* -------------------------------------------------------Medium  --------------------------------------------------------------*/
+
+@media only screen and (min-width: 35rem) {
+
+
+
+    a{
+        color: blue;
+        
+    }
+    
+    h1, h2{
+        font-family: lora;
+        
+     }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------Large ----------------------------------------------------------------- */
+
+
+@media only screen and (min-width: 64rem) {
+
+ 
+
+h1, h2{
+   font-family: lora;
+   
+}
+
+a{
+    color: green;
+   
+}
+
+}
