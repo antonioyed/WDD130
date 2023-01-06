@@ -187,7 +187,7 @@ h1, h2{
 @media only screen and (min-width: 64rem) {
 
   body{
-    max-width: 1500px;
+    max-width: 900px;
     align-items: center;
     align-content: center;
     margin: auto;
