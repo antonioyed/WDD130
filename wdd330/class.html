@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+class User{
+    constructor(name){
+        this.name= name;
+
+    }
+
+    sayHi() {
+        console.log(this.name);
+    }
+}
+
+let user = new User("Antonio");
+user.sayHi();
+
+</script>
+
+
+<script>
+let usera = {
+    name: "Antonio",
+    age: 31,
+
+    sayage(){
+        console.log(this.age);
+    }
+};
+
+usera.sayage();
+
+</script>
+
+
+
+<script>
+
+class Blackhole{
+
+constructor(name){
+    this.ligh = 0;
+    this.name = name;
+    
+}
+
+luz(ligh){
+    this.ligh = ligh;
+    console.log(`A ${this.name} lighs ${ligh} galaxies together`);
+}
+
+ead(){
+    this.ligh = 0;
+    console.log(`A ${this.name}, ead tausands of stars`);
+}
+
+}
+
+class Massiveblackhoel extends Blackhole{
+    superead() {
+        console.log(`A Massive ${this.name} ead tow tousand times more stars than other normal Black holes. `);
+    
+    }
+
+    ead() {
+        super.ead();
+        this.superead();
+    }
+}
+
+let blackHole = new Massiveblackhoel ("Black Hole");
+blackHole.luz(10000);
+blackHole.ead();
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>

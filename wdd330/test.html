@@ -15,9 +15,9 @@ let no = "You can not be here";
 
 function getage(){
     if (age>18){
-        console.log(`${welcome}`);
+        console.table(`${welcome}`);
     }else{
-        console.log(`${no}`);
+        console.table(`${no}`);
     }
 }
 
@@ -34,14 +34,70 @@ let user= {
     age: 30,
 };
 
-console.log(`Name: ${user.name}`);
-console.log(`Age: ${user.age}`);
+console.table(`Name: ${user.name}`);
+console.table(`Age: ${user.age}`);
 
 
 </script>
 
 
 
+
+<script>
+
+    //calculator
+    let calculator = {
+  sum() {
+    return this.a + this.b;
+  },
+
+  mul() {
+    return this.a * this.b;
+  },
+
+  di(){
+ return this.a / this.b;
+  },
+
+  read() {
+    this.a = +prompt('a?', 0);
+    this.b = +prompt('b?', 0);
+  }
+};
+
+calculator.read();
+console.table( calculator.sum() );
+console.table( calculator.mul() );
+console.table(calculator.di() );
+
+</script>
+
+
+
+
+<script>
+  function Calculator() {
+
+this.read = function() {
+  this.a = +prompt('a?', 0);
+  this.b = +prompt('b?', 0);
+};
+
+this.sum = function() {
+  return this.a + this.b;
+};
+
+this.mul = function() {
+  return this.a * this.b;
+};
+}
+
+let calculato = new Calculator();
+calculator.read();
+
+alert( "Sum=" + calculator.sum() );
+alert( "Mul=" + calculator.mul() );
+</script>
 
 </body>
 </html>
