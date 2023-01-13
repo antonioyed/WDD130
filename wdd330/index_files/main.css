@@ -240,7 +240,7 @@ h1, h2{
         list-style:none;
       
         font-size: larger;
-        color: #333;
+        color: #333 !important;
         font-family: Helvetica, Arial, sans-serif;
         
     }
