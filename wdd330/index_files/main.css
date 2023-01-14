@@ -12,6 +12,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 
+
+
 nav ul{
     border-top: 1px solid #666;
     border-bottom:1px solid #666 ;
@@ -187,7 +189,7 @@ h1, h2{
 
 
 
-  header h1 a{
+  header h1 a {
     font-size: xx-large;
     margin-left: 2em;
   }
@@ -314,5 +316,7 @@ h1, h2{
         border-bottom: 1px none;
        
     }
+
+   
 }
 
