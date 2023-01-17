@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple DOM example</title>
+</head>
+
+
+
+
+<body>
+    <section>
+        <img src="images/dinosaur.png"
+            alt="A red Tyrannosaurus Rex: A two legged dinosaur standing upright like a human, with small arms, and a large head with lots of sharp teeth.">
+        <p>Here we will add a link to the <a href="https://www.mozilla.org/">Mozilla homepage</a></p>
+        <h1 id="pa"></h1>
+    </section>
+
+    <script>
+
+        const link = document.querySelector("a");
+        link.textContent = "Antonio Developer Network";
+        link.href = "https://antonioyed.github.io//WDD130/wdd330/index.html";
+
+        const text = document.getElementById("pa");
+        text.textContent = " This is a test site to prove myself that I can be good in JavaScript";
+        text.style.color = "red";
+        text.style.fontSize = "large";
+
+        const tion = document.querySelector("section");
+        const pp = document.createElement('p');
+        pp.textContent = "I love doing this.";
+        tion.appendChild(pp);
+
+        const nod = document.createTextNode(" — the premier source for web development knowledge.");
+
+        const linkPara = document.querySelector('p');
+        linkPara.appendChild(nod);
+
+    </script>
+
+
+
+</body>
+
+</html>
