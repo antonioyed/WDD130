@@ -62,6 +62,10 @@ main{
 text-decoration: none;
 }
 
+.btn-suscribe a{
+    text-decoration: none;
+    color: #fff;
+}
 .suscribe-banner .buton:hover{
     background-color:#5a2180 ;
 }
