@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+main{
+    text-align: center;
+}
+
+
+.suscribe-banner{
+    display: none;
+    background-color: rgb(199, 161, 161) ;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 300px ;
+    line-height: 150%;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 12em;
+    left: 36em;
+    z-index: 100;
+    padding-top: 40px;
+    box-shadow: 0px 2 px 20px 10px rgb(222,222,222,.25);
+    text-align: center;
+}
+
+.suscribe-banner.active{
+    display: block;
+}
+
+
+.suscribe-banner .tent{
+    max-width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.suscribe-banner .title,
+.suscribe-banner .paragr{
+    margin-bottom: 15px;
+}
+
+.suscribe-banner .buton{
+    width: 100%;
+    background-color: #644f72;
+    border: none;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 15px 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s  ease all;
+    border-radius:5px ;
+    margin-bottom: 15px;
+    font-size: larger;
+    text-decoration: none;
+}
+.ba{
+text-decoration: none;
+}
+
+.suscribe-banner .buton:hover{
+    background-color:#5a2180 ;
+}
+.suscribe-banner .enlac{
+    text-decoration: none;
+    font-size: large;
+}
+
+.fnd-banner{
+    display: none;
+    background: rgba(42, 1, 53, 0.2);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+
+}
+.fnd-banner.active{
+    display: block;
+}
