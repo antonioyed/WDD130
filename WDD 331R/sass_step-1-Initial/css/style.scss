@@ -4,6 +4,10 @@
 @import "main";
 
 
+
+
+
+
 #feature {  margin-bottom: 20px; float: left; position: relative; }
 #feature img { position: relative; }
 .new { float: left; 
@@ -245,7 +249,7 @@ p.reviewer { clear: both; font-size: .95em; margin: 15px 4px; }
 #listing{
  ul {
   line-height: 50px;
-     @include rounded(10px)
+     @included rounded(10px)
   
 }
  img { padding-right: 8px; }
@@ -267,7 +271,7 @@ p.reviewer { clear: both; font-size: .95em; margin: 15px 4px; }
   transition: all .3s ease-in;
 }
       a:hover {
-  @include rounded(8px)
+  @included rounded(8px)
   background-color: $accent;
 }   
      
