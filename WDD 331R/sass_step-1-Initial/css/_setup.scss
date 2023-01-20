@@ -1,0 +1,20 @@
+/* VARIABLES */
+$base:    #000;
+$accent:  #C2CF00;
+$basefont: "Trebuchet MS", san-serif;
+
+
+%transition{
+  -moz-transition: background-color .3s ease-in;
+  -webkit-transition: background-color .3s ease-in;
+  -o-transition: background-color .3s ease-in;
+  transition: background-color .3s ease-in;  
+}
+
+@mixin rounded($radius: 7px){
+     -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -o-border-radius: $radius;
+  border-radius: $radius;
+  behavior: url(PIE.htc);
+}
