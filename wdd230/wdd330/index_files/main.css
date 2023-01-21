@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+@media only screen and (min-width: 2rem) {
+
+/* -------------------------Small ------------------------------------- */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+
+
+nav ul{
+    border-top: 1px solid #666;
+    border-bottom:1px solid #666 ;
+}
+nav a{
+    color: #666 ;
+    text-transform: uppercase;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style:none;
+    text-align: center;
+    font-size: larger;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+li :active{
+   color: #DEB887  ;
+}
+li :hover{
+    color: #00ddff;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;  
+}
+
+h1, h2{
+    font-family: lora;
+    text-align: center;
+ 
+
+ }
+
+ h2 a{
+    color: #666;
+ }
+
+ h1 a{
+    color: #333;
+ }
+ .post-date{
+    text-align: right;
+    font-size: x-large;
+    border-bottom: 1px solid #666;
+    text-transform: uppercase;
+    
+ }
+
+
+ img{
+    width: 150px;
+    height: 150px;
+    margin-left: 3.5em;
+    
+ }
+
+
+ main{
+  display: grid;
+    align-items: center;
+    
+ }
+
+
+
+}
+
+/* -------------------------------------------------------Medium  --------------------------------------------------------------*/
+
+@media only screen and (min-width: 35rem) {
+
+
+
+    nav ul{
+        border-top: 1px solid #666;
+        border-bottom:1px solid #666 ;
+    }
+    nav a{
+        color: #666 ;
+        
+    }
+    
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    li {
+        list-style:none;
+        text-align: center;
+        font-size: larger;
+        color: #333;
+        font-family: Helvetica, Arial, sans-serif;
+        
+    }
+    li :active{
+       color: #DEB887  ;
+    }
+    li :hover{
+        color: #00ddff;
+    }
+    
+    p{
+        font-family: Helvetica, Arial, sans-serif;  
+    }
+    
+    h1, h2{
+        font-family: lora;
+        text-align: center;
+     
+    
+     }
+    
+     h2 a{
+        color: #666;
+     }
+    
+     h1 a{
+        color: #333;
+     }
+     .post-date{
+        text-align: right;
+        font-size: x-large;
+        border-bottom: 1px solid #666;
+        
+     }
+    
+    
+     img{
+        width: 200px;
+        height: 200px;
+        margin-left: 15em;
+        
+     }
+    
+    
+     main{
+      display: grid;
+        align-items: center;
+        
+     }
+
+
+}
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------Large ----------------------------------------------------------------- */
+
+
+@media only screen and (min-width: 64rem) {
+
+  body{
+    max-width: 1200px;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+  }
+
+
+
+  header h1 a {
+    font-size: xx-large;
+    margin-left: 2em;
+  }
+
+    nav ul li a {
+        padding: .5rem .5rem;
+       
+        
+    
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 1px solid #666;
+        border-bottom:1px solid #666 ;
+        
+
+    }
+
+
+    nav ul{
+        border-top: none;
+        border-bottom:none ;
+        
+        display: flex;
+        grid-column: 2/3;
+      
+        
+        
+        
+        
+    }
+
+
+
+    
+    nav a{
+        color: #666 ;
+       
+       
+    }
+    
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    li {
+        list-style:none;
+      
+        font-size: larger;
+        color: #333 !important;
+        font-family: Helvetica, Arial, sans-serif;
+        
+    }
+    li :active{
+       color: #DEB887  ;
+    }
+    li :hover{
+        color: #00ddff;
+    }
+    
+    p{
+        font-family: Helvetica, Arial, sans-serif;  
+    }
+    
+    h1, h2{
+        font-family: lora;
+        text-align: center;
+     
+    
+     }
+    
+     h2 a{
+        color: #666;
+     }
+    
+     h1 a{
+        color: #333;
+     }
+ 
+
+    
+     img{
+        width: 150px;
+        height: 200px;
+        margin-left: 11em;
+        
+     }
+    
+    
+     article{
+        grid-column: 2/5;
+      display: grid;
+      
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+     }
+
+     article.post-date{
+        grid-column: 1/3;
+        
+       
+       
+
+       
+     }
+
+     article.post-content{
+        grid-column: 3/6;
+
+     }
+
+     main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+     }
+
+    .post-date{
+        font-family: Helvetica, Arial, sans-serif;
+        margin-top: 1em;
+      margin-right: .8em;
+        border-bottom: 1px none;
+       
+    }
+
+   
+}
+
