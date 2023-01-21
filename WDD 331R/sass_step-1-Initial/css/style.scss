@@ -20,12 +20,13 @@
   height: 35px;
   width: 185px;
   background-color: $base;
-  background-color: rgba(78,79,72,.8);
+  background-color: rgba(91, 99, 50, 0.8);
   z-index: 100;
   font-weight: bold;
   padding: 10px;
   color: white;
  @extend %transition;
+
 }
 
 
@@ -249,7 +250,7 @@ p.reviewer { clear: both; font-size: .95em; margin: 15px 4px; }
 #listing{
  ul {
   line-height: 50px;
-     @included rounded(10px)
+     @included rounded(10px);
   
 }
  img { padding-right: 8px; }
