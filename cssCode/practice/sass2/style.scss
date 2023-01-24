@@ -1,0 +1,31 @@
+//VARS
+$color-base: #669;
+$color-background: lighten($color-base, 40);
+$color-dark: darken($color-base, 20);
+$color-accent: saturate($color-base, 20);
+$color-highlight: lighten(saturate($color-base, 20),20);
+
+
+//Styles
+.chip{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #000;
+    display: inline-block;
+    background: $color-base;
+    &:nth-of-type(2){
+        background: $color-background;
+    }
+
+    &:nth-of-type(3){
+        background: $color-dark;
+    }
+
+    &:nth-of-type(4){
+        background: $color-accent;
+    }
+
+    &:nth-of-type(5){
+        background: $color-highlight;
+    }
+}
