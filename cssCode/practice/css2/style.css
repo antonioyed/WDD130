@@ -3,14 +3,25 @@
   height: 4rem;
   border: 1px solid #000;
   display: inline-block;
-  background: #669; }
+  background: #696; }
   .chip:nth-of-type(2) {
-    background: #e0e0eb; }
+    background: #e0ebe0; }
   .chip:nth-of-type(3) {
-    background: #3d3d5c; }
+    background: #3d5c3d; }
   .chip:nth-of-type(4) {
-    background: #4d4db3; }
+    background: #4db34d; }
   .chip:nth-of-type(5) {
-    background: #9494d1; }
+    background: #94d194; }
+
+.analogous .chip {
+  background: #696; }
+  .analogous .chip:nth-of-type(2) {
+    background: #e0ebe0; }
+  .analogous .chip:nth-of-type(3) {
+    background: #3d5c3d; }
+  .analogous .chip:nth-of-type(4) {
+    background: #4db380; }
+  .analogous .chip:nth-of-type(5) {
+    background: #b3d194; }
 
 /*# sourceMappingURL=style.css.map */

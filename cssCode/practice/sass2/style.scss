@@ -1,9 +1,17 @@
 //VARS
-$color-base: #669;
+$color-base: #696;
 $color-background: lighten($color-base, 40);
 $color-dark: darken($color-base, 20);
 $color-accent: saturate($color-base, 20);
 $color-highlight: lighten(saturate($color-base, 20),20);
+
+
+$color-analogous-base: #696;
+$color-analogous-background: lighten($color-base, 40);
+$color-analogous-dark: darken($color-base, 20);
+$color-analogous-accent: saturate(adjust-color($color-base,$hue:30) , 20);
+$color-analogous-highlight: lighten(saturate(adjust-color($color-base,$hue:330) , 20),20);
+
 
 
 //Styles
@@ -27,5 +35,26 @@ $color-highlight: lighten(saturate($color-base, 20),20);
 
     &:nth-of-type(5){
         background: $color-highlight;
+    }
+}
+
+.analogous{
+    .chip{
+        background: $color-analogous-base;
+        &:nth-of-type(2){
+            background: $color-analogous-background;
+        }
+
+        &:nth-of-type(3){
+            background: $color-analogous-dark;
+        }
+
+        &:nth-of-type(4){
+            background: $color-analogous-accent;
+        }
+
+        &:nth-of-type(5){
+            background: $color-analogous-highlight;
+        }
     }
 }
