@@ -6,11 +6,11 @@ $color-accent: saturate($color-base, 20);
 $color-highlight: lighten(saturate($color-base, 20),20);
 
 
-$color-analogous-base: #696;
-$color-analogous-background: lighten($color-base, 40);
-$color-analogous-dark: darken($color-base, 20);
-$color-analogous-accent: saturate(adjust-color($color-base,$hue:30) , 20);
-$color-analogous-highlight: lighten(saturate(adjust-color($color-base,$hue:330) , 20),20);
+$color-analogous-base: #966;
+$color-analogous-background: lighten($color-analogous-base, 40);
+$color-analogous-dark: darken($color-analogous-base, 20);
+$color-analogous-accent: saturate(adjust-color($color-analogous-base,$hue:30) , 20);
+$color-analogous-highlight: lighten(saturate(adjust-color($color-analogous-base,$hue:330) , 20),20);
 
 
 

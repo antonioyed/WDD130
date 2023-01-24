@@ -14,14 +14,14 @@
     background: #94d194; }
 
 .analogous .chip {
-  background: #696; }
+  background: #966; }
   .analogous .chip:nth-of-type(2) {
-    background: #e0ebe0; }
+    background: #ebe0e0; }
   .analogous .chip:nth-of-type(3) {
-    background: #3d5c3d; }
+    background: #5c3d3d; }
   .analogous .chip:nth-of-type(4) {
-    background: #4db380; }
+    background: #b3804d; }
   .analogous .chip:nth-of-type(5) {
-    background: #b3d194; }
+    background: #d194b3; }
 
 /*# sourceMappingURL=style.css.map */
