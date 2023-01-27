@@ -1,4 +1,4 @@
-@use 'variables' as *; //this puts all the variables in the global namespace.
+@import 'variables' ; //this puts all the variables in the global namespace.
 @use 'atoms';
 //@use 'molecules';
 //@use 'organisms' as o;
@@ -21,12 +21,12 @@ body {
 }
 
 section {
-  background-color: white;
+  background-color: $section-color;
   padding: 1em;
   margin: 1em;
 }
 .colors {
-  @include atoms.set-flex();
+
   > h3 {
     width: 100%;
     flex: 1 0 100%;
@@ -51,16 +51,11 @@ section {
   background-color: $accent2;
 }
 .text-dark {
-  background-color: $text-dark;
+  background-color: $lcolor;
 }
 .element {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
 }
-.uppercase {
-  @include atoms.uppercase;
-}
-.uppercase-light {
-  @include atoms.uppercase($text-light);
-}
+
