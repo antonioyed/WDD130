@@ -1,19 +1,13 @@
 @use 'variables' as *;
 @use 'atoms';
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 
 
-[role="banner"] {
-  > h1 {
-    // notice we have to reference the 'atoms' namespace to find our mixins.
-    @include atoms.uppercase($text-light);
-  }
-}
+
 .summary {
-  @include atoms.uppercase($text-light);
+ 
   padding: 15% 0;
-  p:last-child {
-    @include atoms.divider;
-  }
+
   a {
     color: $text-light; //in this case the link wants to be light instead of the default dark
   }
@@ -23,4 +17,17 @@
   color: $text-dark;
   margin-left: -30%;
   padding: 5% 5% 5% 30%;
+}
+
+main{
+  h2{
+    font-family: Aokahori;
+  }
+}
+
+header{
+  h1{
+font-family:Croissant+One ;
+background: $grey-sidebar;
+  }
 }

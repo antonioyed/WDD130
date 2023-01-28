@@ -1,4 +1,4 @@
-@import "organisms" as o;
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @use 'variables' as *;
 h2,
 h3,
@@ -53,6 +53,29 @@ a {
 
 a:hover {
   border-color: #669190; }
+
+@use 'variables' as *;
+@use 'atoms';
+.summary {
+  padding: 15% 0; }
+  .summary a {
+    color: #fff; }
+
+.preamble {
+  background: rgba(255, 255, 255, 0.9);
+  color: #fff7f7;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%; }
+
+main h2 {
+  font-family: Aokahori; }
+
+header h1 {
+  font-family: CroissantOne;
+  background: #FA9BB7; }
+
+.intro {
+  padding: 5%; }
 
 * {
   box-sizing: border-box; }
