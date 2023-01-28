@@ -1,4 +1,4 @@
-@use 'variables' as *;
+@import 'variables' ;
 
 // mixins to take care of repeated patterns.
 @mixin set-font($size: 1em, $line-height: normal, $font: $fonts-body) {
@@ -23,10 +23,13 @@
   margin-top: 1em;
   padding-top: 1.5em;
 }
-h2,
+
+h2{
+  margin: 0;
+}
 h3,
 h4 {
-  font-family: $fonts-headline;
+  
   margin: 0;
 }
 h1 {

@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+h2 {
+  margin: 0; }
 
-h2,
 h3,
 h4 {
-  font-family: "Croissant One", cursive;
   margin: 0; }
 
 h1 {
@@ -70,7 +70,7 @@ a:hover {
   padding: 5% 5% 5% 30%; }
 
 main h2 {
-  font-family: "Aclonica", sans-serif; }
+  font-family: "Aokahori"; }
 
 header h1 {
   background: #FA9BB7; }
