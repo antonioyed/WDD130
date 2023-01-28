@@ -1,7 +1,7 @@
 @import 'variables' ; //this puts all the variables in the global namespace.
-@use 'atoms';
+@import 'atoms';
 //@use 'molecules';
-//@use 'organisms' as o;
+@import 'organisms' as o;
 
 * {
   box-sizing: border-box;
