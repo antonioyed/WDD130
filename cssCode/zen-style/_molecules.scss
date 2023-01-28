@@ -1,6 +1,8 @@
 @use 'variables' as *;
 @use 'atoms';
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
 
 
 
@@ -21,25 +23,23 @@
 
 main{
   h2{
-    font-family: Aokahori;
+    font-family: $pincipalfont;
+  }
+
+  section{
+    p{
+      
+    }
   }
 }
 
 header{
   h1{
-font-family:Croissant+One ;
+
 background: $grey-sidebar;
   }
 }
 
 
-  
-    
-   
-  
 
-  h4{
-    font-family: Travelast;
 
-    
-}
