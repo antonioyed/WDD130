@@ -74,6 +74,11 @@ header h1 {
   font-family: CroissantOne;
   background: #FA9BB7; }
 
+section p {
+  font-family: CroissantOne; }
+section h4 {
+  font-family: Travelast; }
+
 .intro {
   padding: 5%; }
 
