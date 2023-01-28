@@ -10,12 +10,12 @@ body {
   font-family: verdana, arial, sans-serif;
   font-size: 85%;
   color: #fff7f7;
-  background-color: #52C7C3;
+  background-color: #47a29f;
   margin: 0;
   padding: 1em; }
 
 section {
-  background-color: #6c9593;
+  background-color: #4b5554;
   padding: 1em;
   margin: 1em; }
 
@@ -32,7 +32,7 @@ section {
   border: 1px solid; }
 
 .primary {
-  background-color: #52C7C3; }
+  background-color: #47a29f; }
 
 .accent1 {
   background-color: #669190; }
