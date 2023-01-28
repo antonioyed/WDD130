@@ -74,9 +74,7 @@ header h1 {
   font-family: CroissantOne;
   background: #FA9BB7; }
 
-section p {
-  font-family: CroissantOne; }
-section h4 {
+h4 {
   font-family: Travelast; }
 
 .intro {
@@ -130,5 +128,8 @@ section {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em; }
+  .element .uppercase {
+    font-family: "Croissant+One";
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style-pattern.css.map */

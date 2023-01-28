@@ -59,5 +59,11 @@ section {
   border: 1px solid;
   margin: 0.5em;
   padding: 1em;
+
+  .uppercase{
+    font-family: $headlines;
+    text-transform: uppercase;
+  }
+      
 }
 
