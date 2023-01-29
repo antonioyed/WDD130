@@ -1,10 +1,19 @@
+//VARIABLES-------------------------------
+$important-color: #666;
+$secundary-color: #333;
+$active-color: #DEB887;
+$hover-color: #00ddff;
+$darck: rgb(0,0,0);
+$primary-family: Helvetica, Arial, sans-serif;
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 
 @media only screen and (min-width: 2rem) {
 
-/* -------------------------Small ------------------------------------- */
+/* -------------------------Small ------------------------------- */
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
@@ -15,17 +24,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 nav ul{
-    border-top: 1px solid #666;
-    border-bottom:1px solid #666 ;
+    border-top: 1px solid $important-color;
+    border-bottom:1px solid $important-color ;
 }
 nav a{
-    color: #666 ;
+    color: $important-color ;
     text-transform: uppercase;
     
 }
 
 a{
-    color: black;
+    color: $darck;
     text-decoration: none;
 }
 
@@ -33,19 +42,19 @@ li {
     list-style:none;
     text-align: center;
     font-size: larger;
-    color: #333;
-    font-family: Helvetica, Arial, sans-serif;
+    color: $secundary-color;
+    font-family: $primary-family;
     
 }
 li :active{
-   color: #DEB887  ;
+   color: $active-color  ;
 }
 li :hover{
-    color: #00ddff;
+    color: $hover-color;
 }
 
 p{
-    font-family: Helvetica, Arial, sans-serif;  
+    font-family: $primary-family;  
 }
 
 h1, h2{
@@ -56,16 +65,16 @@ h1, h2{
  }
 
  h2 a{
-    color: #666;
+    color: $important-color;
  }
 
  h1 a{
-    color: #333;
+    color: $secundary-color;
  }
  .post-date{
     text-align: right;
     font-size: x-large;
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid $important-color;
     text-transform: uppercase;
     
  }
@@ -96,16 +105,16 @@ h1, h2{
 
 
     nav ul{
-        border-top: 1px solid #666;
-        border-bottom:1px solid #666 ;
+        border-top: 1px solid $important-color;
+        border-bottom:1px solid $important-color ;
     }
     nav a{
-        color: #666 ;
+        color: $important-color ;
         
     }
     
     a{
-        color: black;
+        color: $darck;
         text-decoration: none;
     }
     
@@ -113,19 +122,19 @@ h1, h2{
         list-style:none;
         text-align: center;
         font-size: larger;
-        color: #333;
-        font-family: Helvetica, Arial, sans-serif;
+        color: $secundary-color;
+        font-family: $primary-family;
         
     }
     li :active{
-       color: #DEB887  ;
+       color: $active-color  ;
     }
     li :hover{
-        color: #00ddff;
+        color: $hover-color;
     }
     
     p{
-        font-family: Helvetica, Arial, sans-serif;  
+        font-family: $primary-family;  
     }
     
     h1, h2{
@@ -136,16 +145,16 @@ h1, h2{
      }
     
      h2 a{
-        color: #666;
+        color: $important-color;
      }
     
      h1 a{
-        color: #333;
+        color: $secundary-color;
      }
      .post-date{
         text-align: right;
         font-size: x-large;
-        border-bottom: 1px solid #666;
+        border-bottom: 1px solid $important-color;
         
      }
     
@@ -204,8 +213,8 @@ h1, h2{
     nav{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        border-top: 1px solid #666;
-        border-bottom:1px solid #666 ;
+        border-top: 1px solid $important-color;
+        border-bottom:1px solid $important-color ;
         
 
     }
@@ -228,13 +237,13 @@ h1, h2{
 
     
     nav a{
-        color: #666 ;
+        color: $important-color ;
        
        
     }
     
     a{
-        color: black;
+        color: $darck;
         text-decoration: none;
     }
     
@@ -243,7 +252,7 @@ h1, h2{
       
         font-size: larger;
         color: #333 !important;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: $primary-family;
         
     }
     li :active{
@@ -254,7 +263,7 @@ h1, h2{
     }
     
     p{
-        font-family: Helvetica, Arial, sans-serif;  
+        font-family: $primary-family;  
     }
     
     h1, h2{
@@ -265,7 +274,7 @@ h1, h2{
      }
     
      h2 a{
-        color: #666;
+        color: $important-color;
      }
     
      h1 a{
@@ -310,7 +319,7 @@ h1, h2{
      }
 
     .post-date{
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: $primary-family;
         margin-top: 1em;
       margin-right: .8em;
         border-bottom: 1px none;

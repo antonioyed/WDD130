@@ -1,0 +1,28 @@
+$color:#96556d;
+$width: 30rem;
+$text: center;
+$pa: 0 car;
+
+%border{
+     border-radius:20px;
+}
+
+%hv{
+     color: #56b6d6;
+}
+
+.container{
+     background-color:$color;
+     text-align:$text;
+     align-content:$text;
+     width: $width;
+     margin: $pa;
+    
+  
+      :hover{
+          @extend %hv;
+      }
+ 
+    
+     @extend %border;
+}

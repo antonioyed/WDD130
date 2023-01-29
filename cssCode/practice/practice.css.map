@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,UAAO;EACF,aAAa,EAAC,IAAI;;AAGvB,iBAAG;EACE,KAAK,EAAE,OAAO;;AAGnB,UAAU;EACL,gBAAgB,EAdd,OAAO;EAeT,UAAU,EAbR,MAAM;EAcR,aAAa,EAdX,MAAM;EAeR,KAAK,EAhBF,KAAK;EAiBR,MAAM,EAfN,KAAK",
+"sources": ["practice.scss"],
+"names": [],
+"file": "practice.css"
+}
