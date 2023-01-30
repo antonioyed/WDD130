@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
 //VARIABLES-------------------------------
 $important-color: #666;
 $secundary-color: #333;
@@ -8,7 +11,6 @@ $primary-family: Helvetica, Arial, sans-serif;
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 
 @media only screen and (min-width: 2rem) {
@@ -20,44 +22,51 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
+//-----------------------------------------------Nesting----------------------------------/
+ nav{
 
+     ul{
+        border-top: 1px solid $important-color;
+        border-bottom:1px solid $important-color ;
+    }
 
-
-nav ul{
-    border-top: 1px solid $important-color;
-    border-bottom:1px solid $important-color ;
+     a{
+        color: $important-color ;
+        text-transform: uppercase;
+        
+    }
 }
-nav a{
-    color: $important-color ;
-    text-transform: uppercase;
-    
-}
+
+
 
 a{
     color: $darck;
     text-decoration: none;
 }
 
-li {
+ li {
     list-style:none;
     text-align: center;
     font-size: larger;
     color: $secundary-color;
     font-family: $primary-family;
-    
+
+     :active{
+        color: $active-color  ;
+     }
+      :hover{
+         color: $hover-color;
+     }
+     
+  //------------------------------------------END Nesting----------------------------------  
 }
-li :active{
-   color: $active-color  ;
-}
-li :hover{
-    color: $hover-color;
+//--------------------------------------MIXIN-----------------------------
+@mixin p($paddin: 1px){
+    font-family: $primary-family; 
+    padding: $paddin; 
 }
 
-p{
-    font-family: $primary-family;  
-}
-
-h1, h2{
+ h1, h2{
     font-family: lora;
     text-align: center;
  
@@ -66,11 +75,15 @@ h1, h2{
 
  h2 a{
     color: $important-color;
+    @include p(0.5px);
  }
 
  h1 a{
     color: $secundary-color;
+    @include p(00.5px);
  }
+
+ //----------------------------------------End Mixin-------------------------------------
  .post-date{
     text-align: right;
     font-size: x-large;
@@ -80,7 +93,7 @@ h1, h2{
  }
 
 
- img{
+  img{
     width: 150px;
     height: 150px;
     margin-left: 3.5em;
@@ -103,20 +116,24 @@ h1, h2{
 @media only screen and (min-width: 35rem) {
 
 
-
-    nav ul{
+nav{
+     ul{
         border-top: 1px solid $important-color;
         border-bottom:1px solid $important-color ;
-    }
-    nav a{
-        color: $important-color ;
+
         
     }
-    
+
     a{
         color: $darck;
         text-decoration: none;
     }
+}
+    
+    
+    
+    
+   //-----------------------------------------------Nesting----------------------------------/
     
     li {
         list-style:none;
@@ -125,13 +142,18 @@ h1, h2{
         color: $secundary-color;
         font-family: $primary-family;
         
+
+         :active{
+            color: $active-color  ;
+         }
+          :hover{
+             color: $hover-color;
+         }
+
+
+//-----------------------------------------------END Nesting----------------------------------/
     }
-    li :active{
-       color: $active-color  ;
-    }
-    li :hover{
-        color: $hover-color;
-    }
+    
     
     p{
         font-family: $primary-family;  
@@ -209,6 +231,7 @@ h1, h2{
         
     
     }
+    ////-----------------------------------------------Nesting----------------------------------/
 
     nav{
         display: grid;
@@ -217,31 +240,34 @@ h1, h2{
         border-bottom:1px solid $important-color ;
         
 
+         ul{
+            border-top: none;
+            border-bottom:none ;
+            
+            display: flex;
+            grid-column: 2/3;
+          
+            
+            
+            
+            
+        }
+    
+         a{
+            color: $important-color ;
+           
+           
+        }
+        
+
     }
 
 
-    nav ul{
-        border-top: none;
-        border-bottom:none ;
-        
-        display: flex;
-        grid-column: 2/3;
-      
-        
-        
-        
-        
-    }
-
+  
 
 
     
-    nav a{
-        color: $important-color ;
-       
-       
-    }
-    
+   
     a{
         color: $darck;
         text-decoration: none;
@@ -251,17 +277,19 @@ h1, h2{
         list-style:none;
       
         font-size: larger;
-        color: #333 !important;
+        color: #333 ;
         font-family: $primary-family;
         
-    }
-    li :active{
-       color: #DEB887  ;
-    }
-    li :hover{
-        color: #00ddff;
+
+         :active{
+            color: #DEB887  ;
+         }
+          :hover{
+             color: #00ddff;
+         }
     }
     
+    //-----------------------------------------------END Nesting----------------------------------/
     p{
         font-family: $primary-family;  
     }
