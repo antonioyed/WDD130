@@ -19,3 +19,24 @@ body {
   margin: 0;
   padding: 1em;
 }
+
+header{
+  height: 400px;
+  background-image: url(images/heade.jpg);
+  margin: auto;
+  border-radius: 15px;
+
+h2, h1 {
+  font-family: $pincipalfont;
+}
+
+h2{
+  font-size: 50px;
+  margin-left: 6em;
+}
+h1{
+  margin-left: 1em;
+  margin-top: 1.2em;
+}
+
+}
