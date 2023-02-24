@@ -1,0 +1,61 @@
+@keyframes pulse {
+    from {
+        transform: scale(0.5);
+        opacity: .8;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.pulse {
+    animation-name: pulse, fade;
+    animation-duration: 500ms; /* used for both animations */
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.wiggle{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin-top: 3em;
+    animation-name: wiggle;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes wiggle {
+    25% {
+        transform: scale(.5) skewX(-5deg) rotate(-5deg);
+    }
+    50% {
+         transform: skewY(5deg) rotate(5deg);
+    }
+    75% {
+         transform: skewX(-5deg) rotate(-5deg) scale(1.5);
+     }
+
+    86%{
+        margin-left: 100em;
+       border-radius: 100%;
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
