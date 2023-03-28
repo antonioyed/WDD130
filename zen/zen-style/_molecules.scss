@@ -1,0 +1,192 @@
+@import 'variables';
+@import 'atoms';
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+
+//--------------------------Neon animation-------------------//
+@keyframes neon {
+
+  0%,
+  100% {
+    text-shadow: 0 0 5px $grey-sidebar,
+     0 0 10px $grey-sidebar,
+      0 0 10px $grey-sidebar, 
+      0 0 10px $grey-sidebar,
+       0 0 2px $accent2, 1px 1px 1px $accent2;
+    color: #f5efcb;
+  }
+
+  50% {
+    text-shadow: 0 0 2px $grey-sidebar, 
+    0 0 2px $text-light, 
+    0 0 2px $text-light,
+     0 0 2px $text-light,
+      0 0 2px $text-light, 
+      2px 2px 2px $text-light;
+    color: #eda0d3;
+  }
+}
+
+//---------------------Growing Animation for medium and small views----------------//
+
+@keyframes grw2 {
+
+  from {
+    opacity: 1;
+    color: $sideanimacolor;
+  }
+
+  to {
+    opacity: .5;
+  }
+
+  from {
+    opacity: .5;
+
+  }
+
+  to {
+    opacity: 1;
+    color: $sideanimacolor;
+  }
+
+}
+
+
+@keyframes grw2 {
+
+  from {
+    opacity: 1;
+    color: $sideanimacolor;
+  }
+
+  to {
+    opacity: .5;
+  }
+
+  from {
+    opacity: .5;
+
+  }
+
+  to {
+    opacity: 1;
+    color: $sideanimacolor;
+  }
+
+}
+
+//-----------------------------------Header text animation------------------------------//
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 1em;
+    width: 100%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 1.5em;
+    width: 100%;
+  }
+}
+
+
+
+//................ Absoluts colors and mesaures for the general text...............//
+body {
+ background-image: url(images/ornament.png);
+ 
+
+  abbr {
+    color: $accent1;
+
+  }
+
+  a {
+    color: $grey-sidebar;
+    font-size: larger;
+  }
+}
+
+.summary {
+
+  font-size: larger;
+  margin-left: .8em;
+  color: white;
+
+
+
+
+  text-shadow: #000 .4px .4px;
+
+
+
+  a {
+    color: $accent1;
+
+    :hover {
+      color: rgb(255, 208, 216);
+      font-size: 140px;
+
+      transition: font-size 2s;
+      margin: 50px auto 0;
+    }
+  }
+}
+
+.preamble {
+
+  color: $text-dark;
+
+  text-shadow: #000 .4px .4px;
+
+  margin-left: 1em;
+  color: white;
+
+
+}
+
+main {
+
+  h2 {
+    font-family: $pincipalfont;
+  }
+
+
+}
+//-------------------Central text-----------------------//
+#zen-supporting {
+
+  color: white;
+
+  h3,
+  h1 {
+    text-align: center;
+    margin: 1rem auto;
+    
+  }
+
+
+  .requirements{
+    p:nth-child(6) {text-align: center; font-size: 20px; color: $accent1;
+    
+    a{
+      color: $accent3;
+      font-size: 18px;
+    }
+    
+    }
+  }
+}
