@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+h2 {
+  margin: 0; }
+
+h3,
+h4 {
+  margin: 0; }
+
+h1 {
+  background: #669190;
+  color: #fff;
+  display: inline-block;
+  font-weight: normal;
+  margin-bottom: 1em;
+  padding: 0.5em 1em; }
+
+h2 {
+  color: #fff;
+  font-weight: 900;
+  /* Heavy */
+  font-size: 6em;
+  letter-spacing: 1px;
+  line-height: 1em; }
+
+h3 {
+  font-size: 2.25em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  padding: 0.5em 0 0.25em 0; }
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 200;
+  /* Thin */
+  letter-spacing: 1px;
+  line-height: 1em;
+  margin: 0.5em 0; }
+
+p {
+  font-family: "Philosopher", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 0.5em 0;
+  margin: 0; }
+
+a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #fff7f7;
+  text-decoration: none;
+  transition: border-color 0.2s ease-in-out; }
+
+a:hover {
+  border-color: #669190; }
+
+@use 'variables' as *;
+@use 'atoms';
+.summary {
+  padding: 15% 0; }
+  .summary a {
+    color: #fff; }
+
+.preamble {
+  background: rgba(255, 255, 255, 0.9);
+  color: #fff7f7;
+  margin-left: -30%;
+  padding: 5% 5% 5% 30%; }
+
+main h2 {
+  font-family: "Aokahori"; }
+
+header h1 {
+  background: #FA9BB7; }
+
+.intro {
+  padding: 5%; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  background-color: #ffffff;
+  padding: 5%; }
+
+body {
+  font-family: "Philosopher", sans-serif;
+  font-size: 85%;
+  color: #fff7f7;
+  background-color: #47a29f;
+  margin: 0;
+  padding: 1em; }
+
+section {
+  background-color: #4b5554;
+  padding: 1em;
+  margin: 1em; }
+
+.colors > h3 {
+  width: 100%;
+  flex: 1 0 100%; }
+.colors > figure {
+  margin: 0;
+  flex: 1 1 25%; }
+
+.swatch {
+  width: 100%;
+  height: 100px;
+  border: 1px solid; }
+
+.primary {
+  background-color: #47a29f; }
+
+.accent1 {
+  background-color: #669190; }
+
+.accent2 {
+  background-color: #4cbc79; }
+
+.text-dark {
+  background-color: #FA9BB7; }
+
+.element {
+  border: 1px solid;
+  margin: 0.5em;
+  padding: 1em; }
+  .element .uppercase {
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style-pattern.css.map */
