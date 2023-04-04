@@ -1,0 +1,60 @@
+body {
+    background: #ffff;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  $card-width: 200px;
+  $card-height: 1.4*$card-width;
+  $card-x-center: $card-width/2;
+  $card-y-center: 1.5*$card-width/2;
+  $corner-radius: 20px;
+  
+  .card-frame {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  
+  .svg-card {
+    width: $card-width;
+    height: $card-height;
+  }
+  .svg-card > .back {
+    width: $card-width;
+    height: $card-height;
+    fill: black;
+    rx: $corner-radius;
+    ry: $corner-radius;
+    
+  }
+  
+  /* Card 1 */
+  
+   .black-hole{
+    fill: #ffff;
+    display: inline-block;
+    width: .5em;
+    height: 1em;
+    stroke:rgb(212, 188, 144);
+    stroke-width: 1.6px;
+  }
+  
+  
+  
+  /* Card 2 */
+  .inner {
+    width: $card-width - 30px;
+    height: 1.4*$card-width - 30px;
+    stroke: black;
+    rx: $corner-radius*1/4;
+    ry: $corner-radius*1/4;
+  }
+  /*Courtesy of icomoon.io*/
+  .icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke: black;
+    stroke-width: 0.4px;
+    fill: darkred;
+  }
